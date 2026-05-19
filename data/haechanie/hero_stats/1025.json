@@ -1,0 +1,16 @@
+{
+  "hero_id": 1025,
+  "hero_name": "cloak & dagger",
+  "hero_icon": "/heroes/transformations/cloak-dagger-headbig-0.webp",
+  "matches": 1297,
+  "wins": 501,
+  "k": 10.278334618350039,
+  "d": 4.659984579799537,
+  "a": 21.577486507324597,
+  "play_time": "195h 58m 5s",
+  "total_hero_damage": 6506389.445372008,
+  "total_hero_heal": 31317122.915421575,
+  "total_damage_taken": 8641522.694543973,
+  "session_hit_rate": 0.9203068402907565,
+  "solo_kill": 0.1087124132613724
+}

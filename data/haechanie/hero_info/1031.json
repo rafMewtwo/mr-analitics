@@ -1,0 +1,276 @@
+{
+  "id": "1031",
+  "name": "luna snow",
+  "real_name": "Seol Hee",
+  "imageUrl": "/rivals/heroes/card/luna-snow.png",
+  "role": "Strategist",
+  "attack_type": "Hitscan Heroes",
+  "team": [
+    "Agentsofatlas"
+  ],
+  "difficulty": "2",
+  "bio": "Equal parts pop star and Super Hero, Luna Snow puts on a dazzling show with both her light and dark ice powers. The arena is her stage, where Seol Hee and her team orchestrate spectacular displays that earn her an ever-increasing number of fans and wins.",
+  "lore": "Luna Snow is more than just another K-Pop superstar. She's also a symbol of hope for her entire generation. Using her ice powers to keep tensions across the world cool, Luna has become a musical diplomat, ready to face any conflict that may arise.\nTragedy nearly struck during Luna Snow's summer concert when a wounded Atlantean creature caused a devastating tsunami. Luna's ice held back the rushing tide and helped to heal the beast's injuries. She singlehandedly saved countless lives and prevented the situation from escalating into a full-scale conflict between South Korea and the world beneath the waves.",
+  "transformations": [
+    {
+      "id": "0",
+      "name": "Luna Snow",
+      "icon": "/heroes/transformations/luna-snow-headbig-0.webp",
+      "health": "275",
+      "movement_speed": "6m/s"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "1031001",
+      "name": "Luna Snow",
+      "icon": "/costumes/luna-snow-1031001.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1031100",
+      "name": "Minty Beats",
+      "icon": "/costumes/minty-beats-1031100.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1031300",
+      "name": "Shining Star",
+      "icon": "/costumes/shining-star-1031300.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1031301",
+      "name": "Mirae 2099",
+      "icon": "/costumes/mirae-2099-1031301.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1031302",
+      "name": "Nolaehaneun Manyeo",
+      "icon": "/costumes/nolaehaneun-manyeo-1031302.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1031303",
+      "name": "Cool Summer",
+      "icon": "/costumes/cool-summer-1031303.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1031305",
+      "name": "Abyssal Glow",
+      "icon": "/costumes/abyssal-glow-1031305.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1031308",
+      "name": "Cherry Delight",
+      "icon": "/costumes/cherry-delight-1031308.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1031309",
+      "name": "Disco Pop",
+      "icon": "/costumes/disco-pop-1031309.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1031312",
+      "name": "Park Sun Young The Dancer",
+      "icon": "/costumes/park-sun-young-the-dancer-1031312.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    }
+  ],
+  "abilities": [
+    {
+      "id": 103111,
+      "icon": "/abilities/103111.webp",
+      "name": "Smooth Skate",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Keep moving forward to start ice skating and enable higher jumps.",
+      "additional_fields": {
+        "Key": "Passive",
+        "Skating Speed": "9.6m/s",
+        "Time Required to Start Skating": "0.5s"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 103121,
+      "name": "Ice Blade",
+      "type": "Melee",
+      "isCollab": false,
+      "transformation_id": "0"
+    },
+    {
+      "id": 103131,
+      "icon": "/abilities/103131.webp",
+      "name": "Light & Dark Ice",
+      "type": "Weapon",
+      "isCollab": false,
+      "description": "Fire ice shots that damage enemies or heal allies.",
+      "additional_fields": {
+        "Key": "Left Click",
+        "Ammo": "30",
+        "Damage": "22 damage per round, for a total of 66 damage",
+        "Casting": "A triple shot that hits instantly",
+        "Fire Rate": "0.5s for three shots. The interval between the first two shots is 0.05s",
+        "Critical Hit": "Yes",
+        "Damage Falloff": "Falloff begins at 20m, decreasing to 70% at 40m",
+        "Healing Amount": "22 health per round, for a total of 66 health"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 103132,
+      "name": "Reload",
+      "type": "Normal",
+      "isCollab": false,
+      "transformation_id": "0"
+    },
+    {
+      "id": 103141,
+      "icon": "/abilities/103141.webp",
+      "name": "Ice Arts",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Fire ice shards for a short duration, damaging enemies or healing allies while restoring her own Health. Participating in a KO reduces the cooldown of <Orange>Ice Arts</>.",
+      "additional_fields": {
+        "Key": "SHIFT",
+        "Range": "A cylindrical spell field with a radius of 1m and a height of 40m",
+        "Damage": "50 damage per round",
+        "Casting": "Single-cast spell field that pierces through enemies",
+        "Cooldown": "15s",
+        "Duration": "6s",
+        "Fire Rate": "1.43 rounds per second",
+        "Healing Amount": "75 health per round",
+        "Special Effect": "Replace the previous Light & Dark Ice cast"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 103142,
+      "icon": "/abilities/103142.webp",
+      "name": "Ice Shards",
+      "type": "Weapon",
+      "isCollab": false,
+      "transformation_id": "0"
+    },
+    {
+      "id": 103151,
+      "icon": "/abilities/103151.webp",
+      "name": "Absolute Zero",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Cast a clump of ice to <Debuff>Freeze</> the hit enemy and restore Health. Landing a hit grants <Buff>Bonus Health</>.",
+      "additional_fields": {
+        "Key": "Right Click",
+        "Damage": "50",
+        "Casting": "Single-cast projectile with delayed impact",
+        "Cooldown": "12s",
+        "Special Effect": "Freeze enemies for 2.7s. However, if they are attacked during the last 2.2s of the freeze, the effect will be canceled. Grants 50 Bonus Health per enemy hit",
+        "Projectile Speed": "80m/s"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 103161,
+      "icon": "/abilities/103161.webp",
+      "name": "Share The Stage",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Attach <Orange>Idol Aura</> to an ally. Allies with <Orange>Idol Aura</> also restore Health when Luna Snow is healing others.",
+      "additional_fields": {
+        "Key": "E",
+        "Casting": "Targeted",
+        "Healing Boost": "35%",
+        "Special Effect": "Provide healing to allies marked with Idol Aura; Reduce Ice Arts cooldown by 2s whenever a hero with Idol Aura takes part in a KO"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 103162,
+      "name": "Idol Aura",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Automatically restore Health when casting <Orange>Ice Arts</> or <Orange>Absolute Zero</>.",
+      "transformation_id": "0"
+    },
+    {
+      "id": 103171,
+      "icon": "/abilities/103171.webp",
+      "name": "Fate Of Both Worlds",
+      "type": "Ultimate",
+      "isCollab": false,
+      "description": "Take center stage and start dancing! Toggle between two performances: Heal allies or grant them <Buff>Damage Boost</>.",
+      "additional_fields": {
+        "Key": "Q",
+        "Casting": "Persistent spell field that surrounds the caster",
+        "Duration": "10s",
+        "Energy Cost": "5000",
+        "Damage Boost": "40%",
+        "Shield Value": "250",
+        "Healing Amount": "250/s",
+        "Cast to heal the ally once": "200"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 103193,
+      "name": "Frozen Chi",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Iron Fist channels the Chi of Shou-Lao into Luna Snow, transforming her ice power into a Chi-infused frosty ring that radiates from her. This ring can launch up enemies with chilling damage and applies a slowing effect, while simultaneously healing her allies.",
+      "transformation_id": "0"
+    },
+    {
+      "id": 103194,
+      "name": "Winter's Chill",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Luna Snow grants Winter's Chill to Iron Fist and Emma Frost. When Iron Fist activates <Orange>Harmony Recovery</>, he can heal nearby allies with <Orange>Lunar Chi</>. Emma Frost can project ice energy forward, dealing damage and <Debuff>slowing</> enemies. She can also enhance her diamond form, condensing frost into an <Orange>Iced Out Diamond</> barrier that blocks enemy attacks and movement.",
+      "transformation_id": "0"
+    },
+    {
+      "id": 103197,
+      "name": "Spirit Fox Accord",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "White Fox grants Luna Snow a spirit fox for protection. Luna can activate it for a burst of <Buff>speed</> and fire it forward, healing allies in its path while applying <Debuff>Charm</> to enemies.",
+      "additional_fields": {
+        "Key": "C",
+        "Damage": "35",
+        "Cooldown": "20s",
+        "Charm Duration": "0.4s",
+        "Healing Amount": "60",
+        "Projectile Speed": "60 m/s",
+        "Charm Area Radius": "0.8m",
+        "Damage Area Radius": "3m",
+        "Movement Boost (Self)": "30% for 4s"
+      },
+      "transformation_id": "0"
+    }
+  ]
+}

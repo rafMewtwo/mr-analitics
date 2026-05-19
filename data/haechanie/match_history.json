@@ -1,0 +1,1127 @@
+[
+  {
+    "match_map_id": 1318,
+    "map_thumbnail": "/maps/map_1318.png",
+    "match_play_duration": 452.12118220329285,
+    "match_season": "8",
+    "match_uid": "5668108_1779152200_1318029_11001_41",
+    "match_winner_side": 0,
+    "mvp_uid": 858258222,
+    "svp_uid": 1066676385,
+    "score_info": {
+      "0": 2,
+      "1": 0
+    },
+    "match_time_stamp": 1779152812,
+    "play_mode_id": 0,
+    "game_mode_id": 2,
+    "match_player": {
+      "assists": 6,
+      "kills": 10,
+      "deaths": 4,
+      "is_win": {
+        "score": 0,
+        "is_win": false
+      },
+      "disconnected": false,
+      "player_uid": 1098156619,
+      "camp": 1,
+      "score_info": {
+        "add_score": 0,
+        "level": 6,
+        "new_level": 6,
+        "new_score": 3563.380447797604
+      },
+      "player_hero": {
+        "hero_id": 1060,
+        "hero_name": "white fox",
+        "hero_type": "/heroes/transformations/white-fox-headbig-0.webp",
+        "kills": 4,
+        "deaths": 2,
+        "assists": 6,
+        "play_time": 212.29318831302226,
+        "total_hero_damage": 2419,
+        "total_damage_taken": 3628.9846791028976,
+        "total_hero_heal": 6752.912715673447
+      }
+    }
+  },
+  {
+    "match_map_id": 1245,
+    "map_thumbnail": "/maps/map_1245.png",
+    "match_play_duration": 301.7410686016083,
+    "match_season": "8",
+    "match_uid": "5667924_1779151671_1245010_11001_41",
+    "match_winner_side": 1,
+    "mvp_uid": 707417488,
+    "svp_uid": 898783264,
+    "score_info": {
+      "0": 0,
+      "1": 1
+    },
+    "match_time_stamp": 1779152171,
+    "play_mode_id": 0,
+    "game_mode_id": 2,
+    "match_player": {
+      "assists": 21,
+      "kills": 10,
+      "deaths": 0,
+      "is_win": {
+        "score": 1,
+        "is_win": true
+      },
+      "disconnected": false,
+      "player_uid": 1098156619,
+      "camp": 1,
+      "score_info": {
+        "add_score": 33.65517594164021,
+        "level": 6,
+        "new_level": 6,
+        "new_score": 3563.380447797604
+      },
+      "player_hero": {
+        "hero_id": 1060,
+        "hero_name": "white fox",
+        "hero_type": "/heroes/transformations/white-fox-headbig-0.webp",
+        "kills": 10,
+        "deaths": 0,
+        "assists": 21,
+        "play_time": 301.7396703399718,
+        "total_hero_damage": 1636.9999952316284,
+        "total_damage_taken": 3301.442868232727,
+        "total_hero_heal": 13438.877195358276
+      }
+    }
+  },
+  {
+    "match_map_id": 1310,
+    "map_thumbnail": "/maps/map_1310.png",
+    "match_play_duration": 478.5886347293854,
+    "match_season": "8",
+    "match_uid": "5667844_1779150505_1310045_11001_41",
+    "match_winner_side": 0,
+    "mvp_uid": 1098156619,
+    "svp_uid": 246266422,
+    "score_info": {
+      "0": 2,
+      "1": 0
+    },
+    "match_time_stamp": 1779151168,
+    "play_mode_id": 0,
+    "game_mode_id": 2,
+    "match_player": {
+      "assists": 23,
+      "kills": 17,
+      "deaths": 2,
+      "is_win": {
+        "score": 1,
+        "is_win": true
+      },
+      "disconnected": false,
+      "player_uid": 1098156619,
+      "camp": null,
+      "score_info": {
+        "add_score": 33.96914958316211,
+        "level": 5,
+        "new_level": 6,
+        "new_score": 3529.725271855964
+      },
+      "player_hero": {
+        "hero_id": 1060,
+        "hero_name": "white fox",
+        "hero_type": "/heroes/transformations/white-fox-headbig-0.webp",
+        "kills": 17,
+        "deaths": 2,
+        "assists": 23,
+        "play_time": 478.5862670876086,
+        "total_hero_damage": 5951.099809169769,
+        "total_damage_taken": 5938.198778629303,
+        "total_hero_heal": 17029.847689032555
+      }
+    }
+  },
+  {
+    "match_map_id": 1291,
+    "map_thumbnail": "/maps/map_1291.png",
+    "match_play_duration": 530.7547891139984,
+    "match_season": "8",
+    "match_uid": "5668134_1779149657_1291001_11001_41",
+    "match_winner_side": 0,
+    "mvp_uid": 2120147694,
+    "svp_uid": 765916145,
+    "score_info": {
+      "0": 3,
+      "1": 0
+    },
+    "match_time_stamp": 1779150385,
+    "play_mode_id": 0,
+    "game_mode_id": 2,
+    "match_player": {
+      "assists": 0,
+      "kills": 14,
+      "deaths": 2,
+      "is_win": {
+        "score": 1,
+        "is_win": true
+      },
+      "disconnected": false,
+      "player_uid": 1098156619,
+      "camp": null,
+      "score_info": {
+        "add_score": 26.75450711509393,
+        "level": 5,
+        "new_level": 5,
+        "new_score": 3495.756122272802
+      },
+      "player_hero": {
+        "hero_id": 1032,
+        "hero_name": "squirrel girl",
+        "hero_type": "/heroes/transformations/squirrel-girl-headbig-0.webp",
+        "kills": 14,
+        "deaths": 2,
+        "assists": 0,
+        "play_time": 530.7533599231392,
+        "total_hero_damage": 21390.18139076233,
+        "total_damage_taken": 3146.0819149017334,
+        "total_hero_heal": 0
+      }
+    }
+  },
+  {
+    "match_map_id": 1230,
+    "map_thumbnail": "/maps/map_1230.png",
+    "match_play_duration": 714.444643497467,
+    "match_season": "8",
+    "match_uid": "5668030_1779148629_1230057_11001_41",
+    "match_winner_side": 0,
+    "mvp_uid": 2042066188,
+    "svp_uid": 582542452,
+    "score_info": {
+      "0": 3,
+      "1": 0
+    },
+    "match_time_stamp": 1779149539,
+    "play_mode_id": 0,
+    "game_mode_id": 2,
+    "match_player": {
+      "assists": 2,
+      "kills": 33,
+      "deaths": 5,
+      "is_win": {
+        "score": 1,
+        "is_win": true
+      },
+      "disconnected": false,
+      "player_uid": 1098156619,
+      "camp": null,
+      "score_info": {
+        "add_score": 32.6502079040456,
+        "level": 5,
+        "new_level": 5,
+        "new_score": 3469.001615157708
+      },
+      "player_hero": {
+        "hero_id": 1032,
+        "hero_name": "squirrel girl",
+        "hero_type": "/heroes/transformations/squirrel-girl-headbig-0.webp",
+        "kills": 33,
+        "deaths": 5,
+        "assists": 2,
+        "play_time": 714.4395136535168,
+        "total_hero_damage": 21293.232223510742,
+        "total_damage_taken": 4502.1722712516785,
+        "total_hero_heal": 0
+      }
+    }
+  },
+  {
+    "match_map_id": 1311,
+    "map_thumbnail": "/maps/map_1311.png",
+    "match_play_duration": 1064.9193856716156,
+    "match_season": "8",
+    "match_uid": "5668072_1779147101_1311041_11001_41",
+    "match_winner_side": 0,
+    "mvp_uid": 2042066188,
+    "svp_uid": 503557362,
+    "score_info": {
+      "0": 3,
+      "1": 2
+    },
+    "match_time_stamp": 1779148366,
+    "play_mode_id": 0,
+    "game_mode_id": 2,
+    "match_player": {
+      "assists": 20,
+      "kills": 26,
+      "deaths": 12,
+      "is_win": {
+        "score": 1,
+        "is_win": true
+      },
+      "disconnected": false,
+      "player_uid": 1098156619,
+      "camp": null,
+      "score_info": {
+        "add_score": 39.49289239705513,
+        "level": 5,
+        "new_level": 5,
+        "new_score": 3436.3514072536623
+      },
+      "player_hero": {
+        "hero_id": 1050,
+        "hero_name": "invisible woman",
+        "hero_type": "/heroes/transformations/invisible-woman-headbig-0.webp",
+        "kills": 7,
+        "deaths": 5,
+        "assists": 15,
+        "play_time": 531.039741223678,
+        "total_hero_damage": 2202.999988555908,
+        "total_damage_taken": 7119.442340373993,
+        "total_hero_heal": 13915.7067694664
+      }
+    }
+  },
+  {
+    "match_map_id": 1267,
+    "map_thumbnail": "/maps/map_1267.png",
+    "match_play_duration": 534.6107647418976,
+    "match_season": "8",
+    "match_uid": "5668117_1779052855_1267066_11001_41",
+    "match_winner_side": 0,
+    "mvp_uid": 1585072837,
+    "svp_uid": 1098156619,
+    "score_info": {
+      "0": 3,
+      "1": 0
+    },
+    "match_time_stamp": 1779053583,
+    "play_mode_id": 0,
+    "game_mode_id": 2,
+    "match_player": {
+      "assists": 0,
+      "kills": 8,
+      "deaths": 3,
+      "is_win": {
+        "score": 0,
+        "is_win": false
+      },
+      "disconnected": false,
+      "player_uid": 1098156619,
+      "camp": 1,
+      "score_info": {
+        "add_score": -12.362281241707933,
+        "level": 5,
+        "new_level": 5,
+        "new_score": 3396.8585148566076
+      },
+      "player_hero": {
+        "hero_id": 1032,
+        "hero_name": "squirrel girl",
+        "hero_type": "/heroes/transformations/squirrel-girl-headbig-0.webp",
+        "kills": 8,
+        "deaths": 2,
+        "assists": 0,
+        "play_time": 487.25050752051175,
+        "total_hero_damage": 29592.8526096344,
+        "total_damage_taken": 7196.155765175819,
+        "total_hero_heal": 0
+      }
+    }
+  },
+  {
+    "match_map_id": 1310,
+    "map_thumbnail": "/maps/map_1310.png",
+    "match_play_duration": 748.4484579563141,
+    "match_season": "8",
+    "match_uid": "5667993_1779051727_1310068_11001_41",
+    "match_winner_side": 1,
+    "mvp_uid": 1506577490,
+    "svp_uid": 890927969,
+    "score_info": {
+      "0": 1,
+      "1": 2
+    },
+    "match_time_stamp": 1779052701,
+    "play_mode_id": 0,
+    "game_mode_id": 2,
+    "match_player": {
+      "assists": 3,
+      "kills": 22,
+      "deaths": 7,
+      "is_win": {
+        "score": 0,
+        "is_win": false
+      },
+      "disconnected": false,
+      "player_uid": 1098156619,
+      "camp": null,
+      "score_info": {
+        "add_score": -22.001387350393088,
+        "level": 5,
+        "new_level": 5,
+        "new_score": 3409.2207960983155
+      },
+      "player_hero": {
+        "hero_id": 1038,
+        "hero_name": "scarlet witch",
+        "hero_type": "/heroes/transformations/scarlet-witch-headbig-0.webp",
+        "kills": 19,
+        "deaths": 4,
+        "assists": 2,
+        "play_time": 503.1503246705979,
+        "total_hero_damage": 8718.935917377472,
+        "total_damage_taken": 3419.542519569397,
+        "total_hero_heal": 0
+      }
+    }
+  },
+  {
+    "match_map_id": 1318,
+    "map_thumbnail": "/maps/map_1318.png",
+    "match_play_duration": 531.4354720115662,
+    "match_season": "8",
+    "match_uid": "5668127_1779050852_1318014_11001_41",
+    "match_winner_side": 1,
+    "mvp_uid": 1301395632,
+    "svp_uid": 982278870,
+    "score_info": {
+      "0": 1,
+      "1": 2
+    },
+    "match_time_stamp": 1779051605,
+    "play_mode_id": 0,
+    "game_mode_id": 2,
+    "match_player": {
+      "assists": 3,
+      "kills": 23,
+      "deaths": 5,
+      "is_win": {
+        "score": 1,
+        "is_win": true
+      },
+      "disconnected": false,
+      "player_uid": 1098156619,
+      "camp": 1,
+      "score_info": {
+        "add_score": 35.17667639816182,
+        "level": 5,
+        "new_level": 5,
+        "new_score": 3431.2221834487086
+      },
+      "player_hero": {
+        "hero_id": 1032,
+        "hero_name": "squirrel girl",
+        "hero_type": "/heroes/transformations/squirrel-girl-headbig-0.webp",
+        "kills": 8,
+        "deaths": 3,
+        "assists": 2,
+        "play_time": 299.7091881968081,
+        "total_hero_damage": 4252.282209396362,
+        "total_damage_taken": 2423.327178478241,
+        "total_hero_heal": 0
+      }
+    }
+  },
+  {
+    "match_map_id": 1418,
+    "match_play_duration": 830.3144314289093,
+    "match_season": "8",
+    "match_uid": "5668087_1779049768_1418069_11001_41",
+    "match_winner_side": 0,
+    "mvp_uid": 1490660014,
+    "svp_uid": 1098156619,
+    "score_info": {
+      "0": 2,
+      "1": 1
+    },
+    "match_time_stamp": 1779050790,
+    "play_mode_id": 0,
+    "game_mode_id": 2,
+    "match_player": {
+      "assists": 1,
+      "kills": 38,
+      "deaths": 6,
+      "is_win": {
+        "score": 0,
+        "is_win": false
+      },
+      "disconnected": false,
+      "player_uid": 1098156619,
+      "camp": 1,
+      "score_info": {
+        "add_score": -18.990934232543168,
+        "level": 5,
+        "new_level": 5,
+        "new_score": 3396.045507050547
+      },
+      "player_hero": {
+        "hero_id": 1032,
+        "hero_name": "squirrel girl",
+        "hero_type": "/heroes/transformations/squirrel-girl-headbig-0.webp",
+        "kills": 36,
+        "deaths": 3,
+        "assists": 1,
+        "play_time": 651.8390456940979,
+        "total_hero_damage": 27492.86485862732,
+        "total_damage_taken": 4630.698615550995,
+        "total_hero_heal": 0
+      }
+    }
+  },
+  {
+    "match_map_id": 1230,
+    "map_thumbnail": "/maps/map_1230.png",
+    "match_play_duration": 1070.5304973125458,
+    "match_season": "8",
+    "match_uid": "5668033_1779047292_1230090_11001_41",
+    "match_winner_side": 0,
+    "mvp_uid": 1098156619,
+    "svp_uid": 1451531360,
+    "score_info": {
+      "0": 3,
+      "1": 2
+    },
+    "match_time_stamp": 1779048560,
+    "play_mode_id": 0,
+    "game_mode_id": 2,
+    "match_player": {
+      "assists": 5,
+      "kills": 42,
+      "deaths": 11,
+      "is_win": {
+        "score": 1,
+        "is_win": true
+      },
+      "disconnected": false,
+      "player_uid": 1098156619,
+      "camp": null,
+      "score_info": {
+        "add_score": 36.63887966471975,
+        "level": 5,
+        "new_level": 5,
+        "new_score": 3415.03644128309
+      },
+      "player_hero": {
+        "hero_id": 1032,
+        "hero_name": "squirrel girl",
+        "hero_type": "/heroes/transformations/squirrel-girl-headbig-0.webp",
+        "kills": 42,
+        "deaths": 10,
+        "assists": 5,
+        "play_time": 993.4643808137625,
+        "total_hero_damage": 34305.127922058105,
+        "total_damage_taken": 9895.440176606178,
+        "total_hero_heal": 0
+      }
+    }
+  },
+  {
+    "match_map_id": 1231,
+    "map_thumbnail": "/maps/map_1231.png",
+    "match_play_duration": 886.8712034225464,
+    "match_season": "8",
+    "match_uid": "5667950_1779046089_1231028_11001_41",
+    "match_winner_side": 0,
+    "mvp_uid": 1052558311,
+    "svp_uid": 372646474,
+    "score_info": {
+      "0": 2,
+      "1": 1
+    },
+    "match_time_stamp": 1779047173,
+    "play_mode_id": 0,
+    "game_mode_id": 2,
+    "match_player": {
+      "assists": 26,
+      "kills": 12,
+      "deaths": 9,
+      "is_win": {
+        "score": 0,
+        "is_win": false
+      },
+      "disconnected": false,
+      "player_uid": 1098156619,
+      "camp": 1,
+      "score_info": {
+        "add_score": -22.226651219586074,
+        "level": 5,
+        "new_level": 5,
+        "new_score": 3378.39756161837
+      },
+      "player_hero": {
+        "hero_id": 1025,
+        "hero_name": "cloak & dagger",
+        "hero_type": "/heroes/transformations/cloak-dagger-headbig-0.webp",
+        "kills": 11,
+        "deaths": 5,
+        "assists": 25,
+        "play_time": 596.0157963205129,
+        "total_hero_damage": 3733.123242855072,
+        "total_damage_taken": 5148.254993438721,
+        "total_hero_heal": 17760.867782592773
+      }
+    }
+  },
+  {
+    "match_map_id": 1421,
+    "match_play_duration": 867.9283401966095,
+    "match_season": "8",
+    "match_uid": "5668006_1779043583_1421082_11001_41",
+    "match_winner_side": 0,
+    "mvp_uid": 1848350037,
+    "svp_uid": 97744670,
+    "score_info": {
+      "0": 3,
+      "1": 1
+    },
+    "match_time_stamp": 1779044662,
+    "play_mode_id": 0,
+    "game_mode_id": 2,
+    "match_player": {
+      "assists": 8,
+      "kills": 35,
+      "deaths": 5,
+      "is_win": {
+        "score": 1,
+        "is_win": true
+      },
+      "disconnected": false,
+      "player_uid": 1098156619,
+      "camp": null,
+      "score_info": {
+        "add_score": 25.624212837956293,
+        "level": 5,
+        "new_level": 5,
+        "new_score": 3400.6242128379563
+      },
+      "player_hero": {
+        "hero_id": 1059,
+        "hero_name": "elsa bloodstone",
+        "hero_type": "/heroes/transformations/elsa-bloodstone-headbig-0.webp",
+        "kills": 23,
+        "deaths": 3,
+        "assists": 5,
+        "play_time": 528.0206549242139,
+        "total_hero_damage": 12953.460303544998,
+        "total_damage_taken": 4714.720753669739,
+        "total_hero_heal": 0
+      }
+    }
+  },
+  {
+    "match_map_id": 1290,
+    "map_thumbnail": "/maps/map_1290.png",
+    "match_play_duration": 367.3239402770996,
+    "match_season": "8",
+    "match_uid": "5667943_1779042770_1290023_11001_41",
+    "match_winner_side": 1,
+    "mvp_uid": 1652173211,
+    "svp_uid": 1451559251,
+    "score_info": {
+      "0": 0,
+      "1": 1
+    },
+    "match_time_stamp": 1779043327,
+    "play_mode_id": 0,
+    "game_mode_id": 2,
+    "match_player": {
+      "assists": 2,
+      "kills": 5,
+      "deaths": 5,
+      "is_win": {
+        "score": 0,
+        "is_win": false
+      },
+      "disconnected": false,
+      "player_uid": 1098156619,
+      "camp": null,
+      "score_info": {
+        "add_score": -40,
+        "level": 5,
+        "new_level": 5,
+        "new_score": 3390
+      },
+      "player_hero": {
+        "hero_id": 1032,
+        "hero_name": "squirrel girl",
+        "hero_type": "/heroes/transformations/squirrel-girl-headbig-0.webp",
+        "kills": 3,
+        "deaths": 4,
+        "assists": 0,
+        "play_time": 240.010277422145,
+        "total_hero_damage": 8458.244918823242,
+        "total_damage_taken": 1467.1239924430847,
+        "total_hero_heal": 0
+      }
+    }
+  },
+  {
+    "match_map_id": 1230,
+    "map_thumbnail": "/maps/map_1230.png",
+    "match_play_duration": 661.4392800331116,
+    "match_season": "8",
+    "match_uid": "5668074_1779041860_1230040_11001_41",
+    "match_winner_side": 0,
+    "mvp_uid": 98418923,
+    "svp_uid": 21136263,
+    "score_info": {
+      "0": 1,
+      "1": 0
+    },
+    "match_time_stamp": 1779042728,
+    "play_mode_id": 0,
+    "game_mode_id": 2,
+    "match_player": {
+      "assists": 11,
+      "kills": 17,
+      "deaths": 8,
+      "is_win": {
+        "score": 1,
+        "is_win": true
+      },
+      "disconnected": false,
+      "player_uid": 1098156619,
+      "camp": null,
+      "score_info": {
+        "add_score": 40,
+        "level": 4,
+        "new_level": 4,
+        "new_score": 3430
+      },
+      "player_hero": {
+        "hero_id": 1060,
+        "hero_name": "white fox",
+        "hero_type": "/heroes/transformations/white-fox-headbig-0.webp",
+        "kills": 7,
+        "deaths": 6,
+        "assists": 11,
+        "play_time": 379.3243363276124,
+        "total_hero_damage": 5818.839383602142,
+        "total_damage_taken": 7127.953475952148,
+        "total_hero_heal": 9348.594762563705
+      }
+    }
+  },
+  {
+    "match_map_id": 1318,
+    "map_thumbnail": "/maps/map_1318.png",
+    "match_play_duration": 655.8489735126495,
+    "match_season": "8",
+    "match_uid": "5668098_1779040922_1318014_11001_41",
+    "match_winner_side": 0,
+    "mvp_uid": 264310231,
+    "svp_uid": 1098156619,
+    "score_info": {
+      "0": 2,
+      "1": 1
+    },
+    "match_time_stamp": 1779041803,
+    "play_mode_id": 0,
+    "game_mode_id": 2,
+    "match_player": {
+      "assists": 1,
+      "kills": 18,
+      "deaths": 5,
+      "is_win": {
+        "score": 0,
+        "is_win": false
+      },
+      "disconnected": false,
+      "player_uid": 1098156619,
+      "camp": 1,
+      "score_info": {
+        "add_score": -40,
+        "level": 5,
+        "new_level": 5,
+        "new_score": 3390
+      },
+      "player_hero": {
+        "hero_id": 1032,
+        "hero_name": "squirrel girl",
+        "hero_type": "/heroes/transformations/squirrel-girl-headbig-0.webp",
+        "kills": 18,
+        "deaths": 5,
+        "assists": 1,
+        "play_time": 653.5014366526157,
+        "total_hero_damage": 24887.323024749756,
+        "total_damage_taken": 3753.0495595932007,
+        "total_hero_heal": 0
+      }
+    }
+  },
+  {
+    "match_map_id": 1311,
+    "map_thumbnail": "/maps/map_1311.png",
+    "match_play_duration": 759.6247415542603,
+    "match_season": "8",
+    "match_uid": "5667875_1779039899_1311013_11001_41",
+    "match_winner_side": 0,
+    "mvp_uid": 825127479,
+    "svp_uid": 1098156619,
+    "score_info": {
+      "0": 3,
+      "1": 1
+    },
+    "match_time_stamp": 1779040856,
+    "play_mode_id": 0,
+    "game_mode_id": 2,
+    "match_player": {
+      "assists": 4,
+      "kills": 21,
+      "deaths": 9,
+      "is_win": {
+        "score": 0,
+        "is_win": false
+      },
+      "disconnected": false,
+      "player_uid": 1098156619,
+      "camp": 1,
+      "score_info": {
+        "add_score": 0,
+        "level": 5,
+        "new_level": 5,
+        "new_score": 3430
+      },
+      "player_hero": {
+        "hero_id": 1032,
+        "hero_name": "squirrel girl",
+        "hero_type": "/heroes/transformations/squirrel-girl-headbig-0.webp",
+        "kills": 20,
+        "deaths": 5,
+        "assists": 1,
+        "play_time": 529.0041740704328,
+        "total_hero_damage": 15064.279891967773,
+        "total_damage_taken": 4409.579369068146,
+        "total_hero_heal": 0
+      }
+    }
+  },
+  {
+    "match_map_id": 1311,
+    "map_thumbnail": "/maps/map_1311.png",
+    "match_play_duration": 298.19419717788696,
+    "match_season": "8",
+    "match_uid": "5667959_1779039035_1311002_11001_41",
+    "match_winner_side": 1,
+    "mvp_uid": 1338819881,
+    "svp_uid": 1097581680,
+    "score_info": {
+      "0": 0,
+      "1": 1
+    },
+    "match_time_stamp": 1779039550,
+    "play_mode_id": 0,
+    "game_mode_id": 2,
+    "match_player": {
+      "assists": 6,
+      "kills": 3,
+      "deaths": 4,
+      "is_win": {
+        "score": 0,
+        "is_win": false
+      },
+      "disconnected": false,
+      "player_uid": 1098156619,
+      "camp": null,
+      "score_info": {
+        "add_score": -40,
+        "level": 5,
+        "new_level": 5,
+        "new_score": 3430
+      },
+      "player_hero": {
+        "hero_id": 1031,
+        "hero_name": "luna snow",
+        "hero_type": "/heroes/transformations/luna-snow-headbig-0.webp",
+        "kills": 2,
+        "deaths": 2,
+        "assists": 3,
+        "play_time": 185.15967186912894,
+        "total_hero_damage": 1469.2758712768555,
+        "total_damage_taken": 2238.6908090114594,
+        "total_hero_heal": 5491.860990524292
+      }
+    }
+  },
+  {
+    "match_map_id": 1291,
+    "map_thumbnail": "/maps/map_1291.png",
+    "match_play_duration": 637.1561596393585,
+    "match_season": "8",
+    "match_uid": "5668122_1778984112_1291034_11001_41",
+    "match_winner_side": 1,
+    "mvp_uid": 2144036654,
+    "svp_uid": 592450085,
+    "score_info": {
+      "0": 1,
+      "1": 2
+    },
+    "match_time_stamp": 1778984983,
+    "play_mode_id": 0,
+    "game_mode_id": 2,
+    "match_player": {
+      "assists": 7,
+      "kills": 5,
+      "deaths": 7,
+      "is_win": {
+        "score": 0,
+        "is_win": false
+      },
+      "disconnected": false,
+      "player_uid": 1098156619,
+      "camp": null,
+      "score_info": {
+        "add_score": -40,
+        "level": 6,
+        "new_level": 6,
+        "new_score": 3470
+      },
+      "player_hero": {
+        "hero_id": 1031,
+        "hero_name": "luna snow",
+        "hero_type": "/heroes/transformations/luna-snow-headbig-0.webp",
+        "kills": 5,
+        "deaths": 5,
+        "assists": 7,
+        "play_time": 497.4709497950971,
+        "total_hero_damage": 4650.126589775085,
+        "total_damage_taken": 5310.992628574371,
+        "total_hero_heal": 8910.767961621284
+      }
+    }
+  },
+  {
+    "match_map_id": 1272,
+    "map_thumbnail": "/maps/map_1272.png",
+    "match_play_duration": 327.1609191894531,
+    "match_season": "8",
+    "match_uid": "5668803_1778903059_1272020_11001_41",
+    "match_winner_side": 0,
+    "mvp_uid": 1668348411,
+    "svp_uid": 594945230,
+    "score_info": {
+      "0": 2,
+      "1": 0
+    },
+    "match_time_stamp": 1778903553,
+    "play_mode_id": 0,
+    "game_mode_id": 2,
+    "match_player": {
+      "assists": 1,
+      "kills": 3,
+      "deaths": 6,
+      "is_win": {
+        "score": 0,
+        "is_win": false
+      },
+      "disconnected": false,
+      "player_uid": 1098156619,
+      "camp": 1,
+      "score_info": {
+        "add_score": -40,
+        "level": 6,
+        "new_level": 6,
+        "new_score": 3510
+      },
+      "player_hero": {
+        "hero_id": 1038,
+        "hero_name": "scarlet witch",
+        "hero_type": "/heroes/transformations/scarlet-witch-headbig-0.webp",
+        "kills": 3,
+        "deaths": 4,
+        "assists": 1,
+        "play_time": 218.1876067146659,
+        "total_hero_damage": 2905.516647338867,
+        "total_damage_taken": 1973.1102809906006,
+        "total_hero_heal": 0
+      }
+    }
+  },
+  {
+    "match_map_id": 1245,
+    "map_thumbnail": "/maps/map_1245.png",
+    "match_play_duration": 878.3769690990448,
+    "match_season": "8",
+    "match_uid": "5667858_1778901768_1245010_11001_41",
+    "match_winner_side": 0,
+    "mvp_uid": 1488790271,
+    "svp_uid": 136637630,
+    "score_info": {
+      "0": 3,
+      "1": 1
+    },
+    "match_time_stamp": 1778902854,
+    "play_mode_id": 0,
+    "game_mode_id": 2,
+    "match_player": {
+      "assists": 0,
+      "kills": 23,
+      "deaths": 12,
+      "is_win": {
+        "score": 0,
+        "is_win": false
+      },
+      "disconnected": false,
+      "player_uid": 1098156619,
+      "camp": 1,
+      "score_info": {
+        "add_score": -40,
+        "level": 6,
+        "new_level": 6,
+        "new_score": 3550
+      },
+      "player_hero": {
+        "hero_id": 1032,
+        "hero_name": "squirrel girl",
+        "hero_type": "/heroes/transformations/squirrel-girl-headbig-0.webp",
+        "kills": 23,
+        "deaths": 12,
+        "assists": 0,
+        "play_time": 878.3715674132109,
+        "total_hero_damage": 22471.386551856995,
+        "total_damage_taken": 7248.801321983337,
+        "total_hero_heal": 0
+      }
+    }
+  },
+  {
+    "match_map_id": 1310,
+    "map_thumbnail": "/maps/map_1310.png",
+    "match_play_duration": 582.5238752365112,
+    "match_season": "8",
+    "match_uid": "5667998_1778900927_1310030_11001_41",
+    "match_winner_side": 0,
+    "mvp_uid": 1344825230,
+    "svp_uid": 1835903574,
+    "score_info": {
+      "0": 2,
+      "1": 0
+    },
+    "match_time_stamp": 1778901692,
+    "play_mode_id": 0,
+    "game_mode_id": 2,
+    "match_player": {
+      "assists": 1,
+      "kills": 12,
+      "deaths": 4,
+      "is_win": {
+        "score": 1,
+        "is_win": true
+      },
+      "disconnected": false,
+      "player_uid": 1098156619,
+      "camp": null,
+      "score_info": {
+        "add_score": 40,
+        "level": 6,
+        "new_level": 6,
+        "new_score": 3590
+      },
+      "player_hero": {
+        "hero_id": 1032,
+        "hero_name": "squirrel girl",
+        "hero_type": "/heroes/transformations/squirrel-girl-headbig-0.webp",
+        "kills": 12,
+        "deaths": 4,
+        "assists": 1,
+        "play_time": 582.5203634761274,
+        "total_hero_damage": 16657.12714958191,
+        "total_damage_taken": 3060.376661300659,
+        "total_hero_heal": 0
+      }
+    }
+  },
+  {
+    "match_map_id": 1311,
+    "map_thumbnail": "/maps/map_1311.png",
+    "match_play_duration": 648.7426555156708,
+    "match_season": "8",
+    "match_uid": "5668002_1778900009_1311005_11001_41",
+    "match_winner_side": 0,
+    "mvp_uid": 1404528165,
+    "svp_uid": 2034717333,
+    "score_info": {
+      "0": 3,
+      "1": 0
+    },
+    "match_time_stamp": 1778900848,
+    "play_mode_id": 0,
+    "game_mode_id": 2,
+    "match_player": {
+      "assists": 23,
+      "kills": 12,
+      "deaths": 6,
+      "is_win": {
+        "score": 0,
+        "is_win": false
+      },
+      "disconnected": false,
+      "player_uid": 1098156619,
+      "camp": 1,
+      "score_info": {
+        "add_score": -40,
+        "level": 6,
+        "new_level": 6,
+        "new_score": 3550
+      },
+      "player_hero": {
+        "hero_id": 1060,
+        "hero_name": "white fox",
+        "hero_type": "/heroes/transformations/white-fox-headbig-0.webp",
+        "kills": 12,
+        "deaths": 5,
+        "assists": 21,
+        "play_time": 529.186170142144,
+        "total_hero_damage": 7960.372619628906,
+        "total_damage_taken": 11048.204182267189,
+        "total_hero_heal": 20531.740427732468
+      }
+    }
+  },
+  {
+    "match_map_id": 1421,
+    "match_play_duration": 1067.4499588012695,
+    "match_season": "8",
+    "match_uid": "5667870_1778898204_1421116_11001_41",
+    "match_winner_side": 1,
+    "mvp_uid": 421379036,
+    "svp_uid": 485040191,
+    "score_info": {
+      "0": 4,
+      "1": 5
+    },
+    "match_time_stamp": 1778899658,
+    "play_mode_id": 0,
+    "game_mode_id": 2,
+    "match_player": {
+      "assists": 60,
+      "kills": 31,
+      "deaths": 9,
+      "is_win": {
+        "score": 1,
+        "is_win": true
+      },
+      "disconnected": false,
+      "player_uid": 1098156619,
+      "camp": 1,
+      "score_info": {
+        "add_score": 40,
+        "level": 6,
+        "new_level": 6,
+        "new_score": 3590
+      },
+      "player_hero": {
+        "hero_id": 1060,
+        "hero_name": "white fox",
+        "hero_type": "/heroes/transformations/white-fox-headbig-0.webp",
+        "kills": 8,
+        "deaths": 8,
+        "assists": 13,
+        "play_time": 540.3969584498554,
+        "total_hero_damage": 8295.5,
+        "total_damage_taken": 10691.07913005352,
+        "total_hero_heal": 16553.08001756668
+      }
+    }
+  }
+]

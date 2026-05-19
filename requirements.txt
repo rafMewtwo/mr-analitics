@@ -1,0 +1,7 @@
+# Streamlit 1.50+ usa Uvicorn que tem bug de WebSocket no Windows + Python 3.12
+# (página fica em skeleton eterno). 1.39.0 usa Tornado e funciona.
+streamlit==1.39.0
+pandas>=2.0
+plotly>=5.18
+requests>=2.31
+python-dotenv>=1.0

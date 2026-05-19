@@ -1,0 +1,16 @@
+{
+  "hero_id": 1059,
+  "hero_name": "elsa bloodstone",
+  "hero_icon": "/heroes/transformations/elsa-bloodstone-headbig-0.webp",
+  "matches": 1363,
+  "wins": 739,
+  "k": 21.99413059427733,
+  "d": 4.917828319882612,
+  "a": 2.8818782098312545,
+  "play_time": "212h 50m 27s",
+  "total_hero_damage": 27331244.894916862,
+  "total_hero_heal": 44567.49497616291,
+  "total_damage_taken": 10474165.745929375,
+  "session_hit_rate": 0.4722717519021183,
+  "solo_kill": 1.714600146735143
+}

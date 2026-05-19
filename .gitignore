@@ -1,0 +1,50 @@
+# ===== Secrets =====
+.env
+.env.local
+*.key
+.streamlit/secrets.toml
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ===== Virtual envs =====
+.venv/
+venv/
+env/
+
+# ===== Legacy / local-only =====
+mr_analytics.db
+*.sqlite
+*.sqlite3
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# ===== OS =====
+Thumbs.db
+desktop.ini
+
+# ===== Build / cache =====
+.cache/
+dist/
+build/
+*.egg
+
+# ===== Logs =====
+*.log
+/tmp/
+
+# ===== Claude Code session state =====
+.claude/

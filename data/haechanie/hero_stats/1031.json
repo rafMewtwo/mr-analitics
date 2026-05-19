@@ -1,0 +1,16 @@
+{
+  "hero_id": 1031,
+  "hero_name": "luna snow",
+  "hero_icon": "/heroes/transformations/luna-snow-headbig-0.webp",
+  "matches": 4896,
+  "wins": 2426,
+  "k": 13.928921568627452,
+  "d": 5.059436274509804,
+  "a": 18.754289215686274,
+  "play_time": "824h 9m 0s",
+  "total_hero_damage": 47552771.19029567,
+  "total_hero_heal": 129748324.02271968,
+  "total_damage_taken": 40220608.3132226,
+  "session_hit_rate": 0.5939332462091889,
+  "solo_kill": 0.49244281045751637
+}

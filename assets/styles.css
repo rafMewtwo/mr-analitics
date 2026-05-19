@@ -1,0 +1,574 @@
+/* Marvel Rivals Analytics — visual theme.
+   Paleta inspirada no site marvelrivalsapi.com:
+   - bg: deep navy
+   - accent: vermelho/rosa, cyan, amarelo
+   - fonts: Rajdhani (display) + Inter (body)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Rajdhani:wght@500;600;700&family=Orbitron:wght@600;700;900&display=swap');
+
+:root {
+    --mr-bg: #070a14;
+    --mr-bg-2: #0f1320;
+    --mr-surface: #131829;
+    --mr-border: rgba(255, 45, 95, 0.15);
+    --mr-border-cyan: rgba(0, 212, 255, 0.18);
+    --mr-red: #ff2d5f;
+    --mr-red-glow: rgba(255, 45, 95, 0.45);
+    --mr-cyan: #00d4ff;
+    --mr-cyan-glow: rgba(0, 212, 255, 0.4);
+    --mr-yellow: #f9d11c;
+    --mr-green: #00ff9d;
+    --mr-text: #e8eef9;
+    --mr-muted: #6b7693;
+}
+
+/* ===== Global ===== */
+html, body, [class*="css"], .stApp {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !important;
+    color: var(--mr-text);
+}
+
+html, body {
+    overflow: auto !important;
+    height: 100% !important;
+}
+
+.stApp {
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    min-height: 100vh;
+}
+
+[data-testid="stAppViewContainer"],
+[data-testid="stVerticalBlockBorderWrapper"],
+.main .block-container {
+    overflow: visible !important;
+    max-height: none !important;
+}
+
+/* Background com grid sutil + radial highlight */
+.stApp {
+    background:
+        radial-gradient(ellipse 80% 50% at 50% -10%, rgba(255, 45, 95, 0.15), transparent),
+        radial-gradient(ellipse 60% 40% at 100% 30%, rgba(0, 212, 255, 0.08), transparent),
+        linear-gradient(180deg, var(--mr-bg) 0%, #050811 100%) !important;
+    background-attachment: fixed !important;
+}
+
+/* Grid overlay */
+.stApp::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+    background-size: 50px 50px;
+    pointer-events: none;
+    z-index: 0;
+}
+
+[data-testid="stAppViewContainer"] {
+    position: relative;
+    z-index: 1;
+}
+
+/* Linha gradient no topo (igual o site) */
+[data-testid="stHeader"] {
+    background: transparent !important;
+    border-bottom: 1px solid transparent;
+    background-image: linear-gradient(90deg, var(--mr-red) 0%, var(--mr-cyan) 100%) !important;
+    background-size: 100% 2px !important;
+    background-repeat: no-repeat !important;
+    background-position: bottom !important;
+}
+
+/* ===== Tipografia ===== */
+h1, h2, h3 {
+    font-family: 'Rajdhani', 'Inter', sans-serif !important;
+    letter-spacing: 0.5px !important;
+    font-weight: 700 !important;
+}
+
+h1 {
+    background: linear-gradient(120deg, #ffffff 0%, #00d4ff 50%, var(--mr-red) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 2px !important;
+    font-weight: 900 !important;
+    font-family: 'Orbitron', sans-serif !important;
+    font-size: 2.4rem !important;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: var(--mr-text) !important;
+    font-size: 1.4rem !important;
+    border-bottom: 1px solid var(--mr-border);
+    padding-bottom: 0.4rem;
+    margin-top: 1.2rem !important;
+}
+
+h3 {
+    color: var(--mr-cyan) !important;
+    text-transform: uppercase;
+    font-size: 1.05rem !important;
+    letter-spacing: 1px !important;
+}
+
+/* ===== Sidebar ===== */
+[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, var(--mr-bg-2) 0%, #080b15 100%) !important;
+    border-right: 1px solid var(--mr-border);
+}
+
+[data-testid="stSidebar"] h2 {
+    color: var(--mr-yellow) !important;
+    border-bottom-color: var(--mr-border-cyan);
+}
+
+/* ===== Botões ===== */
+button[kind="primary"], button[data-testid="baseButton-primary"] {
+    background: linear-gradient(135deg, var(--mr-red) 0%, #c91e4a 100%) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    font-family: 'Rajdhani', sans-serif !important;
+    box-shadow: 0 4px 20px var(--mr-red-glow), inset 0 1px 0 rgba(255, 255, 255, 0.15) !important;
+    transition: all 0.2s ease !important;
+}
+
+button[kind="primary"]:hover, button[data-testid="baseButton-primary"]:hover {
+    transform: translateY(-1px) !important;
+    box-shadow: 0 6px 24px var(--mr-red-glow), inset 0 1px 0 rgba(255, 255, 255, 0.2) !important;
+    filter: brightness(1.1) !important;
+}
+
+button[kind="secondary"], button[data-testid="baseButton-secondary"] {
+    background: var(--mr-surface) !important;
+    border: 1px solid var(--mr-border-cyan) !important;
+    color: var(--mr-cyan) !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    transition: all 0.2s ease !important;
+}
+
+button[kind="secondary"]:hover {
+    background: rgba(0, 212, 255, 0.08) !important;
+    box-shadow: 0 0 16px var(--mr-cyan-glow) !important;
+}
+
+/* ===== Inputs ===== */
+input[type="text"] {
+    background: var(--mr-bg) !important;
+    border: 1px solid var(--mr-border) !important;
+    color: var(--mr-text) !important;
+    font-family: 'Rajdhani', sans-serif !important;
+    font-weight: 500 !important;
+    transition: all 0.2s ease !important;
+}
+
+input[type="text"]:focus {
+    border-color: var(--mr-cyan) !important;
+    box-shadow: 0 0 0 1px var(--mr-cyan), 0 0 12px var(--mr-cyan-glow) !important;
+}
+
+/* ===== Metrics (cards de KPI no header) ===== */
+[data-testid="stMetric"] {
+    background: linear-gradient(135deg, var(--mr-surface) 0%, var(--mr-bg-2) 100%);
+    border: 1px solid var(--mr-border);
+    border-radius: 6px;
+    padding: 0.6rem 0.9rem !important;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.2s ease;
+}
+
+[data-testid="stMetric"]::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--mr-red), var(--mr-cyan));
+    opacity: 0.6;
+}
+
+[data-testid="stMetric"]:hover {
+    border-color: var(--mr-cyan);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 212, 255, 0.12);
+}
+
+[data-testid="stMetricLabel"] {
+    color: var(--mr-muted) !important;
+    text-transform: uppercase;
+    font-size: 0.7rem !important;
+    letter-spacing: 1px !important;
+    font-weight: 600 !important;
+}
+
+[data-testid="stMetricValue"] {
+    font-family: 'Orbitron', 'Rajdhani', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 1.5rem !important;
+    color: var(--mr-text) !important;
+    line-height: 1.2 !important;
+}
+
+[data-testid="stMetricDelta"] {
+    font-family: 'Rajdhani', sans-serif !important;
+    font-weight: 600 !important;
+}
+
+/* ===== Tabs ===== */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 4px;
+    border-bottom: 1px solid var(--mr-border);
+    padding-bottom: 0;
+}
+
+.stTabs [data-baseweb="tab"] {
+    background: transparent !important;
+    color: var(--mr-muted) !important;
+    border-radius: 6px 6px 0 0 !important;
+    padding: 0.6rem 1.2rem !important;
+    font-family: 'Rajdhani', sans-serif !important;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    font-size: 0.85rem !important;
+    transition: all 0.2s ease;
+    border: 1px solid transparent !important;
+    border-bottom: none !important;
+}
+
+.stTabs [data-baseweb="tab"]:hover {
+    color: var(--mr-text) !important;
+    background: rgba(255, 255, 255, 0.03) !important;
+}
+
+.stTabs [aria-selected="true"] {
+    color: var(--mr-red) !important;
+    background: rgba(255, 45, 95, 0.08) !important;
+    border-color: var(--mr-border) !important;
+    border-bottom: 1px solid var(--mr-bg) !important;
+    box-shadow: 0 -2px 0 var(--mr-red) inset;
+}
+
+/* ===== Alerts (success / warning / info / error) ===== */
+[data-testid="stAlert"] {
+    border-radius: 6px !important;
+    border-left-width: 3px !important;
+    backdrop-filter: blur(8px);
+    font-family: 'Inter', sans-serif !important;
+}
+
+div[data-baseweb="notification"][kind="positive"],
+[data-testid="stAlert"][class*="success"] {
+    background: linear-gradient(90deg, rgba(0, 255, 157, 0.08), transparent) !important;
+    border-left-color: var(--mr-green) !important;
+}
+
+div[data-baseweb="notification"][kind="warning"],
+[data-testid="stAlert"][class*="warning"] {
+    background: linear-gradient(90deg, rgba(249, 209, 28, 0.08), transparent) !important;
+    border-left-color: var(--mr-yellow) !important;
+}
+
+div[data-baseweb="notification"][kind="info"],
+[data-testid="stAlert"][class*="info"] {
+    background: linear-gradient(90deg, rgba(0, 212, 255, 0.08), transparent) !important;
+    border-left-color: var(--mr-cyan) !important;
+}
+
+div[data-baseweb="notification"][kind="negative"],
+[data-testid="stAlert"][class*="error"] {
+    background: linear-gradient(90deg, rgba(255, 45, 95, 0.08), transparent) !important;
+    border-left-color: var(--mr-red) !important;
+}
+
+/* ===== DataFrame / Tables ===== */
+[data-testid="stDataFrame"] {
+    border-radius: 6px;
+    border: 1px solid var(--mr-border);
+    overflow: auto;
+}
+
+/* ===== Custom MR Logo / Header ===== */
+.mr-hero {
+    position: relative;
+    padding: 2rem 0 1.5rem 0;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.mr-hero-title {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    background: linear-gradient(120deg, #ffffff 0%, #00d4ff 40%, var(--mr-red) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    line-height: 1;
+    animation: mr-glow 4s ease-in-out infinite;
+}
+
+.mr-hero-sub {
+    font-family: 'Rajdhani', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: var(--mr-muted);
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+}
+
+.mr-hero-badge {
+    display: inline-block;
+    padding: 0.25rem 0.8rem;
+    border: 1px solid var(--mr-border-cyan);
+    border-radius: 999px;
+    color: var(--mr-cyan);
+    font-size: 0.7rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 0.8rem;
+    background: rgba(0, 212, 255, 0.04);
+    position: relative;
+}
+
+.mr-hero-badge::before {
+    content: '●';
+    color: var(--mr-cyan);
+    margin-right: 0.4rem;
+    animation: mr-pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes mr-pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+}
+
+@keyframes mr-glow {
+    0%, 100% {
+        filter: drop-shadow(0 0 12px rgba(0, 212, 255, 0.3)) drop-shadow(0 0 24px rgba(255, 45, 95, 0.2));
+    }
+    50% {
+        filter: drop-shadow(0 0 20px rgba(0, 212, 255, 0.5)) drop-shadow(0 0 40px rgba(255, 45, 95, 0.3));
+    }
+}
+
+/* ===== Hero compact (header fininho quando analise carregada) ===== */
+.mr-hero-compact {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 0 0.8rem 0;
+    margin-bottom: 0.4rem;
+    border-bottom: 1px solid var(--mr-border);
+}
+
+.mr-hero-compact-title {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 900;
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    background: linear-gradient(120deg, #ffffff 0%, #00d4ff 50%, var(--mr-red) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mr-hero-compact-sub {
+    font-family: 'Rajdhani', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--mr-muted);
+    font-size: 0.7rem;
+    flex: 1;
+}
+
+.mr-hero-badge-inline {
+    margin-bottom: 0 !important;
+    font-size: 0.65rem !important;
+}
+
+/* ===== Section dividers / cards ===== */
+.mr-card {
+    background: linear-gradient(135deg, var(--mr-surface) 0%, var(--mr-bg-2) 100%);
+    border: 1px solid var(--mr-border);
+    border-radius: 8px;
+    padding: 1.2rem 1.5rem;
+    margin: 0.5rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.mr-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background: linear-gradient(180deg, var(--mr-red), var(--mr-cyan));
+}
+
+.mr-stat-up { color: var(--mr-green); font-weight: 700; }
+.mr-stat-down { color: var(--mr-red); font-weight: 700; }
+
+/* ===== Sliders / spinners ===== */
+[data-testid="stSpinner"] {
+    color: var(--mr-cyan) !important;
+}
+
+/* ===== Scrollbar ===== */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--mr-bg-2); }
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, var(--mr-red), #c91e4a);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover { background: var(--mr-red); }
+
+/* ===== Hide Streamlit branding ===== */
+#MainMenu, footer, [data-testid="stToolbar"] { display: none !important; }
+
+/* Plotly dark fit */
+.js-plotly-plot .plotly .modebar { display: none !important; }
+
+/* ===== Landing page ===== */
+.landing-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0 2rem 0;
+    position: relative;
+}
+
+.landing-card {
+    text-align: center;
+    max-width: 760px;
+    padding: 2rem 2.5rem 1.5rem;
+    position: relative;
+}
+
+.landing-badge {
+    display: inline-block;
+    padding: 0.35rem 1rem;
+    border: 1px solid var(--mr-border-cyan);
+    border-radius: 999px;
+    color: var(--mr-cyan);
+    font-size: 0.75rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 1.5rem;
+    background: rgba(0, 212, 255, 0.06);
+    animation: mr-pulse 1.5s ease-in-out infinite;
+}
+
+.landing-title {
+    font-family: 'Orbitron', sans-serif !important;
+    font-weight: 900 !important;
+    font-size: 5.4rem !important;
+    letter-spacing: 12px !important;
+    text-transform: uppercase !important;
+    background: linear-gradient(120deg, #ffffff 0%, #00d4ff 40%, var(--mr-red) 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0 !important;
+    line-height: 0.9 !important;
+    animation: mr-glow 4s ease-in-out infinite;
+}
+
+.landing-sub {
+    font-family: 'Rajdhani', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: var(--mr-muted);
+    font-size: 0.95rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.8rem;
+}
+
+.landing-pitch {
+    font-family: 'Inter', sans-serif;
+    color: var(--mr-text);
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto 1.5rem;
+    opacity: 0.85;
+}
+
+.landing-stats {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--mr-yellow);
+    letter-spacing: 2px;
+    padding: 0.5rem 1rem;
+    border-top: 1px solid var(--mr-border);
+    border-bottom: 1px solid var(--mr-border);
+    display: inline-block;
+    margin-top: 0.5rem;
+}
+
+.landing-foot {
+    margin-top: 4rem;
+    padding: 0 1.5rem;
+}
+
+.landing-foot-cols {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.landing-foot-h {
+    font-family: 'Rajdhani', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    color: var(--mr-cyan);
+    font-size: 0.95rem;
+    margin-bottom: 0.4rem;
+    border-bottom: 1px solid var(--mr-border-cyan);
+    padding-bottom: 0.3rem;
+}
+
+.landing-foot-p {
+    font-family: 'Inter', sans-serif;
+    color: var(--mr-muted);
+    font-size: 0.88rem;
+    line-height: 1.5;
+}
+
+.landing-foot-meta {
+    text-align: center;
+    margin-top: 3rem;
+    font-family: 'Rajdhani', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--mr-muted);
+    opacity: 0.5;
+    font-size: 0.7rem;
+}

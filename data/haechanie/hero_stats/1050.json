@@ -1,0 +1,16 @@
+{
+  "hero_id": 1050,
+  "hero_name": "invisible woman",
+  "hero_icon": "/heroes/transformations/invisible-woman-headbig-0.webp",
+  "matches": 5106,
+  "wins": 2546,
+  "k": 14.525851938895418,
+  "d": 4.603407755581669,
+  "a": 21.078926752839795,
+  "play_time": "860h 23m 51s",
+  "total_hero_damage": 47252817.87977437,
+  "total_hero_heal": 141359581.0556641,
+  "total_damage_taken": 51516107.516061306,
+  "session_hit_rate": 0.617498296439472,
+  "solo_kill": 0.0846063454759107
+}

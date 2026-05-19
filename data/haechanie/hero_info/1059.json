@@ -1,0 +1,304 @@
+{
+  "id": "1059",
+  "name": "elsa bloodstone",
+  "real_name": "Elsa Bloodstone",
+  "imageUrl": "/rivals/heroes/card/elsa-bloodstone.png",
+  "role": "Duelist",
+  "attack_type": "Hitscan Heroes",
+  "team": [
+    "Midnightsons"
+  ],
+  "difficulty": "3",
+  "bio": "Born into a line of legendary monster hunters, Elsa Bloodstone boasts incredible physical prowess and an innate talent for subduing the creepiest of creatures. The instinct to hunt is in her blood, and every foe she faces inevitably becomes prey ensnared in her traps!",
+  "lore": "No lore available",
+  "transformations": [
+    {
+      "id": "0",
+      "name": "Elsa Bloodstone",
+      "icon": "/heroes/transformations/elsa-bloodstone-headbig-0.webp",
+      "health": "250",
+      "movement_speed": "600"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "1059001",
+      "name": "Elsa Bloodstone",
+      "icon": null,
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1059100",
+      "name": "Apex Huntress",
+      "icon": "/costumes/apex-huntress-1059100.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1059101",
+      "name": "Icy Edge",
+      "icon": "/costumes/icy-edge-1059101.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1059300",
+      "name": "Young Blood",
+      "icon": "/costumes/young-blood-1059300.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    }
+  ],
+  "abilities": [
+    {
+      "id": 105901,
+      "icon": "/abilities/105901.webp",
+      "name": "Inherited Instinct",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Dealing damage increases hunting <Orange>Instinct</>. Defeating enemies caught by <Orange>Smoky Snare</> grants additional <Orange>Instinct</>. Higher <Orange>Instinct</> reduces the cooldown of <Orange>Helix Advance</>.",
+      "additional_fields": {
+        "Key": "PASSIVE",
+        "Special Effect 1": "Instinct levels up when it reaches 100, up to 3 levels",
+        "Special Effect 2": "For each Instinct level gained, reduce the cooldown of Helix Advance by 2s",
+        "Instinct from KOs": "100",
+        "Damage/Instinct Conversion Rate": "0.06",
+        "Additional Instinct from KOs Caught by Smoky Snare": "200"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105911,
+      "icon": "/abilities/105911.webp",
+      "name": "Double-barrel Blaster",
+      "type": "Weapon",
+      "isCollab": false,
+      "description": "Fire your shotgun forward.",
+      "additional_fields": {
+        "Key": "Left Click",
+        "Ammo": "8",
+        "Damage": "4.5 per round",
+        "Casting": "Shotgun projectiles that hit instantly",
+        "Fire Rate": "The firing interval between shots is 0.12s, with an interval of 0.8s between each round of shooting",
+        "Critical Hit": "Yes",
+        "Damage Falloff": "Falloff begins at 20m, decreasing to 70% at 30m",
+        "Bullets Fired Each Cast": "10",
+        "Crosshair Spread Radius(at 10m)": "0.13m"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105912,
+      "icon": "/abilities/105912.webp",
+      "name": "Monster-piercer",
+      "type": "Weapon",
+      "isCollab": false,
+      "description": "Unleash your elephant gun forward. Bullets pierce enemies and deal high damage.",
+      "additional_fields": {
+        "Key": "Left Click",
+        "Damage": "13+1.2% of enemy's maximum health",
+        "Casting": "Shotgun projectiles that hit instantly",
+        "Critical Hit": "No",
+        "Bullets Fired Each Cast": "5",
+        "Crosshair Spread Radius (at 10m)": "6m"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105921,
+      "icon": "/abilities/105921.webp",
+      "name": "Ruthless Pursuit",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Dash forward, gaining <Buff>Bonus Health</> and launching enemies hit. Follow up with a <Orange>Double-Barrel Blaster</> shot that propels you backward and <Debuff>Slows</> enemies. Using either stage empowers your next <Orange>Double-Barrel Blaster</>, transforming it into <Orange>Monster-Piercer</>.",
+      "additional_fields": {
+        "Key": "E",
+        "Damage": "30",
+        "Casting": "Movement-based damage ability",
+        "Cooldown": "8s",
+        "Follow Up": " ",
+        "Dash Speed": "15 m/s",
+        "Bonus Health": "Every unleash of Ruthless Pursuit and Helix Advance grants 30 bonus health. Max bonus health is 75",
+        "Max Dash Speed": "40m/s",
+        "Special Effect 1": "Launch up enemies hit, and activate the follow up in 5s",
+        "Special Effect 2": "Using either stage empowers your next Double-Barrel Blaster, transforming it into Monster-Piercer",
+        "Max Dash Duration": "0.3s",
+        "Max Damage Distance": "8m"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105922,
+      "type": "Normal",
+      "isCollab": false,
+      "additional_fields": {
+        "Health": "250",
+        "Movement Speed": "600"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105923,
+      "icon": "/abilities/105923.webp",
+      "name": "Follow Up",
+      "type": "Normal",
+      "isCollab": false,
+      "transformation_id": "0"
+    },
+    {
+      "id": 105931,
+      "icon": "/abilities/105931.webp",
+      "name": "Helix Advance",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Dash in your movement direction. Your next <Orange>Double-Barrel Blaster</> becomes <Orange>Monster-Piercer</>.",
+      "additional_fields": {
+        "Key": "Shift",
+        "Cooldown": "8s",
+        "Max Dash Speed": "27.5m/s",
+        "Special Effect": "In 6s after unleashing Helix Advance, the next Double-Barrel Blaster becomes Monster-Piercer",
+        "Special Effect 2": "Every unleash of Ruthless Pursuit and Helix Advance grants 30 bonus health. Max bonus health is 75",
+        "Max Dash Duration": "0.28s"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105932,
+      "type": "Normal",
+      "isCollab": false,
+      "additional_fields": {
+        "Health": "250",
+        "Movement Speed": "600"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105941,
+      "icon": "/abilities/105941.webp",
+      "name": "Living Bullet",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Fire a Living Bullet round that splits upon impact, seeking nearby enemies and marking each with a <Orange>Spectral Sigil</>. Hitting marked targets with <Orange>Double-Barrel Blaster</> or <Orange>Monster-Piercer</> grants Elsa a brief <Buff>Speed</> boost. Living Bullets deal extra damage to shields and enemies with <Buff>Bonus Health</>.",
+      "additional_fields": {
+        "Key": "Right Click",
+        "Cooldown": "8s",
+        "Speed Boost": "Increase movement speed by 40% for 1s",
+        "Tracing Range": "8m radius spherical spell field",
+        "Maximum Splits": "3",
+        "Projectile Speed": "60m/s",
+        "Special Effect 1": "After hits an enemy, the projectile splits to several bullets to trace the enemies in range",
+        "Special Effect 2": "Projectile deals 40 extra damage to shields and enemies with bonus health",
+        "Projectile Damage": "60"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105942,
+      "name": "Bloodstone's Boombox Bullets",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Deadpool hands Jeff the Land Shark a plushie. Jeff can spit it ahead where it'll continuously <Debuff>Taunt</> nearby enemies and <Debuff>Block Vision</>, while allies in range are healed! Elsa Bloodstone's <Orange>Living Bullet</> changes to special rounds that <Debuff>Taunt</> targets with Deadpool's chatter, while <Debuff>Slowing</>, and damaging nearby enemies over time. Elsa can recall the rounds to heal based on damage dealt.",
+      "additional_fields": {
+        "Key": "Right Click",
+        "Slow Effect": "Reduce movement speed by 35% for 2s",
+        "Taunt Duration": "2s",
+        "Projectile Speed": "60m/s",
+        "Projectile Damage": "First hit: 60; second hit: 40",
+        "Second Hit Damage Over Time": "20/s for 2s",
+        "Damage/Healing Conversion Rate": "30%"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105951,
+      "icon": "/abilities/105951.webp",
+      "name": "Smoky Snare",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Launch a trap containing the monster Diablo. Once deployed, it becomes <Buff>Invisible</> and <Buff>Invulnerable</>. When an enemy triggers it, Diablo <Debuff>Immobilizes</> and Damages them. Use {Interactive} to dash to the trapped enemy. Enemies can destroy Diablo to break free.",
+      "additional_fields": {
+        "Key": "F",
+        "Cooldown": "12s",
+        "Trap Health": "100",
+        "Summons' Health": "50",
+        "Special Effect 1": "The trap becomes Invisible and Invulnerable after one-second deployment",
+        "Special Effect 2": "Defeat the summon to end the Immobolized state early",
+        "Special Effect 3": "Elsa can dash to the enemy who triggers the trap",
+        "Maximum Dash Speed": "60m/s",
+        "Maximum Dash Duration": "0.25s",
+        "Triggered Trap Damage": "Cause 5 damage every 0.2s, last 1.2s",
+        "Maximum Select Distance": "30m",
+        "Maximum Immobilizing Duration": "1.2s"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105952,
+      "icon": "/abilities/105952.webp",
+      "type": "Normal",
+      "isCollab": false,
+      "additional_fields": {
+        "Health": "250",
+        "Movement Speed": "600"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105961,
+      "type": "Normal",
+      "isCollab": false,
+      "additional_fields": {
+        "Health": "250",
+        "Movement Speed": "600"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105971,
+      "type": "Melee",
+      "isCollab": false,
+      "additional_fields": {
+        "Health": "250",
+        "Movement Speed": "600"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105981,
+      "icon": "/abilities/105981.webp",
+      "name": "Apex Predator",
+      "type": "Ultimate",
+      "isCollab": false,
+      "description": "Summon the Glartrox to charge forward. The Glartrox can be recalled to charge back toward Elsa. When colliding with terrain or upon return, it bites fiercely, dealing heavy damage.",
+      "additional_fields": {
+        "Key": "Q",
+        "Energy Cost": "3400",
+        "Special Effect": "Glartrox cannot be critical hit. Drag 8 targets at most",
+        "Glartrox Health": "400",
+        "Special Effect 1": "Enemies seized by Glartrox cannot use their abilities until it stops moving",
+        "Special Effect 2": "Elsa can recall Glartrox at any time",
+        "Special Effect 3": "When the Glartrox collides with terrain, returns, or reaches its maximum dash duration, it bites fiercely, dealing massive damage. If Glartrox is defeated, the bite will not be triggered",
+        "Glartrox Bite Damage": "125",
+        "Glartrox Seize Damage": "75",
+        "Glartrox Movement Speed": "15m/s",
+        "Glartrox Maximum Dash Duration": "Maximum durations for dashing and returning are 3.5s each"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105982,
+      "type": "Ultimate",
+      "isCollab": false,
+      "additional_fields": {
+        "Health": "250",
+        "Movement Speed": "600"
+      },
+      "transformation_id": "0"
+    }
+  ]
+}

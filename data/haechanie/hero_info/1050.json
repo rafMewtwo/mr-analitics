@@ -1,0 +1,297 @@
+{
+  "id": "1050",
+  "name": "invisible woman",
+  "real_name": "Susan Storm",
+  "imageUrl": "/rivals/heroes/card/invisible-woman.png",
+  "role": "Strategist",
+  "attack_type": "Projectile Heroes",
+  "team": [
+    "Fantasticfour"
+  ],
+  "difficulty": "4",
+  "bio": "The Invisible Woman is able to slip in and out of sight without a trace. No matter how intense the battle may be, Susan Storm always keeps her cool, conjuring up impenetrable force fields to protect herself and her team.",
+  "lore": "Cosmic rays altered Susan Storm on a cellular level, granting her the ability to generate impenetrable force fields and to make herself fade from sight in an instant. Despite her frequent lack of visibility, it has always been perfectly clear that Sue is the force holding her family — the Fantastic Four — together. \nAfter the Timestream Entanglement, the Invisible Woman has taken full advantage of her powers, using stealth to explore locations too dangerous for her fellow heroes, especially going on rescue missions for civilians trapped by the creatures of the night.",
+  "transformations": [
+    {
+      "id": "0",
+      "name": "Invisible Woman",
+      "icon": "/heroes/transformations/invisible-woman-headbig-0.webp",
+      "health": "275",
+      "movement_speed": "6 m/s"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "1050001",
+      "name": "Invisible Woman",
+      "icon": "/costumes/invisible-woman-1050001.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1050100",
+      "name": "First Family",
+      "icon": "/costumes/first-family-1050100.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1050101",
+      "name": "Blood Shield",
+      "icon": "/costumes/blood-shield-1050101.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1050103",
+      "name": "Will Of Galacta",
+      "icon": "/costumes/will-of-galacta-1050103.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1050300",
+      "name": "The Life Fantastic",
+      "icon": "/costumes/the-life-fantastic-1050300.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1050301",
+      "name": "Disappearing Dessert",
+      "icon": "/costumes/disappearing-dessert-1050301.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1050302",
+      "name": "Prism Parade",
+      "icon": "/costumes/prism-parade-1050302.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1050305",
+      "name": "Riann Landau The Debater",
+      "icon": "/costumes/riann-landau-the-debater-1050305.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1050500",
+      "name": "Malice",
+      "icon": "/costumes/malice-1050500.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1050501",
+      "name": "Future Foundation",
+      "icon": "/costumes/future-foundation-1050501.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1050502",
+      "name": "Azure Shade",
+      "icon": "/costumes/azure-shade-1050502.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1050800",
+      "name": "The Fantastic Four First Steps",
+      "icon": "/costumes/the-fantastic-four-first-steps-1050800.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    }
+  ],
+  "abilities": [
+    {
+      "id": 105002,
+      "icon": "/abilities/105002.webp",
+      "name": "Covert Advance",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Enter <Buff>Invisible</> state some time after disengaging from combat and grant yourself <Buff>Healing Over Time</>.",
+      "additional_fields": {
+        "Key": "Passive",
+        "Healing Amount": "30/sec"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105011,
+      "icon": "/abilities/105011.webp",
+      "name": "Agile Strike",
+      "type": "Melee",
+      "isCollab": false,
+      "description": "Release a three-hit combo, the third attack will <Debuff>launch up</> enemies in front.",
+      "transformation_id": "0"
+    },
+    {
+      "id": 105021,
+      "icon": "/abilities/105021.webp",
+      "name": "Veiled Step",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Generate a force field at your feet, stepping on it propels you into <Buff>Invisible</> state.",
+      "additional_fields": {
+        "Key": "Space",
+        "Cooldown": "6s"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105031,
+      "icon": "/abilities/105031.webp",
+      "name": "Orb Projection",
+      "type": "Weapon",
+      "isCollab": false,
+      "description": "Launch a force field that can pierce heroes, flying to maximum distance before returning to Invisible Woman; damaging enemies and healing teammates.",
+      "additional_fields": {
+        "Key": "Left Click",
+        "Ammo": "10",
+        "Damage": "\n\t\t\t\t\t\tDeal 30 damage per hit upon being shot out and 15 damage per hit on its return journey.\n\t\t\t\t\t\t",
+        "Casting": "Single-cast projectile with delayed impact.",
+        "Fire Rate": "0.5s per hit",
+        "Critical Hit": "No",
+        "Damage Falloff": "No falloff",
+        "Healing Amount": "\n\t\t\t\t\t\tHeal 45 health per hit upon being shot out and 35 health per hit on its return journey.\n\t\t\t\t\t\t",
+        "Special Effect": "Orbs can pierce heroes and return to Invisible Woman after reaching their maximum distance. They damage enemies and heal teammates",
+        "Projectile Speed": "150 m/s",
+        "Maximum Flight Distance": "35m"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105032,
+      "name": "Psychic Surge",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Invisible Woman gathers surrounding psychic energy for future battles.",
+      "transformation_id": "0"
+    },
+    {
+      "id": 105041,
+      "icon": "/abilities/105041.webp",
+      "name": "Guardian Shield",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Generate a force shield in front of a selected ally or press {Interactive} to generate in front of you. The shield can block damage and provide <Buff>Healing Over Time</> to nearby allies. Enemies that pass through the shield are <Debuff>slowed</>.",
+      "additional_fields": {
+        "Key": "Right Click",
+        "Range": "3m radius",
+        "Casting": "Targeted",
+        "Slow Rate": "35%",
+        "Slow Duration": "3s",
+        "Healing Amount": "50/sec, self 15/sec",
+        "Special Effect 1": "Before the shield is destroyed, Invisible Woman can choose to reproject the shield onto a selected teammate at any time",
+        "Special Effect 2": "After the shield has been damaged, Invisible Woman can press the F key to reclaim the shield and restore its value",
+        "Special Effect 3": "If no Guardian Shield is present, pressing the recall key now deploys a shield in front of Invisible Woman",
+        "Maximum Shield Value": "200",
+        "Cooldown After Destroyed": "6s",
+        "Recovery Shield Value Per Second": "34"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105042,
+      "name": "Guardian Shield - Recall",
+      "type": "Normal",
+      "isCollab": false,
+      "transformation_id": "0"
+    },
+    {
+      "id": 105043,
+      "icon": "/abilities/105043.webp",
+      "name": "Defensive Shell",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Generate a force shield in front of you. The shield can block damage and provide <Buff>Healing Over Time</> to nearby allies. Enemies that pass through the shield are <Debuff>Slowed</>.",
+      "transformation_id": "0"
+    },
+    {
+      "id": 105051,
+      "icon": "/abilities/105051.webp",
+      "name": "Psionic Vortex",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Gather psionic energy and then cast it. Upon impact or pressing the {Ability2} key again, it erupts into a psionic vortex, continuously drawing in enemies and causing damage.",
+      "additional_fields": {
+        "Key": "Shift",
+        "Casting": "Single-cast projectile with delayed impact that also generates a spell field",
+        "Cooldown": "12s",
+        "Slow Rate": "Center 50%, Edge 0",
+        "Special Effect": "Applies a slow effect to enemies within the spell field; the closer they are to the center of the field, the greater the slow effect",
+        "Projectile Speed": "80 m/s",
+        "Spell Field Range": "5m radius",
+        "Spell Field Damage": "35/sec",
+        "Spell Field Duration": "4s"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105061,
+      "icon": "/abilities/105061.webp",
+      "name": "Force Physics",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Manipulate psionic energy to push or pull enemies in front of you.",
+      "additional_fields": {
+        "Key": "E",
+        "Range": "1.5m radius, 35m length",
+        "Damage": "55",
+        "Casting": "Cylindrical Spell Field",
+        "Cooldown": "10s",
+        "Pull-Range": "7m",
+        "Push Range": "12m"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105071,
+      "icon": "/abilities/105071.webp",
+      "name": "Invisible Boundary",
+      "type": "Ultimate",
+      "isCollab": false,
+      "description": "Manifest an unseen force field within a chosen area, rendering allies inside undetectable by enemies and providing <Buff>Healing Over Time</>. Enemies that pass through the field are <Debuff>Slowed</>.",
+      "additional_fields": {
+        "Key": "Q",
+        "Range": "10m radius, 40m height",
+        "Casting": "Targeted, generates a cylindrical spell field",
+        "Duration": "8s",
+        "Energy Cost": "4500",
+        "Slow Duration": "1s",
+        "Healing Amount": "180/sec",
+        "Special Effect": "Slows enemies within range by 20%",
+        "Pass-Through Slow Rate": "55%"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105081,
+      "name": "Fantasti-force",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "The Invisible Woman taps into her powers, channeling Psionic Might to fortify the entire Fantastic Four team. This formidable force bolsters {104000}{000001}{105100}{000003}{101700}, granting damage resistance. Once activated, they can continually generate <Buff>Bonus Health</>, making up for lost Health with each passing moment.",
+      "additional_fields": {
+        "Key": "Passive",
+        "Team-Up Bonus": "15% Healing Boost"
+      },
+      "transformation_id": "0"
+    }
+  ]
+}

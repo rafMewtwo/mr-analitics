@@ -1,0 +1,607 @@
+{
+  "match_details": {
+    "match_uid": "5668087_1779049768_1418069_11001_41",
+    "game_mode": {
+      "game_mode_id": 2,
+      "game_mode_name": "Competitive"
+    },
+    "replay_id": "101577108407",
+    "mvp_uid": 1490660014,
+    "mvp_hero_id": 1060,
+    "svp_uid": 1098156619,
+    "svp_hero_id": 1032,
+    "match_dynamic_fields": {
+      "ban_pick_info": []
+    },
+    "match_players": [
+      {
+        "player_uid": 1098156619,
+        "nick_name": "haechanie",
+        "player_icon": 31020001,
+        "camp": 1,
+        "cur_hero_id": 1032,
+        "cur_hero_icon": "/heroes/transformations/squirrel-girl-headbig-0.webp",
+        "is_win": 0,
+        "kills": 38,
+        "deaths": 6,
+        "assists": 1,
+        "final_hits": 20,
+        "solo_kill": 3,
+        "total_hero_damage": 30633.27737236023,
+        "total_hero_heal": 0,
+        "total_damage_taken": 7676.710275173187,
+        "badges": [
+          {
+            "name": "Penta!",
+            "id": 4,
+            "count": 1
+          },
+          {
+            "name": "Relentless Offense",
+            "id": 9,
+            "count": 1
+          },
+          {
+            "name": "Mighty Vanquisher",
+            "id": 11,
+            "count": 1
+          },
+          {
+            "name": "SVP",
+            "id": 2,
+            "count": 1
+          }
+        ],
+        "player_heroes": [
+          {
+            "hero_id": 1048,
+            "play_time": 178.4742791224271,
+            "kills": 2,
+            "deaths": 3,
+            "assists": 0,
+            "session_hit_rate": 0.2834067547723935,
+            "hero_icon": "/heroes/transformations/psylocke-headbig-0.webp"
+          },
+          {
+            "hero_id": 1032,
+            "play_time": 651.8390456940979,
+            "kills": 36,
+            "deaths": 3,
+            "assists": 1,
+            "session_hit_rate": 0.31993006993006995,
+            "hero_icon": "/heroes/transformations/squirrel-girl-headbig-0.webp"
+          }
+        ],
+        "dynamic_fields": {
+          "name": null,
+          "level": 5,
+          "new_level": 5,
+          "add_score": -18.990934232543168,
+          "new_score": 3396.045507050547,
+          "system": "PC"
+        }
+      },
+      {
+        "player_uid": 752656604,
+        "nick_name": "Shinodda",
+        "player_icon": 30000901,
+        "camp": 1,
+        "cur_hero_id": 1058,
+        "cur_hero_icon": "/heroes/transformations/gambit-headbig-0.webp",
+        "is_win": 0,
+        "kills": 18,
+        "deaths": 5,
+        "assists": 36,
+        "final_hits": 3,
+        "solo_kill": 0,
+        "total_hero_damage": 8872.279363393784,
+        "total_hero_heal": 22480.752288103104,
+        "total_damage_taken": 9216.903294801712,
+        "badges": [
+          {
+            "name": "Trusty Sidekick",
+            "id": 8,
+            "count": 1
+          }
+        ],
+        "player_heroes": [
+          {
+            "hero_id": 1058,
+            "play_time": 830.313324816525,
+            "kills": 18,
+            "deaths": 5,
+            "assists": 36,
+            "session_hit_rate": 0.3304157549234136,
+            "hero_icon": "/heroes/transformations/gambit-headbig-0.webp"
+          }
+        ],
+        "dynamic_fields": {
+          "name": null,
+          "level": 4,
+          "new_level": 4,
+          "add_score": -40,
+          "new_score": 3310,
+          "system": "PC"
+        }
+      },
+      {
+        "player_uid": 1534571215,
+        "nick_name": "Cartman Ninja",
+        "player_icon": 31057001,
+        "camp": 1,
+        "cur_hero_id": 1041,
+        "cur_hero_icon": "/heroes/transformations/winter-soldier-headbig-0.webp",
+        "is_win": 0,
+        "kills": 24,
+        "deaths": 9,
+        "assists": 5,
+        "final_hits": 14,
+        "solo_kill": 1,
+        "total_hero_damage": 18788.602817058563,
+        "total_hero_heal": 0,
+        "total_damage_taken": 12086.03069138527,
+        "badges": [
+          {
+            "name": "Triple!",
+            "id": 6,
+            "count": 3
+          }
+        ],
+        "player_heroes": [
+          {
+            "hero_id": 1041,
+            "play_time": 830.313324816525,
+            "kills": 24,
+            "deaths": 9,
+            "assists": 5,
+            "session_hit_rate": 0.3510204081632653,
+            "hero_icon": "/heroes/transformations/winter-soldier-headbig-0.webp"
+          }
+        ],
+        "dynamic_fields": {
+          "name": null,
+          "level": 2,
+          "new_level": 2,
+          "add_score": -40,
+          "new_score": 3110,
+          "system": "PC"
+        }
+      },
+      {
+        "player_uid": 262283085,
+        "nick_name": "SpareLogn",
+        "player_icon": 30000085,
+        "camp": 1,
+        "cur_hero_id": 1018,
+        "cur_hero_icon": "/heroes/transformations/doctor-strange-headbig-0.webp",
+        "is_win": 0,
+        "kills": 21,
+        "deaths": 5,
+        "assists": 16,
+        "final_hits": 4,
+        "solo_kill": 2,
+        "total_hero_damage": 11129.689777255058,
+        "total_hero_heal": 13266.95709180832,
+        "total_damage_taken": 26861.81385588646,
+        "badges": null,
+        "player_heroes": [
+          {
+            "hero_id": 1025,
+            "play_time": 390.01213262602687,
+            "kills": 16,
+            "deaths": 2,
+            "assists": 16,
+            "session_hit_rate": 0.8108882521489972,
+            "hero_icon": "/heroes/transformations/cloak-dagger-headbig-0.webp"
+          },
+          {
+            "hero_id": 1018,
+            "play_time": 440.3011921904981,
+            "kills": 5,
+            "deaths": 3,
+            "assists": 0,
+            "session_hit_rate": 0.4303977272727273,
+            "hero_icon": "/heroes/transformations/doctor-strange-headbig-0.webp"
+          }
+        ],
+        "dynamic_fields": {
+          "name": null,
+          "level": 5,
+          "new_level": 5,
+          "add_score": -40,
+          "new_score": 3390,
+          "system": "PC"
+        }
+      },
+      {
+        "player_uid": 737090980,
+        "nick_name": "Luna Saturnyne",
+        "player_icon": 31030208,
+        "camp": 1,
+        "cur_hero_id": 1060,
+        "cur_hero_icon": "/heroes/transformations/white-fox-headbig-0.webp",
+        "is_win": 0,
+        "kills": 28,
+        "deaths": 8,
+        "assists": 21,
+        "final_hits": 8,
+        "solo_kill": 0,
+        "total_hero_damage": 13718.695892333984,
+        "total_hero_heal": 20086.62802362442,
+        "total_damage_taken": 21811.82030272484,
+        "badges": null,
+        "player_heroes": [
+          {
+            "hero_id": 1062,
+            "play_time": 74.10397462919354,
+            "kills": 1,
+            "deaths": 2,
+            "assists": 1,
+            "session_hit_rate": 0.7,
+            "hero_icon": null
+          },
+          {
+            "hero_id": 10571,
+            "play_time": 147.3917134720832,
+            "kills": 0,
+            "deaths": 2,
+            "assists": 0,
+            "session_hit_rate": 0.3157894736842105,
+            "hero_icon": null
+          },
+          {
+            "hero_id": 1060,
+            "play_time": 608.8176367152482,
+            "kills": 27,
+            "deaths": 4,
+            "assists": 20,
+            "session_hit_rate": 0.5584594222833562,
+            "hero_icon": "/heroes/transformations/white-fox-headbig-0.webp"
+          }
+        ],
+        "dynamic_fields": {
+          "name": null,
+          "level": 4,
+          "new_level": 4,
+          "add_score": -40,
+          "new_score": 3310,
+          "system": "PC"
+        }
+      },
+      {
+        "player_uid": 1892486988,
+        "nick_name": "Mteoxx120",
+        "player_icon": 31057202,
+        "camp": 1,
+        "cur_hero_id": 1065,
+        "cur_hero_icon": "/heroes/transformations/rogue-headbig-0.webp",
+        "is_win": 0,
+        "kills": 21,
+        "deaths": 11,
+        "assists": 8,
+        "final_hits": 9,
+        "solo_kill": 3,
+        "total_hero_damage": 18580.508723139763,
+        "total_hero_heal": 2558.044361114502,
+        "total_damage_taken": 25129.197180390358,
+        "badges": null,
+        "player_heroes": [
+          {
+            "hero_id": 1065,
+            "play_time": 830.313324816525,
+            "kills": 21,
+            "deaths": 11,
+            "assists": 8,
+            "session_hit_rate": 0.48509485094850946,
+            "hero_icon": "/heroes/transformations/rogue-headbig-0.webp"
+          }
+        ],
+        "dynamic_fields": {
+          "name": null,
+          "level": 4,
+          "new_level": 4,
+          "add_score": -40,
+          "new_score": 3310,
+          "system": "PC"
+        }
+      },
+      {
+        "player_uid": 982278870,
+        "nick_name": "Ticourso",
+        "player_icon": 31029207,
+        "camp": 0,
+        "cur_hero_id": 1032,
+        "cur_hero_icon": "/heroes/transformations/squirrel-girl-headbig-0.webp",
+        "is_win": 1,
+        "kills": 25,
+        "deaths": 10,
+        "assists": 2,
+        "final_hits": 11,
+        "solo_kill": 3,
+        "total_hero_damage": 18102.996300697327,
+        "total_hero_heal": 0,
+        "total_damage_taken": 6649.919796586037,
+        "badges": [
+          {
+            "name": "Penta!",
+            "id": 4,
+            "count": 1
+          }
+        ],
+        "player_heroes": [
+          {
+            "hero_id": 1038,
+            "play_time": 574.5529738552868,
+            "kills": 14,
+            "deaths": 8,
+            "assists": 1,
+            "session_hit_rate": 0.6741803278688525,
+            "hero_icon": "/heroes/transformations/scarlet-witch-headbig-0.webp"
+          },
+          {
+            "hero_id": 1032,
+            "play_time": 255.76035096123815,
+            "kills": 11,
+            "deaths": 2,
+            "assists": 1,
+            "session_hit_rate": 0.29292929292929293,
+            "hero_icon": "/heroes/transformations/squirrel-girl-headbig-0.webp"
+          }
+        ],
+        "dynamic_fields": {
+          "name": null,
+          "level": 4,
+          "new_level": 4,
+          "add_score": 30.69942115368167,
+          "new_score": 3361.3927412417993,
+          "system": "PC"
+        }
+      },
+      {
+        "player_uid": 1490660014,
+        "nick_name": "lucho1709",
+        "player_icon": 31057202,
+        "camp": 0,
+        "cur_hero_id": 1060,
+        "cur_hero_icon": "/heroes/transformations/white-fox-headbig-0.webp",
+        "is_win": 1,
+        "kills": 22,
+        "deaths": 9,
+        "assists": 18,
+        "final_hits": 7,
+        "solo_kill": 0,
+        "total_hero_damage": 12880.460083007812,
+        "total_hero_heal": 25753.762535333633,
+        "total_damage_taken": 20894.624000668526,
+        "badges": [
+          {
+            "name": "MVP",
+            "id": 1,
+            "count": 1
+          }
+        ],
+        "player_heroes": [
+          {
+            "hero_id": 1060,
+            "play_time": 830.313324816525,
+            "kills": 22,
+            "deaths": 9,
+            "assists": 18,
+            "session_hit_rate": 0.6469760900140648,
+            "hero_icon": "/heroes/transformations/white-fox-headbig-0.webp"
+          }
+        ],
+        "dynamic_fields": {
+          "name": null,
+          "level": 5,
+          "new_level": 5,
+          "add_score": 40,
+          "new_score": 3470,
+          "system": "PC"
+        }
+      },
+      {
+        "player_uid": 668151622,
+        "nick_name": "Lopesbjj07",
+        "player_icon": 31036207,
+        "camp": 0,
+        "cur_hero_id": 1031,
+        "cur_hero_icon": "/heroes/transformations/luna-snow-headbig-0.webp",
+        "is_win": 1,
+        "kills": 18,
+        "deaths": 9,
+        "assists": 27,
+        "final_hits": 2,
+        "solo_kill": 0,
+        "total_hero_damage": 10079.057476997375,
+        "total_hero_heal": 27727.076538920403,
+        "total_damage_taken": 9620.144827842712,
+        "badges": [
+          {
+            "name": "Gifted Healer",
+            "id": 12,
+            "count": 1
+          }
+        ],
+        "player_heroes": [
+          {
+            "hero_id": 1031,
+            "play_time": 830.313324816525,
+            "kills": 18,
+            "deaths": 9,
+            "assists": 27,
+            "session_hit_rate": 0.3538961038961039,
+            "hero_icon": "/heroes/transformations/luna-snow-headbig-0.webp"
+          }
+        ],
+        "dynamic_fields": {
+          "name": null,
+          "level": 4,
+          "new_level": 4,
+          "add_score": 34.37494382960995,
+          "new_score": 3361.9669152142365,
+          "system": "PC"
+        }
+      },
+      {
+        "player_uid": 2109539092,
+        "nick_name": "ProjectThunder",
+        "player_icon": 31040204,
+        "camp": 0,
+        "cur_hero_id": 1018,
+        "cur_hero_icon": "/heroes/transformations/doctor-strange-headbig-0.webp",
+        "is_win": 1,
+        "kills": 16,
+        "deaths": 8,
+        "assists": 2,
+        "final_hits": 10,
+        "solo_kill": 0,
+        "total_hero_damage": 19747.50346314907,
+        "total_hero_heal": 0,
+        "total_damage_taken": 44058.49543476105,
+        "badges": [
+          {
+            "name": "Impentrable Defence",
+            "id": 7,
+            "count": 1
+          }
+        ],
+        "player_heroes": [
+          {
+            "hero_id": 1053,
+            "play_time": 805.5738530363888,
+            "kills": 16,
+            "deaths": 8,
+            "assists": 2,
+            "session_hit_rate": 0.36159039759939987,
+            "hero_icon": "/heroes/transformations/emma-frost-headbig-0.webp"
+          },
+          {
+            "hero_id": 1018,
+            "play_time": 24.739471780136228,
+            "kills": 0,
+            "deaths": 0,
+            "assists": 0,
+            "session_hit_rate": 0,
+            "hero_icon": "/heroes/transformations/doctor-strange-headbig-0.webp"
+          }
+        ],
+        "dynamic_fields": {
+          "name": null,
+          "level": 4,
+          "new_level": 4,
+          "add_score": 40,
+          "new_score": 3390,
+          "system": "PC"
+        }
+      },
+      {
+        "player_uid": 739701659,
+        "nick_name": "VonaricK",
+        "player_icon": 31047205,
+        "camp": 0,
+        "cur_hero_id": 1042,
+        "cur_hero_icon": "/heroes/transformations/peni-parker-headbig-0.webp",
+        "is_win": 1,
+        "kills": 17,
+        "deaths": 10,
+        "assists": 16,
+        "final_hits": 5,
+        "solo_kill": 0,
+        "total_hero_damage": 15107.591054677963,
+        "total_hero_heal": 7261.582977294922,
+        "total_damage_taken": 31265.288714408875,
+        "badges": null,
+        "player_heroes": [
+          {
+            "hero_id": 10571,
+            "play_time": 390.01213262602687,
+            "kills": 8,
+            "deaths": 5,
+            "assists": 2,
+            "session_hit_rate": 0.5853658536585366,
+            "hero_icon": null
+          },
+          {
+            "hero_id": 1042,
+            "play_time": 440.3011921904981,
+            "kills": 9,
+            "deaths": 5,
+            "assists": 14,
+            "session_hit_rate": 0.3457142857142857,
+            "hero_icon": "/heroes/transformations/peni-parker-headbig-0.webp"
+          }
+        ],
+        "dynamic_fields": {
+          "name": null,
+          "level": 4,
+          "new_level": 4,
+          "add_score": 40,
+          "new_score": 3390,
+          "system": "PC"
+        }
+      },
+      {
+        "player_uid": 576479335,
+        "nick_name": "allvezzz",
+        "player_icon": 31044201,
+        "camp": 0,
+        "cur_hero_id": 1026,
+        "cur_hero_icon": "/heroes/transformations/black-panther-headbig-0.webp",
+        "is_win": 1,
+        "kills": 15,
+        "deaths": 12,
+        "assists": 2,
+        "final_hits": 9,
+        "solo_kill": 3,
+        "total_hero_damage": 13462.938587665558,
+        "total_hero_heal": 57.165557861328125,
+        "total_damage_taken": 12546.14456486702,
+        "badges": [
+          {
+            "name": "Triple!",
+            "id": 6,
+            "count": 1
+          }
+        ],
+        "player_heroes": [
+          {
+            "hero_id": 1052,
+            "play_time": 390.01213262602687,
+            "kills": 5,
+            "deaths": 6,
+            "assists": 0,
+            "session_hit_rate": 0.5220588235294118,
+            "hero_icon": "/heroes/transformations/iron-fist-headbig-0.webp"
+          },
+          {
+            "hero_id": 1055,
+            "play_time": 263.0432638935745,
+            "kills": 5,
+            "deaths": 4,
+            "assists": 2,
+            "session_hit_rate": 0.2875,
+            "hero_icon": "/heroes/transformations/daredevil-headbig-0.webp"
+          },
+          {
+            "hero_id": 1026,
+            "play_time": 177.25792829692364,
+            "kills": 5,
+            "deaths": 2,
+            "assists": 0,
+            "session_hit_rate": 0.19672131147540983,
+            "hero_icon": "/heroes/transformations/black-panther-headbig-0.webp"
+          }
+        ],
+        "dynamic_fields": {
+          "name": null,
+          "level": 4,
+          "new_level": 4,
+          "add_score": 27.847118363464233,
+          "new_score": 3390.314035052515,
+          "system": "PC"
+        }
+      }
+    ]
+  }
+}
