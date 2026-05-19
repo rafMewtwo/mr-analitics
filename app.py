@@ -1,13 +1,13 @@
 """Landing page — Marvel Rivals Analytics.
 
-Visual hero + CTA pro dashboard em /haechanie.
+Visual hero + CTA pro dashboard. Sem referência a nenhum jogador específico:
+quem o app analisa fica encapsulado dentro da página /haechanie.
 """
 
 from __future__ import annotations
 
 import streamlit as st
 
-from data import load_haechanie
 from ui.theme import apply_theme
 
 st.set_page_config(
@@ -30,38 +30,18 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-
-@st.cache_resource(show_spinner=False)
-def _data():
-    try:
-        return load_haechanie()
-    except Exception:
-        return None
-
-
-data = _data()
-quick_stats = ""
-if data is not None and not data.matches_df.empty:
-    df = data.matches_df
-    wr = float(df["won"].mean()) * 100
-    quick_stats = (
-        f"{data.rank} · {len(df)} partidas · {wr:.0f}% WR · "
-        f"level {data.level}"
-    )
-
 st.markdown(
-    f"""
+    """
     <div class="landing-wrap">
       <div class="landing-card">
         <div class="landing-badge">● LIVE ANALYTICS</div>
         <h1 class="landing-title">MARVEL<br/>RIVALS</h1>
-        <div class="landing-sub">Performance Analytics · Single Player Edition</div>
+        <div class="landing-sub">Performance Analytics</div>
         <div class="landing-pitch">
           Dashboard data-driven com plano de climb quantificado, análise de counters,
           sinergia com teammates, precisão vs média global, e insights que você não
           enxerga jogando — mas a câmera dos dados sim.
         </div>
-        {f'<div class="landing-stats">{quick_stats}</div>' if quick_stats else ''}
       </div>
     </div>
     """,
@@ -70,7 +50,7 @@ st.markdown(
 
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
-    if st.button("ANALISAR HAECHANIE →", type="primary", use_container_width=True):
+    if st.button("ENTRAR NO DASHBOARD →", type="primary", use_container_width=True):
         st.switch_page("pages/1_haechanie.py")
 
 st.markdown(
