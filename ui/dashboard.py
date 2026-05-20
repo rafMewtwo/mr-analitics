@@ -561,6 +561,27 @@ def tab_whatif(df: pd.DataFrame) -> None:
         st.success("✨ Você já não tem partidas em condições 'remediaveis'. Continue assim.")
         return
 
+    # Guarda: se evitar as condições 'remediaveis' NÃO melhoraria (uplift <= 0),
+    # significa que nessa amostra elas não estão te prejudicando. Mostrar a
+    # projeção negativa confundiria — então damos o contexto honesto.
+    if impact.get("wr_uplift_pp", 0) <= 0:
+        good = impact.get("good_wr", 0) * 100
+        bad = impact.get("bad_wr", 0) * 100
+        st.info(
+            f"🔍 Nesta amostra, suas partidas em condições 'remediáveis' "
+            f"({impact['remediable_matches']} de {impact['total_matches']} — "
+            f"madrugada={impact['late_count']}, pós-tilt={impact['tilt_count']}) "
+            f"**não tiveram WR pior** que as demais "
+            f"(**{bad:.0f}%** nelas vs **{good:.0f}%** nas outras). "
+            f"Ou seja: evitá-las não traria ganho estimado de win rate — o gargalo "
+            f"está em outro lugar (mecânica, hero pool, comunicação), não em horário/tilt."
+        )
+        st.caption(
+            "Obs: com amostra pequena isso pode ser ruído. Conforme mais partidas "
+            "forem acumuladas, esse sinal fica mais confiável."
+        )
+        return
+
     st.markdown(
         "**Premissa:** se você seguisse as recomendações geradas (evitar madrugada + "
         "pausar após 2 derrotas), as partidas em condições ruins performariam como as boas."
