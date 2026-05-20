@@ -1,0 +1,16 @@
+{
+  "hero_id": 1038,
+  "hero_name": "scarlet witch",
+  "hero_icon": "/heroes/transformations/scarlet-witch-headbig-0.webp",
+  "matches": 81,
+  "wins": 23,
+  "k": 18.074074074074073,
+  "d": 6.111111111111111,
+  "a": 2.0617283950617282,
+  "play_time": "12h 1m 2s",
+  "total_hero_damage": 1186891.3331319094,
+  "total_hero_heal": 79.15208625793457,
+  "total_damage_taken": 540773.8406088352,
+  "session_hit_rate": 0.5003615711697026,
+  "solo_kill": 1.1358024691358024
+}

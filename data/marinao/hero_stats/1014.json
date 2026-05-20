@@ -1,0 +1,16 @@
+{
+  "hero_id": 1014,
+  "hero_name": "the punisher",
+  "hero_icon": "/heroes/transformations/the-punisher-headbig-0.webp",
+  "matches": 2638,
+  "wins": 1260,
+  "k": 19.713419257012887,
+  "d": 6.554965883244883,
+  "a": 0.04814253222137983,
+  "play_time": "396h 49m 49s",
+  "total_hero_damage": 59455787.67623246,
+  "total_hero_heal": 157338.88563930697,
+  "total_damage_taken": 26563354.989530288,
+  "session_hit_rate": 0.4513136902393539,
+  "solo_kill": 1.6501137225170583
+}

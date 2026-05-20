@@ -1,0 +1,317 @@
+{
+  "id": "1058",
+  "name": "gambit",
+  "real_name": "Remy Lebeau",
+  "imageUrl": "/rivals/heroes/card/gambit.png",
+  "role": "Strategist",
+  "attack_type": "Melee Heroes",
+  "team": [
+    "X_men",
+    "Mutants"
+  ],
+  "difficulty": "4",
+  "bio": "Charming and free-spirited, Remy LeBeau manipulates kinetic energy with unmatched skill. With a flick of his wrist, his charged playing cards become explosive projectiles for foes or heal his allies through kinetic shifting. When the charismatic Gambit lights up the battlefield, he always plays to win!",
+  "lore": "No lore available",
+  "transformations": [
+    {
+      "id": "0",
+      "name": "Gambit",
+      "icon": "/heroes/transformations/gambit-headbig-0.webp",
+      "health": "250",
+      "movement_speed": "600"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "1058001",
+      "name": "Gambit",
+      "icon": "/costumes/gambit-1058001.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1058100",
+      "name": "Crimson Heart",
+      "icon": "/costumes/crimson-heart-1058100.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1058101",
+      "name": "Sacrificial Pawn",
+      "icon": "/costumes/sacrificial-pawn-1058101.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1058102",
+      "name": "Will Of Galacta",
+      "icon": "/costumes/will-of-galacta-1058102.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1058300",
+      "name": "Thieves Guildmaster",
+      "icon": "/costumes/thieves-guildmaster-1058300.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1058302",
+      "name": "Mr X",
+      "icon": "/costumes/mr-x-1058302.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1058303",
+      "name": "Alluring Ace",
+      "icon": "/costumes/alluring-ace-1058303.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1058500",
+      "name": "Barrier Buster",
+      "icon": "/costumes/barrier-buster-1058500.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    }
+  ],
+  "abilities": [
+    {
+      "id": 105811,
+      "name": "Street Staff Arts",
+      "type": "Weapon",
+      "isCollab": false,
+      "description": "Gambit skillfully wields his staff to pummel enemies in front of him.",
+      "transformation_id": "0"
+    },
+    {
+      "id": 105821,
+      "icon": "/abilities/105821.webp",
+      "name": "Kinetic Cards",
+      "type": "Weapon",
+      "isCollab": false,
+      "description": "Launch three kinetic-charged cards in an arc ahead. Each card detonates on impact, creating a single-target explosion that damages enemies and heals allies.",
+      "additional_fields": {
+        "Key": "Left Click",
+        "Ammo": "21",
+        "Casting": "Projectile that fires in a straight trajectory",
+        "Fire Rate": "0.45s per round",
+        "Card Damage": "20 damage per round",
+        "Card Healing": "28 health per round",
+        "Critical Hit": "No",
+        "Maximum Distance": "60m",
+        "Projectile Speed": "150 m/s",
+        "Cards Launched Per Unleash": "3 cards per unleash",
+        "Angle Between the Side Cards and the Center Card": "2°"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105822,
+      "name": "Hand Reorder",
+      "type": "Weapon",
+      "isCollab": false,
+      "description": "Draw a fresh deck, shuffle, and reload ammo.",
+      "transformation_id": "0"
+    },
+    {
+      "id": 105831,
+      "icon": "/abilities/105831.webp",
+      "name": "Bayou Bash",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Channel kinetic energy into the bo staff, then slam it into the ground after a sweeping strike, creating a shockwave that damages nearby enemies and heals allies. Follow up <Orange>Cajun Charge</> with <Orange>Big Easy Impact</> to sprint forward while striking with the bo staff, triggering three kinetic explosions along the path.",
+      "additional_fields": {
+        "Key": "Right Click",
+        "Range": "5m spherical radius",
+        "Damage": "25 per field",
+        "Casting": "Dash",
+        "Healing": "To allies and self: 15/hit",
+        "Cooldown": "2 charges, with each charge taking 8s to recharge",
+        "Dash Distance": "12m",
+        "Big Easy Impact": " ",
+        "Spell Field Range": "5m spherical radius",
+        "Spell Field Generation Interval": "0.1",
+        "Spell Field Generation Quantity": "3"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105841,
+      "icon": "/abilities/105841.webp",
+      "name": "Cajun Charge",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Side-step forward with bo staff in hand, dashing a short distance.",
+      "additional_fields": {
+        "Key": "Shift",
+        "Casting": "Dash",
+        "Cooldown": "2 charges, with each charge taking 12.5s to recharge.",
+        "Dash Duration": "8m"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105842,
+      "name": "Big Easy Impact",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Follow up <Orange>Cajun Charge</> with a forward sprint while striking with the bo staff, triggering three kinetic explosions along the path.",
+      "transformation_id": "0"
+    },
+    {
+      "id": 105851,
+      "icon": "/abilities/105851.webp",
+      "name": "Healing Hearts",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Conjure a Heart card by consuming one stack of <Orange>Sleight of Hand</> to Heal and switch to the <Buff>Healing Hearts</> deck.",
+      "additional_fields": {
+        "Key": "E",
+        "Cooldown": "4 charges, with each charge taking 8s to recharge.",
+        "Self Healing": "Heal 20 health per second within duration",
+        "Special Effect": "Within the duration, consume one stack of Sleight of Hand to use Bridge Boost and Purifying Pick-Up.",
+        "Maximum Duration": "6s"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105852,
+      "icon": "/abilities/105852.webp",
+      "name": "Bridge Boost",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "While the <Buff>Healing Hearts</> deck is active, spend one stack of <Orange>Sleight of Hand</> to <Orange>Flush</> and card spring before firing a full deck forward. Cards bounce between allies on impact, granting Health and a <Buff>Healing Boost</>.",
+      "additional_fields": {
+        "Key": "E",
+        "Casting": "Projectile that fires in a straight trajectory.",
+        "Healing": "50 damage per round",
+        "Duration": "4s",
+        "Special Effect": "The projectile automatically tracks allies and will bounce between allies on impact. Bridge Boost bounces on a single target are set to a maximum of 2",
+        "Projectile Speed": "120m/s",
+        "Healing Boost Ratio": "0.15",
+        "Max Number of Ricochets": "6"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105853,
+      "icon": "/abilities/105853.webp",
+      "name": "Purifying Pick-up",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "While the <Buff>Healing Hearts</> deck is active, spend one stack of <Orange>Sleight of Hand</> to <Orange>Raise</> and launch a cluster of cards in an arc ahead. Explosions heal nearby allies and <Buff>Purify</> them.",
+      "additional_fields": {
+        "Key": "F",
+        "Casting": "Projectile that generates a spell field upon impact.",
+        "Special Effect": "The spell field applies Purify to allies upon impact. This can take effect on allies a maximum of 2 times and on himself once.",
+        "Maximum Distance": "15m",
+        "Projectile Speed": "100 m/s",
+        "Spell Field Range": "5m spherical radius",
+        "Spell Field Healing": "70 per field",
+        "Number of Generated Projectiles": "10"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105861,
+      "icon": "/abilities/105861.webp",
+      "name": "Breaking Spades",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Conjure a Spade card by consuming one stack of <Orange>Sleight of Hand</> to gain a <Buff>Damage Boost</> and switch to the <Orange>Breaking Spades</> deck.",
+      "additional_fields": {
+        "Key": "F",
+        "Cooldown": "4 charges, with each charge taking 8s to recharge",
+        "Special Effect": "Within the duration, consume one stack of Sleight of Hand to use Explosive Trick and Bidding Barrage",
+        "Maximum Duration": "6s",
+        "Self Damage Boost": "10%"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105862,
+      "icon": "/abilities/105862.webp",
+      "name": "Explosive Trick",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "While the <Orange>Breaking Spades</> deck is active, spend one stack of <Orange>Sleight of Hand</> to <Orange>Flush</> and fire a full set of cards forward. Cards explode on impact, dealing damage while inflicting <Debuff>Reduced Healing</>.",
+      "additional_fields": {
+        "Key": "F",
+        "Damage": "70",
+        "Casting": "Projectile that generates a spell field upon impact",
+        "Projectile Speed": "150 m/s",
+        "Spell Field Range": "5m spherical radius",
+        "Reduced Healing Ratio": "0.25",
+        "Reduced Healing Duration": "4s"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105863,
+      "icon": "/abilities/105863.webp",
+      "name": "Bidding Barrage",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "While the <Orange>Breaking Spades</> deck is active, spend one stack of <Orange>Sleight of Hand</> to <Orange>Raise</> and scatter cards in an arc in all directions. Explosions damage enemies and <Debuff>Launch</> them up.",
+      "additional_fields": {
+        "Key": "E",
+        "Damage": "70",
+        "Casting": "Projectile that generates a spell field upon impact",
+        "Special Effect": "Launch enemies up on hit, which can take effect only once.",
+        "Maximum Distance": "15m",
+        "Projectile Speed": "100 m/s",
+        "Spell Field Range": "5m spherical radius",
+        "Number of Projectiles": "10"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105871,
+      "icon": "/abilities/105871.webp",
+      "name": "Ragin' Royal Flush",
+      "type": "Ultimate",
+      "isCollab": false,
+      "description": "Lock onto an ally within sight and unleash multiple Aces that heal and <Buff>Purify</>. Both enter the <Buff>Kinetic Transfer</> state, granting increased <Buff>Movement Speed</> and <Buff>Jump Boost</>, while enhancing attacks with additional single-target explosive damage and providing the ally with Ultimate Ability Charge Acceleration.",
+      "additional_fields": {
+        "Key": "Q",
+        "Range": "Cone shape spell field, angle range: 110°, length: 40m",
+        "Casting": "Targeted",
+        "Energy Cost": "4500",
+        "Special Effect": "Gambit and the targeted ally receive the Purify and Jump Boost effect.",
+        "One-Time Healing": "100",
+        "Healing over time": "55/s",
+        "Spell Field Duration": "8s",
+        "Enhanced Damage Ratio": "25%",
+        "Damage Trigger Interval": "0.5s",
+        "Movement Speed Boost Ratio": "40%",
+        "Ultimate Abilities Charge Acceleration Ratio": "20%"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105881,
+      "name": "Ace Of Aces",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Gambit shares kinetic energy with Magneto and Rogue. When Magneto activates this ability, <Orange>Iron Volley</> is replaced with <Orange>Ace Greatsword</>, which detonates upon striking enemies. The explosion leaves residual kinetic energy within the target, inflicting secondary damage after a brief delay. When Rogue activates the ability, each of her attacks causes a kinetic explosion that damages nearby enemies and heals nearby allies.",
+      "additional_fields": {
+        "Key": "Passive",
+        "Team-Up Bonus": "5% Healing Boost"
+      },
+      "transformation_id": "0"
+    }
+  ]
+}

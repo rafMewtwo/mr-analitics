@@ -1,0 +1,258 @@
+{
+  "id": "1038",
+  "name": "scarlet witch",
+  "real_name": "Wanda Maximoff",
+  "imageUrl": "/rivals/heroes/card/scarlet-witch.png",
+  "role": "Duelist",
+  "attack_type": "Projectile Heroes",
+  "team": [
+    "Avengers"
+  ],
+  "difficulty": "1",
+  "bio": "Wanda Maximoff is adept at harnessing formidable chaos magic, casting hexes with the power to twist and reshape reality itself. Energy, space, and matter are mere playthings in the hands of Scarlet Witch!",
+  "lore": "Wanda Maximoff's ability to manipulate chaos magic makes her one of the most powerful living beings in the universe. As the Scarlet Witch, she seeks to harness that chaos, restoring some semblance of order to a world that is constantly on the brink of destruction.\nSince the Timestream Entanglement, chaos magic is one of the few forces holding the threads of reality together. Should her powers fail, the Scarlet Witch truly believes that this universe will disintegrate, along with everyone in it. It is a fate she refuses to allow… no matter the cost…",
+  "transformations": [
+    {
+      "id": "0",
+      "name": "Scarlet Witch",
+      "icon": "/heroes/transformations/scarlet-witch-headbig-0.webp",
+      "health": "250",
+      "movement_speed": "6 m/s"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "1038001",
+      "name": "Scarlet Witch",
+      "icon": "/costumes/scarlet-witch-1038001.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1038100",
+      "name": "White Witch",
+      "icon": "/costumes/white-witch-1038100.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1038101",
+      "name": "Nyx Weaver",
+      "icon": "/costumes/nyx-weaver-1038101.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1038102",
+      "name": "Will Of Galacta",
+      "icon": "/costumes/will-of-galacta-1038102.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1038300",
+      "name": "Immortal Sovereign",
+      "icon": "/costumes/immortal-sovereign-1038300.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1038301",
+      "name": "Phoenix Chaos",
+      "icon": "/costumes/phoenix-chaos-1038301.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1038304",
+      "name": "Twisted Conjurer",
+      "icon": "/costumes/twisted-conjurer-1038304.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1038500",
+      "name": "Chaos Gown",
+      "icon": "/costumes/chaos-gown-1038500.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1038501",
+      "name": "Emporium Matron",
+      "icon": "/costumes/emporium-matron-1038501.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1038502",
+      "name": "Witch Of The Evil Eye",
+      "icon": "/costumes/witch-of-the-evil-eye-1038502.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1038800",
+      "name": "Doctor Strange In The Multiverse Of Madness",
+      "icon": "/costumes/doctor-strange-in-the-multiverse-of-madness-1038800.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1038801",
+      "name": "The Queen Of The Dead",
+      "icon": "/costumes/the-queen-of-the-dead-1038801.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    }
+  ],
+  "abilities": [
+    {
+      "id": 103811,
+      "name": "Chaos Control",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Unleash Chaos Magic on enemies to deal damage and restore <Orange>Chaos Energy</>",
+      "additional_fields": {
+        "Key": "Left Click",
+        "Ammo": "Infinite",
+        "Range": "A cylindrical spell field with a radius of 3m and a height of 20m",
+        "Damage": "8.5 per hit",
+        "Casting": "Cylindrical Spell Field",
+        "Fire Rate": "0.1s per hit",
+        "Critical Hit": "No",
+        "Damage Falloff": "Falloff begins at 10m, decreasing to 90% at 20m",
+        "Special Effect 1": "Attack the nearest enemy within range",
+        "Special Effect 2": "Hitting with Chaos Control charges Chthonian Burst",
+        "Chthonian Burst Recharge Per Hit": "0.15 per hit"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 103821,
+      "name": "Chthonian Burst",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Consume <Orange>Chaos Energy</> to fire explosive magic missiles, damaging enemies.",
+      "additional_fields": {
+        "Key": "Right Click",
+        "Range": "3m spherical radius",
+        "Casting": "Straight-line projectile that generates a spell field upon impact",
+        "Charges": "4",
+        "Projectile Speed": "120 m/s",
+        "Projectile Damage": "40",
+        "Spell Field Damage": "40",
+        "Default Charging Speed": "0.2/s"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 103831,
+      "name": "Dark Seal",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Land a hit on a target or the scene, or press again to generate a Force Field that periodically <Debuff>Stuns</> enemies within range.",
+      "additional_fields": {
+        "Key": "E",
+        "Range": "3m spherical radius",
+        "Casting": "Straight-line projectile that generates a spell field upon impact",
+        "Cooldown": "12s",
+        "Projectile Speed": "60 m/s",
+        "Detection Interval": "1.25s",
+        "Spell Field Duration": "4.5s",
+        "Stun Duration Per Detection": "0.5s",
+        "Spell Field Generation Delay": "0.8s"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 103841,
+      "name": "Mystic Projection",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Enter the <Orange>Phased</> state for free-flight. Press {Ability2} to exit early.",
+      "additional_fields": {
+        "Key": "SHIFT",
+        "Casting": "Dash",
+        "Charges": "2",
+        "Duration": "1.5s",
+        "Movement Boost": "50%",
+        "Recharge Speed": "10s per charge",
+        "Special Effect": "During this period, Scarlet Witch enters the Projection state, can be healed by teammates"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 103842,
+      "name": "Teleportation Flight",
+      "type": "Normal",
+      "isCollab": false,
+      "description": null,
+      "transformation_id": "0"
+    },
+    {
+      "id": 103851,
+      "name": "Reality Erasure",
+      "type": "Ultimate",
+      "isCollab": false,
+      "description": "Engage in free-flight while gaining <Buff>Bonus Health</> and charging energy. While flying, continuously <Debuff>pull in</> nearby enemies, then unleash charged energy to deal massive area damage.",
+      "additional_fields": {
+        "Key": "Q",
+        "Range": "15m spherical radius",
+        "Damage": "9999",
+        "Casting": "Spherical Spell Field",
+        "Slow Rate": "Begin to slow down by 1.5s, with the effect gradually increasing to -25% by 3.5s",
+        "Charge Time": "4s",
+        "Energy Cost": "3400",
+        "Special Effect": "During this period, Scarlet Witch enters a Free-flight state, pulls in nearby enemies (within 15m radius) during cast charge. Max pull speed up to 3m/s",
+        "Bonus Health (Self)": "100"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 103871,
+      "name": "Telekinesis",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "HOLD {Jump} to fall slowly.",
+      "additional_fields": {
+        "Key": "Space",
+        "Descending Speed": "3.5 m/s",
+        "Horizontal Movement Speed": "6 m/s"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 103891,
+      "name": "Sorcery Surge",
+      "type": "Normal",
+      "isCollab": false,
+      "description": null,
+      "additional_fields": {
+        "Key": "Right Click",
+        "Casting": "Straight-line projectile that generates a spell field upon impact",
+        "Cooldown": "30s",
+        "Duration": "10s",
+        "Fire Rate": "0.15s per round",
+        "Projectile Speed": "120 m/s",
+        "Special Mechanic": "Chaos Control can released during the Sorcery Surge",
+        "Projectile Damage": "10",
+        "Spell Field Range": "1.5m spherical radius",
+        "Spell Field Damage": "6"
+      },
+      "transformation_id": "0"
+    }
+  ]
+}

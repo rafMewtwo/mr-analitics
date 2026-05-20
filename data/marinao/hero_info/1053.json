@@ -1,0 +1,288 @@
+{
+  "id": "1053",
+  "name": "emma frost",
+  "real_name": "Emma Frost",
+  "imageUrl": "/rivals/heroes/card/emma-frost.png",
+  "role": "Vanguard",
+  "attack_type": "0",
+  "team": [
+    "X_men",
+    "Mutants",
+    "Villains"
+  ],
+  "difficulty": "3",
+  "bio": "For Emma Frost, war is the purest form of art. With her formidable telepathic abilities, she intricately weaves a deadly mental web that ensnares her foes, while her indestructible diamond form lets her lead her teammates fearlessly into the fray. Forever elegant and composed, Emma reigns as the one true queen of the battlefield!",
+  "lore": "No lore available",
+  "transformations": [
+    {
+      "id": "0",
+      "name": "Emma Frost",
+      "icon": "/heroes/transformations/emma-frost-headbig-0.webp",
+      "health": "600",
+      "movement_speed": "6m/s"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "1053001",
+      "name": "Emma Frost",
+      "icon": "/costumes/emma-frost-1053001.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1053100",
+      "name": "Blue Sapphire",
+      "icon": "/costumes/blue-sapphire-1053100.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1053101",
+      "name": "Will Of Galacta",
+      "icon": "/costumes/will-of-galacta-1053101.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1053102",
+      "name": "Golden Diamond",
+      "icon": "/costumes/golden-diamond-1053102.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1053300",
+      "name": "Hellfire Protocol",
+      "icon": "/costumes/hellfire-protocol-1053300.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1053301",
+      "name": "Queen Of Diamonds",
+      "icon": "/costumes/queen-of-diamonds-1053301.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1053304",
+      "name": "Gala Glam",
+      "icon": "/costumes/gala-glam-1053304.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1053500",
+      "name": "X Revolution",
+      "icon": "/costumes/x-revolution-1053500.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1053501",
+      "name": "Phoenix Diamond",
+      "icon": "/costumes/phoenix-diamond-1053501.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1053502",
+      "name": "Black Queen Of The Marauders",
+      "icon": "/costumes/black-queen-of-the-marauders-1053502.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    }
+  ],
+  "abilities": [
+    {
+      "id": 105311,
+      "name": "Psionic Surge",
+      "type": "Weapon",
+      "isCollab": false,
+      "description": null,
+      "transformation_id": "0"
+    },
+    {
+      "id": 105321,
+      "icon": "/abilities/105321.webp",
+      "name": "Telepathic Pulse",
+      "type": "Weapon",
+      "isCollab": false,
+      "description": "Fire a psionic beam to deal damage; the longer the beam hits, the higher the damage.",
+      "additional_fields": {
+        "Key": "Left Click",
+        "Ammo": "70",
+        "Damage": "Damage increases with energy: 0 - 70/s, 99 - 110/s, full energy - 140/s",
+        "Casting": "Channeled",
+        "Attack Range": "18m",
+        "Special Effect": "Energy gain: Hero hit: 12/s; Sentience hit: 18/s; Common summons hit: 5/s; Shield hit: 6/s. Falloff begins 3s after not hitting an enemy, at a rate of 30/s",
+        "Ammo Consumption": "10/s"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105331,
+      "icon": "/abilities/105331.webp",
+      "name": "Mind's Aegis",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Create a levitating barrier at the designated location.",
+      "additional_fields": {
+        "Key": "Right Click",
+        "Casting": "Deployable Shield",
+        "Recovery Speed": "80/s",
+        "Reposition Cooldown": "3s",
+        "Maximum Shield Value": "400",
+        "Cooldown After Destroyed": "4s",
+        "Delayed Recovery After Release": "2s"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105332,
+      "icon": "/abilities/105332.webp",
+      "name": "Retract Psionic Barrier",
+      "type": "Normal",
+      "isCollab": false,
+      "description": null,
+      "transformation_id": "0"
+    },
+    {
+      "id": 105341,
+      "icon": "/abilities/105341.webp",
+      "name": "Diamond Form",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Activate <Orange>Diamond Form</> to transform your attack style while gaining <Buff>Damage Reduction</> and becoming <Buff>Unstoppable</>.",
+      "additional_fields": {
+        "Key": "SHIFT",
+        "Casting": "Switch Form",
+        "Cooldown": "15s",
+        "Duration": "8s",
+        "Special Effect": "20% Damage Reduction in Diamond form"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105342,
+      "icon": "/abilities/105342.webp",
+      "name": "Faceted Fury",
+      "type": "Weapon",
+      "isCollab": false,
+      "description": "In <Orange>Diamond Form</>, deliver a crushing double-fisted strike to enemies.",
+      "additional_fields": {
+        "Key": "Left Click",
+        "Damage": "First & second hit: 50; third hit: 70; fourth hit: 80",
+        "Casting": "Single-cast Spell Field",
+        "Attack Range": "4m"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105343,
+      "icon": "/abilities/105343.webp",
+      "name": "Crystal Kick",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "In <Orange>Diamond Form</>, unleash a flying kick forward and <Debuff>knock back</> enemies; extra damage is dealt if they're propelled into a wall.",
+      "additional_fields": {
+        "Key": "Right Click",
+        "Damage": "Hit damage: 40; damage increases to 90 when the target is knocked into walls",
+        "Casting": "Single-cast Spell Field",
+        "Cooldown": "2s",
+        "Hit Range": "5m",
+        "Special Effect": "Maximum knockback distance: 10m"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105344,
+      "icon": "/abilities/105344.webp",
+      "name": "Carbon Crush",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "In <Orange>Diamond Form</>, lunge forward to grab an enemy, then execute a back slam to inflict damage.",
+      "additional_fields": {
+        "Key": "E",
+        "Damage": "30",
+        "Casting": "Dash Based Control",
+        "Cooldown": "6s",
+        "Special Effect": "Control effect duration: 1.6s",
+        "Maximum Distance": "7m"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105351,
+      "icon": "/abilities/105351.webp",
+      "name": "Psychic Spear",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Seize control of an enemy's sentience—damage dealt to the <Orange>sentience</> cascades to the physical form and can be pierced by <Orange>Telepathic Pulse</>. When the sentience shatters, it unleashes extra damage on its owner.",
+      "additional_fields": {
+        "Key": "E",
+        "Damage": "Deal 5 damage per direct hit. When the sentience shatters, it deals damage to the target, which is equal to 25% of the target's maximum health",
+        "Casting": "Single-cast delayed projectile",
+        "Special Effect": "When the distance between the target and its sentience is more than 15m, their linkage can be broken",
+        "Maximum Distance": "24m",
+        "Projectile Speed": "80m/s",
+        "Sentience Health": "Target's 25% Current Health"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105361,
+      "icon": "/abilities/105361.webp",
+      "name": "Psionic Seduction",
+      "type": "Ultimate",
+      "isCollab": false,
+      "description": "Project a forward psychic assault that stuns foes and prevents them from unleashing their Ultimate Abilities; if the effect lingers, it gradually commandeers their mind, forcing them to move toward Emma Frost.",
+      "additional_fields": {
+        "Key": "Q",
+        "Range": "Cone shape spell field, angle range: 80°, length: 30m",
+        "Damage": "Basic damage 80/s; distance falloff: falloff begins at 10m, decreasing to 70% at 30m; angle falloff: falloff begins at 7° from the center of view, decreasing to 80% at 20°",
+        "Casting": "Large-ranged Persistent Spell Field",
+        "Duration": "6s",
+        "Energy Cost": "3100",
+        "Special Effect": "When exposed to the ability, enemies accumulate 10 stacks per second, and the stacks decrease by 10 stacks per second when they leave the exposure. At 15 stacks, a control effect is triggered. Each enemy can only be controlled once per ultimate activation. Gain 20% Damage Reduction during the ability."
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105392,
+      "name": "Iced Out Diamond",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Luna Snow grants Winter's Chill to Iron Fist and Emma Frost. When Iron Fist activates <Orange>Harmony Recovery</>, he can heal nearby allies with <Orange>Lunar Chi</>. Emma Frost can project ice energy forward, dealing damage and <Debuff>slowing</> enemies. She can also enhance her diamond form, condensing frost into an <Orange>Iced Out Diamond</> barrier that blocks enemy attacks and movement.",
+      "additional_fields": {
+        "Key": "C",
+        "Cooldown": "20s",
+        "Slow Rate": "45%",
+        "Slow Duration": "3s",
+        "Summons' Health": "250",
+        "Spell Field Range": "A fan-shaped spell field with a radius of 8m, a height of 3m, and an angle of 60°",
+        "Spell Field Damage": "60"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105393,
+      "name": "Cancel Iced Out Diamond",
+      "type": "Normal",
+      "isCollab": false,
+      "description": null,
+      "transformation_id": "0"
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "id": "1014",
+  "name": "the punisher",
+  "real_name": "Frank Castle",
+  "imageUrl": "/rivals/heroes/card/the-punisher.png",
+  "role": "Duelist",
+  "attack_type": "Melee Heroes",
+  "team": [
+    "Marvelknights"
+  ],
+  "difficulty": "1",
+  "bio": "Expertly wielding a full arsenal of futuristic weapons, Frank Castle is a formidable one-man army. With a steadfast resolve to deliver justice to his enemies, The Punisher won't cease in his mission until every last round is fired!",
+  "lore": "Caught in the crossfire of a mob hit that killed his family, Frank Castle clung to life through sheer force of will and his unquenchable thirst for vengeance. Unwilling to let more innocents suffer at the hands of criminals, Castle took the law into his own hands as the Punisher.\nThanks to an experimental serum that vastly extended his lifespan, the Punisher’s war has continued into the far-flung future. As a member of the New Marvel Knights, his impressive arsenal has become a vital part of Black Widow’s crusade against Doom 2099.",
+  "transformations": [
+    {
+      "id": "0",
+      "name": "The Punisher",
+      "icon": "/heroes/transformations/the-punisher-headbig-0.webp",
+      "health": "300",
+      "movement_speed": "6 m/s"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "1014001",
+      "name": "The Punisher",
+      "icon": "/costumes/the-punisher-1014001.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1014100",
+      "name": "Camo",
+      "icon": "/costumes/camo-1014100.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1014300",
+      "name": "Dangan Ronin",
+      "icon": "/costumes/dangan-ronin-1014300.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1014301",
+      "name": "Marauder Marksman",
+      "icon": "/costumes/marauder-marksman-1014301.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1014500",
+      "name": "Thunderbolts",
+      "icon": "/costumes/thunderbolts-1014500.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1014501",
+      "name": "Punisher 2099",
+      "icon": "/costumes/punisher-2099-1014501.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1014502",
+      "name": "Aqua Arsenal",
+      "icon": "/costumes/aqua-arsenal-1014502.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1014503",
+      "name": "Franken Castle",
+      "icon": "/costumes/franken-castle-1014503.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1014800",
+      "name": "Daredevil Born Again",
+      "icon": "/costumes/daredevil-born-again-1014800.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    }
+  ],
+  "abilities": [
+    {
+      "id": 101401,
+      "name": "The Punisher Switches Main Weapon",
+      "type": "Weapon",
+      "isCollab": false,
+      "description": null,
+      "transformation_id": "0"
+    },
+    {
+      "id": 101402,
+      "name": "Cutting-edge Tech",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "The Punisher upgrades Black Widow's arsenal, adding a Pulse Mode to her Red Room Rifle. While the ability is active, using <Orange>Straight Shooter</> fires a pulse beam that deals piercing damage.",
+      "additional_fields": {
+        "Key": "Passive",
+        "Team-Up Bonus": "+25 Max Health, +5% Damage Boost"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 101403,
+      "name": "The Punisher Reloads",
+      "type": "Weapon",
+      "isCollab": false,
+      "description": null,
+      "transformation_id": "0"
+    },
+    {
+      "id": 101411,
+      "icon": "/abilities/101411.webp",
+      "name": "Warrior's Gaze",
+      "type": "Passive",
+      "isCollab": false,
+      "description": "Retain vision of enemies that disappear from view for a short duration.",
+      "additional_fields": {
+        "Key": "Passive",
+        "Range": "30m spherical radius",
+        "Duration": "3s",
+        "Special Effect": "Retain vision of enemies that disappear from view for a short duration"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 101421,
+      "icon": "/abilities/101421.webp",
+      "name": "Unyielding Resolve",
+      "type": "Passive",
+      "isCollab": false,
+      "description": "Attack nearby enemies to restore health.",
+      "transformation_id": "0"
+    },
+    {
+      "id": 101431,
+      "icon": "/abilities/101431.webp",
+      "name": "Adjudication",
+      "type": "Weapon",
+      "isCollab": false,
+      "description": "Fire at enemies with Adjudication, his Automatic Rifle.",
+      "additional_fields": {
+        "Key": "Left Click",
+        "Ammo": "40",
+        "Damage": "20 damage per round",
+        "Casting": "Rapid-fire projectile",
+        "Fire Rate": "10 rounds per second",
+        "Critical Hit": "Yes",
+        "Damage Falloff": "Falloff begins at 20m, decreasing to 85% at 40m",
+        "Crosshair Spread Radius (at 10m)": "Up to a 0.075m radius."
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 101433,
+      "icon": "/abilities/101433.webp",
+      "name": "Scourge Grenade",
+      "type": "Weapon",
+      "isCollab": false,
+      "description": "Throw a smoke grenade forward to <Debuff>Block Enemies' Vision</> and leap backward.",
+      "additional_fields": {
+        "Key": "Right Click",
+        "Range": "5m spherical radius",
+        "Damage": "45",
+        "Casting": "Projectile with an arced trajectory",
+        "Cooldown": "8s",
+        "Special Effect": "Create a temporary smokescreen that obstructs vision",
+        "Projectile Speed": "40 m/s",
+        "Backward Jump Distance": "9m"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 101441,
+      "icon": "/abilities/101441.webp",
+      "name": "Deliverance",
+      "type": "Weapon",
+      "isCollab": false,
+      "description": "Fire at enemies with Deliverance, his Shotgun.",
+      "additional_fields": {
+        "Key": "Left Click",
+        "Ammo": "8",
+        "Damage": "10 damage per round",
+        "Casting": "Shotgun projectiles that hit instantly",
+        "Fire Rate": "1.43 rounds per second",
+        "Critical Hit": "Yes",
+        "Damage Falloff": "Falloff begins at 8m, decreasing to 40% at 15m",
+        "Bullets Fired Each Cast": "16",
+        "Crosshair Spread Radius (at 10m)": "0.6m"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 101451,
+      "icon": "/abilities/101451.webp",
+      "name": "Vantage Connection",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Launch a hook to generate a cable that enables Punisher to move rapidly by pressing {Interactive}.",
+      "additional_fields": {
+        "Key": "SHIFT",
+        "Casting": "Dash",
+        "Cooldown": "20s",
+        "Dash Speed": "25 m/s",
+        "Cable Length": "5m - 35m",
+        "Cable Attachment Angle": "20° - 160°"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 101452,
+      "name": "Connection Glide",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "(Press F key for swift movement.)",
+      "transformation_id": "0"
+    },
+    {
+      "id": 101461,
+      "icon": "/abilities/101461.webp",
+      "name": "Culling Turret",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Deploy a Culling Turret that grounds Punisher and blocks damage from the front while dealing massive damage.",
+      "additional_fields": {
+        "Key": "E",
+        "Ammo": "200",
+        "Damage": "10 damage per round",
+        "Casting": "Rapid-fire projectiles that create a spell field upon impact",
+        "Cooldown": "20s",
+        "Fire Rate": "12.5 rounds per second",
+        "Turret Health": "600",
+        "Explosion Range": "3m spherical radius",
+        "Explosion Damage": "10 damage per round",
+        "Crosshair Spread Radius (at 10m)": "Start with a spread radius of 0.2m, which reduces to 0.1m after 10 shots, and further decreases to 0.05m after 20 shots"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 101462,
+      "icon": "/abilities/101462.webp",
+      "name": "Culling Turret Fire",
+      "type": "Normal",
+      "isCollab": false,
+      "description": null,
+      "transformation_id": "0"
+    },
+    {
+      "id": 101481,
+      "icon": "/abilities/101481.webp",
+      "name": "Final Judgement",
+      "type": "Ultimate",
+      "isCollab": false,
+      "description": "Unleash two gatling guns and missiles to attack enemies.",
+      "additional_fields": {
+        "Key": "Q",
+        "Ammo": "Infinite",
+        "Damage": "50",
+        "Casting": "Rapid-fire projectiles that hit instantly and have a tracking trajectory",
+        "Duration": "10s",
+        "Fire Rate": "33.33 rounds per second",
+        "Energy Cost": "3400",
+        "Gatling Gun": " ",
+        "Critical Hit": "Yes",
+        "Damage Falloff": "Falloff begins at 20m, decreasing to 70% at 40m",
+        "Projectile Speed": "60 m/s",
+        "Slow Rate While Idling": "-10%",
+        "Interval Between Volleys": "3s",
+        "Maximum Locking Distance": "40m",
+        "Slow Rate While Shooting": "-30%",
+        "Interval Between Missiles": "0.3s",
+        "Shoulder-mounted Missiles": " ",
+        "Crosshair Spread Radius (at 10m)": "Start with a spread radius of 0.6m, which reduces to 0.3m after 50 shots, and further decreases to 0.15m after 100 shots",
+        "Maximum Number of Missiles Per Volley": "8",
+        "Maximum Number of Locked-on Missiles Per Target": "3"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 101482,
+      "name": "Final Judgement Fire",
+      "type": "Normal",
+      "isCollab": false,
+      "description": null,
+      "transformation_id": "0"
+    },
+    {
+      "id": 101483,
+      "name": "The Punisher Back-mounted Missiles",
+      "type": "Normal",
+      "isCollab": false,
+      "description": null,
+      "transformation_id": "0"
+    },
+    {
+      "id": 101491,
+      "name": "The Punisher Rifle - Melee Basic Attack",
+      "type": "Weapon",
+      "isCollab": false,
+      "description": null,
+      "transformation_id": "0"
+    },
+    {
+      "id": 101492,
+      "name": "Justice Sense",
+      "type": "Normal",
+      "isCollab": false,
+      "description": null,
+      "additional_fields": {
+        "Key": "C",
+        "Range": "5m spherical radius",
+        "Damage": "45",
+        "Casting": "Projectile with an arced trajectory",
+        "Cooldown": "15s",
+        "Projectile Speed": "40 m/s",
+        "Blind Effect Duration": "1.5s"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 101493,
+      "name": "Ancient Judgement",
+      "type": "Normal",
+      "isCollab": false,
+      "description": null,
+      "transformation_id": "0"
+    }
+  ]
+}

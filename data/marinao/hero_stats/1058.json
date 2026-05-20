@@ -1,0 +1,16 @@
+{
+  "hero_id": 1058,
+  "hero_name": "gambit",
+  "hero_icon": "/heroes/transformations/gambit-headbig-0.webp",
+  "matches": 859,
+  "wins": 434,
+  "k": 14.681024447031431,
+  "d": 5.59720605355064,
+  "a": 22.161816065192085,
+  "play_time": "153h 46m 34s",
+  "total_hero_damage": 6799788.161031535,
+  "total_hero_heal": 20829444.52080655,
+  "total_damage_taken": 5643123.207542276,
+  "session_hit_rate": 0.44928538468677626,
+  "solo_kill": 0.45168800931315484
+}

@@ -105,10 +105,32 @@ class PlayerFetcher:
         return profile or {}
 
     def fetch_match_history(self, max_matches: int = 200) -> list[dict]:
-        print(f"[*] match-history v2 (ate {max_matches} partidas)")
-        collected: list[dict] = []
+        """Mescla v2 (paginado) + v1 (até 20, sem paginação) por match_uid.
+
+        Descoberta: pra alguns jogadores o v2 retorna bem menos que o v1
+        (ex: marinão tinha 5 no v2 e 20 no v1). Pegamos a UNIÃO dos dois pra
+        maximizar cobertura. Histórico além disso depende do scrape assíncrono
+        da API (/update) terminar — fora do nosso controle.
+        """
+        by_uid: dict[str, dict] = {}
+
+        # --- acumula o que já temos salvo localmente (re-fetches durante live
+        #     só ADICIONAM partidas, nunca perdem as antigas) ---
+        existing_path = self.data_dir / "match_history.json"
+        if existing_path.exists():
+            try:
+                for m in json.loads(existing_path.read_text(encoding="utf-8")):
+                    uid = str(m.get("match_uid") or "")
+                    if uid:
+                        by_uid[uid] = m
+                print(f"[*] acumulando {len(by_uid)} partidas ja salvas localmente")
+            except (json.JSONDecodeError, OSError):
+                pass
+
+        # --- v2 paginado ---
+        print(f"[*] match-history v2 (paginado, ate {max_matches})")
         page = 1
-        while len(collected) < max_matches:
+        while len(by_uid) < max_matches:
             data = self.get(
                 f"{API_BASE_URL_V2}/player/{self.nick}/match-history",
                 params={"page": page, "limit": 40},
@@ -118,13 +140,36 @@ class PlayerFetcher:
             matches = data.get("match_history", []) if isinstance(data, dict) else []
             if not matches:
                 break
-            collected.extend(matches)
+            for m in matches:
+                uid = str(m.get("match_uid") or "")
+                if uid:
+                    by_uid.setdefault(uid, m)
             pagination = (data or {}).get("pagination") or {}
-            print(f"  pag {page}: +{len(matches)} (total {len(collected)})")
+            print(f"  v2 pag {page}: +{len(matches)} (unico {len(by_uid)})")
             if not pagination.get("has_more"):
                 break
             page += 1
-        collected = collected[:max_matches]
+
+        # --- v1 (não pagina; retorna ~20) ---
+        print("[*] match-history v1 (merge)")
+        before = len(by_uid)
+        data = self.get(
+            f"{API_BASE_URL_V1}/player/{self.nick}/match-history",
+            params={"page": 1, "limit": 40},
+        )
+        matches = data.get("match_history", []) if isinstance(data, dict) else (data or [])
+        for m in matches:
+            uid = str(m.get("match_uid") or "")
+            if uid:
+                by_uid.setdefault(uid, m)
+        print(f"  v1: +{len(by_uid) - before} novos (total unico {len(by_uid)})")
+
+        # Ordena por timestamp desc (mais recentes primeiro) e corta no teto
+        collected = sorted(
+            by_uid.values(),
+            key=lambda m: int(m.get("match_time_stamp") or 0),
+            reverse=True,
+        )[:max_matches]
         self.save_json(self.data_dir / "match_history.json", collected)
         return collected
 

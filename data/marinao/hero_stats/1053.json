@@ -1,0 +1,16 @@
+{
+  "hero_id": 1053,
+  "hero_name": "emma frost",
+  "hero_icon": "/heroes/transformations/emma-frost-headbig-0.webp",
+  "matches": 3483,
+  "wins": 1710,
+  "k": 17.071202985931667,
+  "d": 4.961814527706,
+  "a": 4.2988802756244615,
+  "play_time": "527h 24m 11s",
+  "total_hero_damage": 54561578.36197462,
+  "total_hero_heal": 7595.419764101505,
+  "total_damage_taken": 87935776.85698354,
+  "session_hit_rate": 0.5430022677897794,
+  "solo_kill": 0.45334481768590296
+}
