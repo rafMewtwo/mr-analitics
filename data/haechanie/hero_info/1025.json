@@ -123,37 +123,6 @@
       "transformation_id": "0"
     },
     {
-      "id": 102519,
-      "type": "Normal",
-      "isCollab": false,
-      "description": "Reload",
-      "additional_fields": {
-        "Health": "275",
-        "Movement Speed": "6m/s"
-      },
-      "transformation_id": "0"
-    },
-    {
-      "id": 102531,
-      "type": "Melee",
-      "isCollab": false,
-      "additional_fields": {
-        "Health": "275",
-        "Movement Speed": "6m/s"
-      },
-      "transformation_id": "0"
-    },
-    {
-      "id": 102532,
-      "type": "Melee",
-      "isCollab": false,
-      "additional_fields": {
-        "Health": "275",
-        "Movement Speed": "6m/s"
-      },
-      "transformation_id": "0"
-    },
-    {
       "id": 102541,
       "icon": "/abilities/102541.webp",
       "name": "Dagger Storm",
@@ -240,7 +209,7 @@
         "Range": "A cylindrical spell field with a 4m radius and 15m in length",
         "Damage": "30/s",
         "Casting": "Persistent Spell Field",
-        "Duration": "13s",
+        "Duration": "11s",
         "Energy Cost": "4500",
         "Healing Amount": "250/s"
       },
@@ -282,22 +251,22 @@
       "transformation_id": "0"
     },
     {
-      "id": 102592,
+      "id": 102594,
+      "name": "Share Light & Dark Energy",
       "type": "Normal",
       "isCollab": false,
-      "additional_fields": {
-        "Health": "275",
-        "Movement Speed": "6m/s"
-      },
+      "description": null,
       "transformation_id": "0"
     },
     {
-      "id": 102593,
+      "id": 102597,
+      "name": "From Shadow To Light",
       "type": "Normal",
       "isCollab": false,
+      "description": "Cloak & Dagger inject light and dark energy into Hawkeye's katana. When Hawkeye uses <Orange>Crescent Slash</>, enemies hit are <Debuff>launched</> back, and a blade wave filled with light and energy sweeps forward. This wave passes through both allies and enemies: it heals and <Buff>boosts healing</> for allies, while damaging enemies and applying a <Debuff>healing reduction</>.",
       "additional_fields": {
-        "Health": "275",
-        "Movement Speed": "6m/s"
+        "Key": "Passive",
+        "Team-up Bonus": "15% Healing Boost"
       },
       "transformation_id": "0"
     },
@@ -323,37 +292,6 @@
       "transformation_id": "1"
     },
     {
-      "id": 102519,
-      "type": "Normal",
-      "isCollab": false,
-      "description": "Reload",
-      "additional_fields": {
-        "Health": "275",
-        "Movement Speed": "6m/s"
-      },
-      "transformation_id": "1"
-    },
-    {
-      "id": 102531,
-      "type": "Melee",
-      "isCollab": false,
-      "additional_fields": {
-        "Health": "275",
-        "Movement Speed": "6m/s"
-      },
-      "transformation_id": "1"
-    },
-    {
-      "id": 102532,
-      "type": "Melee",
-      "isCollab": false,
-      "additional_fields": {
-        "Health": "275",
-        "Movement Speed": "6m/s"
-      },
-      "transformation_id": "1"
-    },
-    {
       "id": 102541,
       "icon": "/abilities/102541.webp",
       "name": "Dagger Storm",
@@ -440,7 +378,7 @@
         "Range": "A cylindrical spell field with a 4m radius and 15m in length",
         "Damage": "30/s",
         "Casting": "Persistent Spell Field",
-        "Duration": "13s",
+        "Duration": "11s",
         "Energy Cost": "4500",
         "Healing Amount": "250/s"
       },
@@ -482,22 +420,22 @@
       "transformation_id": "1"
     },
     {
-      "id": 102592,
+      "id": 102594,
+      "name": "Share Light & Dark Energy",
       "type": "Normal",
       "isCollab": false,
-      "additional_fields": {
-        "Health": "275",
-        "Movement Speed": "6m/s"
-      },
+      "description": null,
       "transformation_id": "1"
     },
     {
-      "id": 102593,
+      "id": 102597,
+      "name": "From Shadow To Light",
       "type": "Normal",
       "isCollab": false,
+      "description": "Cloak & Dagger inject light and dark energy into Hawkeye's katana. When Hawkeye uses <Orange>Crescent Slash</>, enemies hit are <Debuff>launched</> back, and a blade wave filled with light and energy sweeps forward. This wave passes through both allies and enemies: it heals and <Buff>boosts healing</> for allies, while damaging enemies and applying a <Debuff>healing reduction</>.",
       "additional_fields": {
-        "Health": "275",
-        "Movement Speed": "6m/s"
+        "Key": "Passive",
+        "Team-up Bonus": "15% Healing Boost"
       },
       "transformation_id": "1"
     },
@@ -523,37 +461,6 @@
       "transformation_id": "2"
     },
     {
-      "id": 102519,
-      "type": "Normal",
-      "isCollab": false,
-      "description": "Reload",
-      "additional_fields": {
-        "Health": "275",
-        "Movement Speed": "6m/s"
-      },
-      "transformation_id": "2"
-    },
-    {
-      "id": 102531,
-      "type": "Melee",
-      "isCollab": false,
-      "additional_fields": {
-        "Health": "275",
-        "Movement Speed": "6m/s"
-      },
-      "transformation_id": "2"
-    },
-    {
-      "id": 102532,
-      "type": "Melee",
-      "isCollab": false,
-      "additional_fields": {
-        "Health": "275",
-        "Movement Speed": "6m/s"
-      },
-      "transformation_id": "2"
-    },
-    {
       "id": 102541,
       "icon": "/abilities/102541.webp",
       "name": "Dagger Storm",
@@ -640,7 +547,7 @@
         "Range": "A cylindrical spell field with a 4m radius and 15m in length",
         "Damage": "30/s",
         "Casting": "Persistent Spell Field",
-        "Duration": "13s",
+        "Duration": "11s",
         "Energy Cost": "4500",
         "Healing Amount": "250/s"
       },
@@ -682,22 +589,22 @@
       "transformation_id": "2"
     },
     {
-      "id": 102592,
+      "id": 102594,
+      "name": "Share Light & Dark Energy",
       "type": "Normal",
       "isCollab": false,
-      "additional_fields": {
-        "Health": "275",
-        "Movement Speed": "6m/s"
-      },
+      "description": null,
       "transformation_id": "2"
     },
     {
-      "id": 102593,
+      "id": 102597,
+      "name": "From Shadow To Light",
       "type": "Normal",
       "isCollab": false,
+      "description": "Cloak & Dagger inject light and dark energy into Hawkeye's katana. When Hawkeye uses <Orange>Crescent Slash</>, enemies hit are <Debuff>launched</> back, and a blade wave filled with light and energy sweeps forward. This wave passes through both allies and enemies: it heals and <Buff>boosts healing</> for allies, while damaging enemies and applying a <Debuff>healing reduction</>.",
       "additional_fields": {
-        "Health": "275",
-        "Movement Speed": "6m/s"
+        "Key": "Passive",
+        "Team-up Bonus": "15% Healing Boost"
       },
       "transformation_id": "2"
     }

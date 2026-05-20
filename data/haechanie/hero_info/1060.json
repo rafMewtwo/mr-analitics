@@ -4,7 +4,7 @@
   "real_name": "Ami Han",
   "imageUrl": "/rivals/heroes/card/white-fox.png",
   "role": "Strategist",
-  "attack_type": "Projectile Heroes",
+  "attack_type": "0",
   "team": [
     "Agentsofatlas"
   ],
@@ -31,7 +31,7 @@
     {
       "id": "1060001",
       "name": "White Fox",
-      "icon": null,
+      "icon": "/costumes/white-fox-1060001.png",
       "quality": "NO_QUALITY",
       "description": "0",
       "appearance": "0"
@@ -63,15 +63,6 @@
   ],
   "abilities": [
     {
-      "id": 106001,
-      "icon": "/abilities/106001.webp",
-      "name": "Ancestral Force",
-      "type": "Normal",
-      "isCollab": false,
-      "description": "Not shown in F1, no description is required.",
-      "transformation_id": "0"
-    },
-    {
       "id": 106011,
       "icon": "/abilities/106011.webp",
       "name": "Yeowoo Guseul",
@@ -101,7 +92,7 @@
     {
       "id": 106031,
       "name": "Melee Attack",
-      "type": "Melee",
+      "type": "Weapon",
       "isCollab": false,
       "description": "Not shown in F1, no description is required.",
       "transformation_id": "0"
@@ -263,28 +254,34 @@
       "transformation_id": "0"
     },
     {
-      "id": 106074,
-      "name": "Kumiho Unleashed",
-      "type": "Ultimate",
+      "id": 106081,
+      "name": "Spirit Fox Ward",
+      "type": "Normal",
       "isCollab": false,
-      "description": "Manifest the full Nine-Tailed Fox form and <Buff>continuously heal</> nearby allies. Cannot receive healing effects from others while in this form.",
+      "description": "White Fox grants Luna Snow a spirit fox for protection. Luna can activate it for a burst of <Buff>speed</> and fire it forward, healing allies in its path while applying <Debuff>Charm</> to enemies.",
       "additional_fields": {
-        "Key": "Q",
-        "Energy Cost": "4800",
-        "Healing Amount": "85/s",
-        "Maximum Health": "900",
-        "Continuous Healing Spell Field Range": "10m radius spherical spell field"
+        "Key": "Passive",
+        "Team-Up Bonus": "10% Healing Boost"
       },
       "transformation_id": "0"
     },
     {
-      "id": 106001,
-      "icon": "/abilities/106001.webp",
-      "name": "Ancestral Force",
+      "id": 106082,
+      "name": "Nine-tailed Aura",
       "type": "Normal",
       "isCollab": false,
-      "description": "Not shown in F1, no description is required.",
-      "transformation_id": "1"
+      "description": "Black Cat shares her luck with her allies. When White Fox embraces her newfound fortune, she unleashes tracking <Orange>Spirit Tails</> to grant <Buff>Healing</> and <Buff>Speed</> to allies, while damaging and <Debuff>Slowing</> foes. \nWhen Captain America enjoys his luck, his shield's block radius expands and allows him to aim deflected <Orange>Projectiles</> directly toward his target.",
+      "additional_fields": {
+        "Key": "C",
+        "Range": "10m spherical radius spell field",
+        "Cooldown": "20",
+        "Slow Effect": "30% for 2s",
+        "Movement Boost": "30% for 2s",
+        "One-Time Damage": "40",
+        "One-Time Healing": "60",
+        "Passive Energy Recover": "1"
+      },
+      "transformation_id": "0"
     },
     {
       "id": 106011,
@@ -316,7 +313,7 @@
     {
       "id": 106031,
       "name": "Melee Attack",
-      "type": "Melee",
+      "type": "Weapon",
       "isCollab": false,
       "description": "Not shown in F1, no description is required.",
       "transformation_id": "1"
@@ -478,17 +475,32 @@
       "transformation_id": "1"
     },
     {
-      "id": 106074,
-      "name": "Kumiho Unleashed",
-      "type": "Ultimate",
+      "id": 106081,
+      "name": "Spirit Fox Ward",
+      "type": "Normal",
       "isCollab": false,
-      "description": "Manifest the full Nine-Tailed Fox form and <Buff>continuously heal</> nearby allies. Cannot receive healing effects from others while in this form.",
+      "description": "White Fox grants Luna Snow a spirit fox for protection. Luna can activate it for a burst of <Buff>speed</> and fire it forward, healing allies in its path while applying <Debuff>Charm</> to enemies.",
       "additional_fields": {
-        "Key": "Q",
-        "Energy Cost": "4800",
-        "Healing Amount": "85/s",
-        "Maximum Health": "900",
-        "Continuous Healing Spell Field Range": "10m radius spherical spell field"
+        "Key": "Passive",
+        "Team-Up Bonus": "10% Healing Boost"
+      },
+      "transformation_id": "1"
+    },
+    {
+      "id": 106082,
+      "name": "Nine-tailed Aura",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Black Cat shares her luck with her allies. When White Fox embraces her newfound fortune, she unleashes tracking <Orange>Spirit Tails</> to grant <Buff>Healing</> and <Buff>Speed</> to allies, while damaging and <Debuff>Slowing</> foes. \nWhen Captain America enjoys his luck, his shield's block radius expands and allows him to aim deflected <Orange>Projectiles</> directly toward his target.",
+      "additional_fields": {
+        "Key": "C",
+        "Range": "10m spherical radius spell field",
+        "Cooldown": "20",
+        "Slow Effect": "30% for 2s",
+        "Movement Boost": "30% for 2s",
+        "One-Time Damage": "40",
+        "One-Time Healing": "60",
+        "Passive Energy Recover": "1"
       },
       "transformation_id": "1"
     }

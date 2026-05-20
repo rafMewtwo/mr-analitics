@@ -134,8 +134,9 @@
     {
       "id": 103212,
       "name": "Squirrel Girl Reload",
-      "type": "Normal",
+      "type": "Weapon",
       "isCollab": false,
+      "description": null,
       "transformation_id": "0"
     },
     {
@@ -206,8 +207,35 @@
     {
       "id": 103261,
       "name": "Squirrel Girl - Melee Normal Attack",
-      "type": "Melee",
+      "type": "Weapon",
       "isCollab": false,
+      "description": null,
+      "transformation_id": "0"
+    },
+    {
+      "id": 103291,
+      "name": "Webbed Acorn",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Squirrel Girl swiftly produces a web-bomb, giving it a few deft spins before hurling it, ensnaring nearby enemies upon detonation.",
+      "transformation_id": "0"
+    },
+    {
+      "id": 103292,
+      "name": "Squirrel Missile",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "When Iron Man, Ultron, and Squirrel Girl team up, Ultron's <Orange>Encephalo-Ray</> upgrades to <Orange>Nano-Ray</>, firing a beam that pierces through all characters, dealing continuous damage to foes while healing allies; Squirrel Girl gains the <Orange>Squirrel Missile</> ability. She directs a squirrel to ride Iron Man's nanotech glove as a homing missile. Upon hit, the squirrel flees just before a fiery explosion!",
+      "additional_fields": {
+        "Key": "C",
+        "Damage": "75",
+        "Cooldown": "20",
+        "Damage Falloff": "Falloff begins at 4m, decreasing to 50% at 8m",
+        "Special Effect": "Automatically track enemies within a horizontal angle of 60°, a vertical angle of 60°, and a maximum distance of 60m",
+        "Explosion Range": "8m spherical radius spell field",
+        "Projectile Speed": "40 m/s",
+        "Projectile Radius": "0.5m"
+      },
       "transformation_id": "0"
     }
   ]

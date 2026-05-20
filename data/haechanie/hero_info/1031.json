@@ -107,7 +107,7 @@
       "id": 103111,
       "icon": "/abilities/103111.webp",
       "name": "Smooth Skate",
-      "type": "Normal",
+      "type": "Passive",
       "isCollab": false,
       "description": "Keep moving forward to start ice skating and enable higher jumps.",
       "additional_fields": {
@@ -120,8 +120,9 @@
     {
       "id": 103121,
       "name": "Ice Blade",
-      "type": "Melee",
+      "type": "Weapon",
       "isCollab": false,
+      "description": null,
       "transformation_id": "0"
     },
     {
@@ -134,27 +135,28 @@
       "additional_fields": {
         "Key": "Left Click",
         "Ammo": "30",
-        "Damage": "22 damage per round, for a total of 66 damage",
+        "Damage": "24 damage per round, for a total of 72 damage",
         "Casting": "A triple shot that hits instantly",
         "Fire Rate": "0.5s for three shots. The interval between the first two shots is 0.05s",
         "Critical Hit": "Yes",
         "Damage Falloff": "Falloff begins at 20m, decreasing to 70% at 40m",
-        "Healing Amount": "22 health per round, for a total of 66 health"
+        "Healing Amount": "24 health per round, for a total of 72 health"
       },
       "transformation_id": "0"
     },
     {
       "id": 103132,
       "name": "Reload",
-      "type": "Normal",
+      "type": "Weapon",
       "isCollab": false,
+      "description": null,
       "transformation_id": "0"
     },
     {
       "id": 103141,
       "icon": "/abilities/103141.webp",
       "name": "Ice Arts",
-      "type": "Normal",
+      "type": "Ultimate",
       "isCollab": false,
       "description": "Fire ice shards for a short duration, damaging enemies or healing allies while restoring her own Health. Participating in a KO reduces the cooldown of <Orange>Ice Arts</>.",
       "additional_fields": {
@@ -176,6 +178,7 @@
       "name": "Ice Shards",
       "type": "Weapon",
       "isCollab": false,
+      "description": null,
       "transformation_id": "0"
     },
     {
@@ -213,9 +216,23 @@
     {
       "id": 103162,
       "name": "Idol Aura",
-      "type": "Normal",
+      "type": "Passive",
       "isCollab": false,
       "description": "Automatically restore Health when casting <Orange>Ice Arts</> or <Orange>Absolute Zero</>.",
+      "transformation_id": "0"
+    },
+    {
+      "id": 103163,
+      "icon": "/abilities/103163.webp",
+      "name": "Number One Idol",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Boost <Buff>Damage</> and <Buff>Healing</>. Gain extra healing when healing others.",
+      "additional_fields": {
+        "Key": "F",
+        "Damage Boost": "10%",
+        "Healing Boost": "10%"
+      },
       "transformation_id": "0"
     },
     {
@@ -238,19 +255,39 @@
       "transformation_id": "0"
     },
     {
+      "id": 103191,
+      "name": "Cryo Heart",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Automatically restore Health when casting <Orange>Ice Arts</>, <Orange>Absolute Zero</> or <Orange>Light & Shadow Karma</>.",
+      "additional_fields": {
+        "Key": "Passive",
+        "Healing Amount": "30/s for 3 seconds"
+      },
+      "transformation_id": "0"
+    },
+    {
       "id": 103193,
       "name": "Frozen Chi",
       "type": "Normal",
       "isCollab": false,
-      "description": "Iron Fist channels the Chi of Shou-Lao into Luna Snow, transforming her ice power into a Chi-infused frosty ring that radiates from her. This ring can launch up enemies with chilling damage and applies a slowing effect, while simultaneously healing her allies.",
+      "description": "Luna Snow unleashes a ring of icy air, launching up enemies and healing nearby allies.",
       "transformation_id": "0"
     },
     {
       "id": 103194,
       "name": "Winter's Chill",
+      "type": "Passive",
+      "isCollab": false,
+      "description": "Luna Snow infuses ice energy into an arrow for Hawkeye",
+      "transformation_id": "0"
+    },
+    {
+      "id": 103195,
+      "name": "Light & Shadow Karma",
       "type": "Normal",
       "isCollab": false,
-      "description": "Luna Snow grants Winter's Chill to Iron Fist and Emma Frost. When Iron Fist activates <Orange>Harmony Recovery</>, he can heal nearby allies with <Orange>Lunar Chi</>. Emma Frost can project ice energy forward, dealing damage and <Debuff>slowing</> enemies. She can also enhance her diamond form, condensing frost into an <Orange>Iced Out Diamond</> barrier that blocks enemy attacks and movement.",
+      "description": "Adam Warlock imparts his mastery of quantum energy to Luna Snow, awakening her new ability <Orange>Light & Shadow Karma</>. When Luna uses <Orange>Light & Shadow Karma</>, she links to nearby enemies. Any damage she deals to linked enemies is converted into Light Energy, which is then transferred to Luna through the link, healing her Health.",
       "transformation_id": "0"
     },
     {

@@ -4,7 +4,7 @@
   "real_name": "Wanda Maximoff",
   "imageUrl": "/rivals/heroes/card/scarlet-witch.png",
   "role": "Duelist",
-  "attack_type": "Melee Heroes",
+  "attack_type": "Projectile Heroes",
   "team": [
     "Avengers"
   ],
@@ -120,19 +120,9 @@
   ],
   "abilities": [
     {
-      "id": 103801,
-      "type": "Melee",
-      "isCollab": false,
-      "additional_fields": {
-        "Health": "250",
-        "Movement Speed": "6 m/s"
-      },
-      "transformation_id": "0"
-    },
-    {
       "id": 103811,
       "name": "Chaos Control",
-      "type": "Weapon",
+      "type": "Normal",
       "isCollab": false,
       "description": "Unleash Chaos Magic on enemies to deal damage and restore <Orange>Chaos Energy</>",
       "additional_fields": {
@@ -209,6 +199,7 @@
       "name": "Teleportation Flight",
       "type": "Normal",
       "isCollab": false,
+      "description": null,
       "transformation_id": "0"
     },
     {
@@ -231,47 +222,6 @@
       "transformation_id": "0"
     },
     {
-      "id": 103852,
-      "type": "Normal",
-      "isCollab": false,
-      "additional_fields": {
-        "Health": "250",
-        "Movement Speed": "6 m/s"
-      },
-      "transformation_id": "0"
-    },
-    {
-      "id": 103861,
-      "type": "Normal",
-      "isCollab": false,
-      "additional_fields": {
-        "Health": "250",
-        "Movement Speed": "6 m/s"
-      },
-      "transformation_id": "0"
-    },
-    {
-      "id": 103862,
-      "type": "Normal",
-      "isCollab": false,
-      "additional_fields": {
-        "Health": "250",
-        "Movement Speed": "6 m/s"
-      },
-      "transformation_id": "0"
-    },
-    {
-      "id": 103863,
-      "type": "Normal",
-      "isCollab": false,
-      "description": "Scarlet Witch wields the power to warp reality into shields.",
-      "additional_fields": {
-        "Health": "250",
-        "Movement Speed": "6 m/s"
-      },
-      "transformation_id": "0"
-    },
-    {
       "id": 103871,
       "name": "Telekinesis",
       "type": "Normal",
@@ -285,11 +235,23 @@
       "transformation_id": "0"
     },
     {
-      "id": 103892,
-      "name": "Arcane Order",
+      "id": 103891,
+      "name": "Sorcery Surge",
       "type": "Normal",
       "isCollab": false,
-      "description": "Doctor Strange shares his arcane mastery with Scarlet Witch and Magik. Scarlet Witch's <Orange>Chthonian Burst</> is replaced with <Orange>Mystic Burst</> upon activation. Hold down the attack button to unleash a rapid, relentless salvo of magical missiles in the target direction. Magik can unleash a <Orange>Chain of Cyttorak</> that links two enemies and slows them; the farther they are apart, the greater the <Debuff>Slow</> effect inflicted during the link.",
+      "description": null,
+      "additional_fields": {
+        "Key": "Right Click",
+        "Casting": "Straight-line projectile that generates a spell field upon impact",
+        "Cooldown": "30s",
+        "Duration": "10s",
+        "Fire Rate": "0.15s per round",
+        "Projectile Speed": "120 m/s",
+        "Special Mechanic": "Chaos Control can released during the Sorcery Surge",
+        "Projectile Damage": "10",
+        "Spell Field Range": "1.5m spherical radius",
+        "Spell Field Damage": "6"
+      },
       "transformation_id": "0"
     }
   ]

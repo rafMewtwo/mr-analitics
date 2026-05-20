@@ -123,7 +123,7 @@
       "id": 105002,
       "icon": "/abilities/105002.webp",
       "name": "Covert Advance",
-      "type": "Normal",
+      "type": "Passive",
       "isCollab": false,
       "description": "Enter <Buff>Invisible</> state some time after disengaging from combat and grant yourself <Buff>Healing Over Time</>.",
       "additional_fields": {
@@ -136,7 +136,7 @@
       "id": 105011,
       "icon": "/abilities/105011.webp",
       "name": "Agile Strike",
-      "type": "Melee",
+      "type": "Weapon",
       "isCollab": false,
       "description": "Release a three-hit combo, the third attack will <Debuff>launch up</> enemies in front.",
       "transformation_id": "0"
@@ -179,7 +179,7 @@
     {
       "id": 105032,
       "name": "Psychic Surge",
-      "type": "Normal",
+      "type": "Weapon",
       "isCollab": false,
       "description": "Invisible Woman gathers surrounding psychic energy for future battles.",
       "transformation_id": "0"
@@ -212,6 +212,7 @@
       "name": "Guardian Shield - Recall",
       "type": "Normal",
       "isCollab": false,
+      "description": null,
       "transformation_id": "0"
     },
     {
@@ -241,6 +242,14 @@
         "Spell Field Damage": "35/sec",
         "Spell Field Duration": "4s"
       },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105052,
+      "name": "Psionic Vortex - Detonate",
+      "type": "Normal",
+      "isCollab": false,
+      "description": null,
       "transformation_id": "0"
     },
     {
@@ -284,13 +293,21 @@
     {
       "id": 105081,
       "name": "Fantasti-force",
-      "type": "Normal",
+      "type": "Passive",
       "isCollab": false,
       "description": "The Invisible Woman taps into her powers, channeling Psionic Might to fortify the entire Fantastic Four team. This formidable force bolsters {104000}{000001}{105100}{000003}{101700}, granting damage resistance. Once activated, they can continually generate <Buff>Bonus Health</>, making up for lost Health with each passing moment.",
       "additional_fields": {
         "Key": "Passive",
         "Team-Up Bonus": "15% Healing Boost"
       },
+      "transformation_id": "0"
+    },
+    {
+      "id": 105082,
+      "name": "Psionic Force",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Invisible Woman enhances Doctor Strange's <Orange>Maelstrom of Madness</> with a psionic explosion. The explosion damages and pulls enemies toward Doctor Strange. Based on the explosion's damage, Doctor Strange and nearby allies gain <Buff>Bonus Health</>.",
       "transformation_id": "0"
     }
   ]
