@@ -703,13 +703,13 @@
         "rank_season": {
           "rank_game_id": 16,
           "level": 6,
-          "rank_score": "3563.38",
+          "rank_score": "3498.27",
           "max_level": 6,
           "max_rank_score": "3563.38",
-          "update_time": 1779152812,
+          "update_time": 1779238277,
           "win_count": 11,
-          "protect_score": 0,
-          "diff_score": "-16.78"
+          "protect_score": 3,
+          "diff_score": "-21.92"
         },
         "login_os": "1"
       },
@@ -725,6 +725,39 @@
       "total_hero_heal": "0.00",
       "mvps": 1,
       "svps": 4
+    },
+    {
+      "info": {
+        "name": "marinão",
+        "icon": {
+          "player_icon_id": "31057202",
+          "player_icon": "/players/heads/player_head_31057202.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 7,
+          "rank_score": "3614.26",
+          "max_level": 7,
+          "max_rank_score": "3639.87",
+          "update_time": 1779285984,
+          "win_count": 16,
+          "protect_score": 0,
+          "diff_score": "35.32"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 21517131,
+      "matches": 11,
+      "wins": 4,
+      "kills": 198,
+      "deaths": 68,
+      "assists": 12,
+      "play_time": "114.12",
+      "total_hero_damage": "223467.07",
+      "total_damage_taken": "67879.56",
+      "total_hero_heal": "5.00",
+      "mvps": 0,
+      "svps": 1
     },
     {
       "info": {
@@ -748,6 +781,39 @@
       "total_hero_heal": "0.00",
       "mvps": 3,
       "svps": 0
+    },
+    {
+      "info": {
+        "name": "WaRHaMMeRnl",
+        "icon": {
+          "player_icon_id": "31038205",
+          "player_icon": "/players/heads/player_head_31038205.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 4,
+          "rank_score": "3271.84",
+          "max_level": 6,
+          "max_rank_score": "3519.53",
+          "update_time": 1779228491,
+          "win_count": 14,
+          "protect_score": 1,
+          "diff_score": "-17.93"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 1975135675,
+      "matches": 16,
+      "wins": 4,
+      "kills": 282,
+      "deaths": 98,
+      "assists": 14,
+      "play_time": "178.23",
+      "total_hero_damage": "278655.93",
+      "total_damage_taken": "62299.40",
+      "total_hero_heal": "0.00",
+      "mvps": 0,
+      "svps": 1
     },
     {
       "info": {

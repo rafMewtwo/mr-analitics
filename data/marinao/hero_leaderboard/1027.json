@@ -1259,6 +1259,29 @@
     },
     {
       "info": {
+        "name": "mandatom",
+        "icon": {
+          "player_icon_id": "31058202",
+          "player_icon": "/players/heads/player_head_31058202.png"
+        },
+        "rank_season": {},
+        "login_os": "1"
+      },
+      "player_uid": 607500969,
+      "matches": 10,
+      "wins": 7,
+      "kills": 183,
+      "deaths": 35,
+      "assists": 47,
+      "play_time": "84.29",
+      "total_hero_damage": "177155.57",
+      "total_damage_taken": "405374.44",
+      "total_hero_heal": "14309.87",
+      "mvps": 1,
+      "svps": 1
+    },
+    {
+      "info": {
         "name": "Zaggy 12",
         "icon": {
           "player_icon_id": "31027206",

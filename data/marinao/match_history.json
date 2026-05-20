@@ -140,6 +140,52 @@
     }
   },
   {
+    "match_map_id": 1418,
+    "match_play_duration": 348.41150307655334,
+    "match_season": "8",
+    "match_uid": "5513342_1779115233_1418089_11001_12",
+    "match_winner_side": 1,
+    "mvp_uid": 461437857,
+    "svp_uid": 340744617,
+    "score_info": {
+      "0": 0,
+      "1": 1
+    },
+    "match_time_stamp": 1779115773,
+    "play_mode_id": 0,
+    "game_mode_id": 2,
+    "match_player": {
+      "assists": 1,
+      "kills": 5,
+      "deaths": 4,
+      "is_win": {
+        "score": 0,
+        "is_win": false
+      },
+      "disconnected": false,
+      "player_uid": 21517131,
+      "camp": null,
+      "score_info": {
+        "add_score": -23.23729995577196,
+        "level": 7,
+        "new_level": 7,
+        "new_score": 3591.5124806629447
+      },
+      "player_hero": {
+        "hero_id": 1032,
+        "hero_name": "squirrel girl",
+        "hero_type": "/heroes/transformations/squirrel-girl-headbig-0.webp",
+        "kills": 5,
+        "deaths": 2,
+        "assists": 1,
+        "play_time": 268.01552871242166,
+        "total_hero_damage": 11346.5814743042,
+        "total_damage_taken": 2803.3897643089294,
+        "total_hero_heal": 0
+      }
+    }
+  },
+  {
     "match_map_id": 1230,
     "map_thumbnail": "/maps/map_1230.png",
     "match_play_duration": 677.694718837738,
