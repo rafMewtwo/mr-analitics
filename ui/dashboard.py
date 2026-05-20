@@ -34,18 +34,54 @@ from ui.theme import render_hero, style_plotly
 
 # ===== Render helpers =====
 
+# Legenda padrão pras abas que usam os agregados da API (cobrem mais partidas
+# que as 24 detalhadas que conseguimos baixar uma a uma).
+def _agg_caption(data: PlayerData) -> str:
+    agg = aggregate_ranked_count(data)
+    detail = len(data.matches_df)
+    if agg and agg > detail:
+        return (f"ℹ️ Esta aba usa os **agregados da API** (~{agg} partidas ranqueadas), "
+                f"cobertura maior que as {detail} partidas detalhadas das outras abas.")
+    return ""
+
+
+def aggregate_ranked_count(data: PlayerData) -> int | None:
+    """Total de partidas ranqueadas que a API agrega no perfil (pode ser > detalhadas)."""
+    val = (data.overall_ranked or {}).get("total_matches")
+    try:
+        return int(val) if val is not None else None
+    except (TypeError, ValueError):
+        return None
+
+
 def render_header_metrics(data: PlayerData, df: pd.DataFrame) -> None:
     summary = overview.summary(df)
     eff = efficiency.efficiency_summary(df[~df["disconnected"]] if "disconnected" in df.columns else df)
+    agg = aggregate_ranked_count(data)
     c1, c2, c3, c4, c5, c6 = st.columns(6)
     c1.metric("Rank", data.rank or "—")
-    c2.metric("Partidas", summary["matches"])
+    c2.metric(
+        "Partidas detalhadas", summary["matches"],
+        help=(f"{summary['matches']} partidas com detalhe completo (baixadas uma a uma). "
+              f"A API agrega ~{agg} ranqueadas no total — usadas nas abas Counters, Precisão, "
+              f"Sinergia e Plano de Climb." if agg and agg > summary["matches"]
+              else "Partidas com histórico detalhado disponível."),
+    )
     c3.metric("Win Rate", f"{summary['win_rate']*100:.1f}%")
     c4.metric("KDA", f"{summary['kda']:.2f}")
     c5.metric("Dano/min", f"{eff.get('damage_per_min', 0):,.0f}")
     c6.metric("Heróis usados", summary["unique_heroes"])
+
+    notes = []
+    if agg and agg > summary["matches"]:
+        notes.append(
+            f"📊 **{summary['matches']} partidas detalhadas** · a API agrega **~{agg} ranqueadas** "
+            f"(usadas em Counters / Precisão / Sinergia / Plano de Climb)."
+        )
     if summary.get("disconnects_excluded", 0):
-        st.caption(f"⚠️ {summary['disconnects_excluded']} partida(s) com DC excluída(s) das métricas")
+        notes.append(f"⚠️ {summary['disconnects_excluded']} partida(s) com DC excluída(s) das métricas.")
+    if notes:
+        st.caption("  ".join(notes))
 
 
 def tab_climb_plan(data: PlayerData) -> None:
@@ -74,6 +110,9 @@ def tab_climb_plan(data: PlayerData) -> None:
     st.divider()
 
     st.subheader("💡 Recomendações com impacto estimado")
+    cap = _agg_caption(data)
+    if cap:
+        st.caption(cap + " (Recomendação de herói vem do agregado; projeção de MR usa as detalhadas.)")
 
     if best:
         uplift = best["theoretical_uplift_pp"]
@@ -154,6 +193,9 @@ def tab_insights(df: pd.DataFrame) -> None:
 def tab_synergy(data: PlayerData) -> None:
     st.subheader("🤝 Sinergia com teammates")
     st.caption("Heróis aparecem pouco aqui — esses são *jogadores* (nicks) que entraram no seu time mais de uma vez.")
+    cap = _agg_caption(data)
+    if cap:
+        st.caption(cap + " (A lista de parceiros vem do agregado; o gráfico abaixo usa as detalhadas.)")
 
     ext = synergy.teammate_extremes(data, min_matches=2)
     if not ext.get("available"):
@@ -205,6 +247,9 @@ def tab_synergy(data: PlayerData) -> None:
 
 def tab_counters(data: PlayerData) -> None:
     st.subheader("⚔️ Matchups: contra quais heróis você apanha mais")
+    cap = _agg_caption(data)
+    if cap:
+        st.caption(cap)
 
     hardest = counters.hardest_matchups(data, min_matches=3, n=8)
     easiest = counters.easiest_matchups(data, min_matches=3, n=8)
@@ -302,6 +347,9 @@ def tab_accuracy(data: PlayerData) -> None:
         "Compara seu hit rate em cada herói com o `session_hit_rate` global da API. "
         "Heróis com mira (Squirrel Girl, Hawkeye, Iron Man) são onde isso impacta mais."
     )
+    cap = _agg_caption(data)
+    if cap:
+        st.caption(cap)
 
     av = accuracy.accuracy_vs_global(data)
     if av.empty:
