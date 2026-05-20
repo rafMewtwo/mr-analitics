@@ -1,0 +1,242 @@
+{
+  "id": "1032",
+  "name": "squirrel girl",
+  "real_name": "Doreen Green",
+  "imageUrl": "/rivals/heroes/card/squirrel-girl.png",
+  "role": "Duelist",
+  "attack_type": "Projectile Heroes",
+  "team": [
+    "Avengers"
+  ],
+  "difficulty": "1",
+  "bio": "Possessing only the powers of a common squirrel, somehow Doreen Green manages to defeat seemingly invincible enemies in the most unexpected ways. Any foe who counts her out is bound to fall at the hands of the Unbeatable Squirrel Girl!",
+  "lore": "Doreen Green is more than just a computer science student at Empire State University. She also happens to have the powers of a squirrel AND the powers of a girl! With her BFFF (Best Furry Friend Forever) Tippy-Toe by her side, Doreen eats nuts and kicks butts as the unbeatable Squirrel-Girl!\nAfter the Timestream Entanglement, things got weird…er. With all of New York City under attack by creatures of the night, Squirrel Girl assembled an adorable army to reclaim Central Park from the clutches of Dracula. Here’s hoping vampires don’t like the taste of squirrel!",
+  "transformations": [
+    {
+      "id": "0",
+      "name": "Squirrel Girl",
+      "icon": "/heroes/transformations/squirrel-girl-headbig-0.webp",
+      "health": "275",
+      "movement_speed": "6 m/s"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "1032001",
+      "name": "Squirrel Girl",
+      "icon": "/costumes/squirrel-girl-1032001.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1032100",
+      "name": "Arctic Lemmus",
+      "icon": "/costumes/arctic-lemmus-1032100.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1032300",
+      "name": "Nut Rocker",
+      "icon": "/costumes/nut-rocker-1032300.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1032301",
+      "name": "Cheerful Dragoness",
+      "icon": "/costumes/cheerful-dragoness-1032301.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1032302",
+      "name": "Sunshine Squirrel",
+      "icon": "/costumes/sunshine-squirrel-1032302.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1032303",
+      "name": "Turbo Tailwind",
+      "icon": "/costumes/turbo-tailwind-1032303.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1032304",
+      "name": "Tinsel Tail",
+      "icon": "/costumes/tinsel-tail-1032304.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1032305",
+      "name": "Red Panda",
+      "icon": "/costumes/red-panda-1032305.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1032306",
+      "name": "Maureen Allene The Programmer",
+      "icon": "/costumes/maureen-allene-the-programmer-1032306.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1032500",
+      "name": "Urban Hunter",
+      "icon": "/costumes/urban-hunter-1032500.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1032501",
+      "name": "Symbiote Squirrel",
+      "icon": "/costumes/symbiote-squirrel-1032501.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    }
+  ],
+  "abilities": [
+    {
+      "id": 103211,
+      "icon": "/abilities/103211.webp",
+      "name": "Burst Acorn",
+      "type": "Weapon",
+      "isCollab": false,
+      "description": "Shoot bouncing Burst Acorns.",
+      "additional_fields": {
+        "Key": "Left Click",
+        "Ammo": "12",
+        "Casting": "Arced projectile that generates a spell field upon impact",
+        "Fire Rate": "1.49 acorns per second",
+        "Critical Hit": "No",
+        "Damage Falloff": "70% falloff at 3m",
+        "Projectile Speed": "80 m/s",
+        "Spell Field Range": "3m spherical radius",
+        "Spell Field Damage": "110"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 103212,
+      "name": "Squirrel Girl Reload",
+      "type": "Weapon",
+      "isCollab": false,
+      "description": null,
+      "transformation_id": "0"
+    },
+    {
+      "id": 103221,
+      "icon": "/abilities/103221.webp",
+      "name": "Squirrel Blockade",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Launch an acorn to unleash Squirrel Guards, <Debuff>Imprisoning</> the first hit enemy.",
+      "additional_fields": {
+        "Key": "Right Click",
+        "Damage": "50",
+        "Casting": "Charged projectile with an arced trajectory",
+        "Cooldown": "8s",
+        "Projectile Speed": "20 - 60 m/s (Maximum speed is achieved after 0.7s of charging)",
+        "Imprison Duration": "1.33s",
+        "Maximum Charge Time": "1.5s"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 103231,
+      "icon": "/abilities/103231.webp",
+      "name": "Tail Bounce",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Rocket upwards with a bounce of her tail.",
+      "additional_fields": {
+        "Key": "SHIFT",
+        "Cooldown": "8s",
+        "Jump Height": "9m"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 103241,
+      "icon": "/abilities/103241.webp",
+      "name": "Mammal Bond",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Reload Burst Acorns and can use an ability without cooldown once in a short duration.",
+      "additional_fields": {
+        "Key": "E",
+        "Cooldown": "15s",
+        "Maximum Duration": "5s"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 103251,
+      "icon": "/abilities/103251.webp",
+      "name": "Unbeatable Squirrel Tsunami",
+      "type": "Ultimate",
+      "isCollab": false,
+      "description": "Summon a horde of squirrels to charge forward, dealing damage while bouncing against structures.",
+      "additional_fields": {
+        "Key": "Q",
+        "Range": "Length: 3m, Width: 5m, Height: 1.75m",
+        "Damage": "150",
+        "Duration": "10s",
+        "Energy Cost": "2800",
+        "Special Mechanic": "The squirrels will rush towards the nearest enemy after bouncing instead of bouncing randomly",
+        "Squirrel Horde Health": "300",
+        "Squirrel Horde Movement Speed": "9 m/s"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 103261,
+      "name": "Squirrel Girl - Melee Normal Attack",
+      "type": "Weapon",
+      "isCollab": false,
+      "description": null,
+      "transformation_id": "0"
+    },
+    {
+      "id": 103291,
+      "name": "Webbed Acorn",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Squirrel Girl swiftly produces a web-bomb, giving it a few deft spins before hurling it, ensnaring nearby enemies upon detonation.",
+      "transformation_id": "0"
+    },
+    {
+      "id": 103292,
+      "name": "Squirrel Missile",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "When Iron Man, Ultron, and Squirrel Girl team up, Ultron's <Orange>Encephalo-Ray</> upgrades to <Orange>Nano-Ray</>, firing a beam that pierces through all characters, dealing continuous damage to foes while healing allies; Squirrel Girl gains the <Orange>Squirrel Missile</> ability. She directs a squirrel to ride Iron Man's nanotech glove as a homing missile. Upon hit, the squirrel flees just before a fiery explosion!",
+      "additional_fields": {
+        "Key": "C",
+        "Damage": "75",
+        "Cooldown": "20",
+        "Damage Falloff": "Falloff begins at 4m, decreasing to 50% at 8m",
+        "Special Effect": "Automatically track enemies within a horizontal angle of 60°, a vertical angle of 60°, and a maximum distance of 60m",
+        "Explosion Range": "8m spherical radius spell field",
+        "Projectile Speed": "40 m/s",
+        "Projectile Radius": "0.5m"
+      },
+      "transformation_id": "0"
+    }
+  ]
+}

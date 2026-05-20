@@ -1,0 +1,16 @@
+{
+  "hero_id": 1060,
+  "hero_name": "white fox",
+  "hero_icon": "/heroes/transformations/white-fox-headbig-0.webp",
+  "matches": 2557,
+  "wins": 1255,
+  "k": 15.859992178333986,
+  "d": 4.928040672663277,
+  "a": 18.27219397731717,
+  "play_time": "395h 14m 38s",
+  "total_hero_damage": 27965763.135966547,
+  "total_hero_heal": 55338390.53141379,
+  "total_damage_taken": 33602207.52616136,
+  "session_hit_rate": 0.5941611766154431,
+  "solo_kill": 0.21314039890496675
+}

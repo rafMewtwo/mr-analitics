@@ -1,0 +1,16 @@
+{
+  "hero_id": 1020,
+  "hero_name": "mantis",
+  "hero_icon": "/heroes/transformations/mantis-headbig-0.webp",
+  "matches": 1112,
+  "wins": 582,
+  "k": 11.413669064748202,
+  "d": 4.4109712230215825,
+  "a": 23.613309352517987,
+  "play_time": "167h 23m 39s",
+  "total_hero_damage": 10802373.694349527,
+  "total_hero_heal": 15223569.752581537,
+  "total_damage_taken": 7583176.889819041,
+  "session_hit_rate": 0.3748690117841455,
+  "solo_kill": 0.2607913669064748
+}

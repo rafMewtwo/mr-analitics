@@ -1,0 +1,612 @@
+{
+  "id": "1025",
+  "name": "cloak & dagger",
+  "real_name": "Tyrone Johnson & Tandy Bowen",
+  "imageUrl": "/rivals/heroes/card/cloak-&-dagger.png",
+  "role": "Strategist",
+  "attack_type": "Projectile Heroes",
+  "team": [
+    "Marvelknights"
+  ],
+  "difficulty": "3",
+  "bio": "Tyrone Johnson and Tandy Bowen are nearly inseparable, like two sides of the same coin. Intertwined by forces of shadow and light, Cloak & Dagger fight as a united front, dealing havoc and healing allies across the arena.",
+  "lore": "When teenage runaways Tandy Bowen and Tyrone Johnson were exposed to an experimental drug against their will, they unexpectedly gained extraordinary powers. Tandy generates piercing blades of pure, healing light, while Ty can teleport himself and others through the Darkforce Dimension. Together, they illuminate New York's deepest shadows as Cloak and Dagger.\nThe Timestream Entanglement struck while Cloak and Dagger were traversing the Darkforce Dimension. The pair emerged to find New York under the control of Dracula. They soon joined the heroic resistance fighting against the Empire of Eternal Night.\n\n\n",
+  "transformations": [
+    {
+      "id": "0",
+      "name": "Cloak & Dagger",
+      "icon": "/heroes/transformations/cloak-dagger-headbig-0.webp",
+      "health": null,
+      "movement_speed": null
+    },
+    {
+      "id": "1",
+      "name": "Dagger",
+      "icon": "/heroes/transformations/cloak-dagger-headbig-1.webp",
+      "health": null,
+      "movement_speed": null
+    },
+    {
+      "id": "2",
+      "name": "Cloak",
+      "icon": "/heroes/transformations/cloak-dagger-headbig-2.webp",
+      "health": null,
+      "movement_speed": null
+    }
+  ],
+  "costumes": [
+    {
+      "id": "1025001",
+      "name": "Cloak Dagger",
+      "icon": "/costumes/cloak-dagger-1025001.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1025100",
+      "name": "Lemon Lime",
+      "icon": "/costumes/lemon-lime-1025100.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1025300",
+      "name": "Dance Partner",
+      "icon": "/costumes/dance-partner-1025300.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1025301",
+      "name": "Twilight Duo",
+      "icon": "/costumes/twilight-duo-1025301.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1025302",
+      "name": "Polarity Bond",
+      "icon": "/costumes/polarity-bond-1025302.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1025303",
+      "name": "Ice Pas De Deux",
+      "icon": "/costumes/ice-pas-de-deux-1025303.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1025304",
+      "name": "Daring Duo",
+      "icon": "/costumes/daring-duo-1025304.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1025500",
+      "name": "Growth Decay",
+      "icon": "/costumes/growth-decay-1025500.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    }
+  ],
+  "abilities": [
+    {
+      "id": 102511,
+      "icon": "/abilities/102511.webp",
+      "name": "Lightforce Dagger",
+      "type": "Weapon",
+      "isCollab": false,
+      "description": "Unleash a bouncing <Orange>Lightforce Dagger</> to damage enemies and heal nearby allies.",
+      "additional_fields": {
+        "Key": "Left Click",
+        "Ammo": "12",
+        "Range": "8m spherical radius",
+        "Damage": "18 damage per round",
+        "Casting": "Single-cast projectile that generates a spell area upon impact",
+        "Fire Rate": "2.27 hits per second",
+        "Critical Hit": "No",
+        "Special Effect": "The projectile features an attraction effect, pulling in the closest target to the crosshair and creating a spell field upon impact. This spell field provides healing effects",
+        "Healing Per Hit": "16 per hit",
+        "Area of Effect Healing": "16 per hit"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 102541,
+      "icon": "/abilities/102541.webp",
+      "name": "Dagger Storm",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Launch a volley of daggers, creating a <Buff>Healing-Over-Time</> field in the impact area. Allies in the area gain One-Time Healing when the field appears.",
+      "additional_fields": {
+        "Key": "Right Click",
+        "Range": "5m spherical radius",
+        "Casting": "Single-cast projectile with delayed impact that also generates a spell field",
+        "Cooldown": "Veil of Lightforce & Terror Cape share charges, capped out at 2 with each taking 10s to recharge. After using either, both abilities enter a 2s cooldown",
+        "Duration": "6s",
+        "Healing Amount": "45/s",
+        "Special Effect": "When a Spell Field is created, allies in range get a One-Time Healing of 60"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 102551,
+      "icon": "/abilities/102551.webp",
+      "name": "Shadow's Embrace",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Switch to Cloak.",
+      "additional_fields": {
+        "Key": "SHIFT",
+        "Casting": "Instant Cast"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 102552,
+      "icon": "/abilities/102552.webp",
+      "name": "Light's Embrace",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Switch to Dagger.",
+      "additional_fields": {
+        "Key": "SHIFT",
+        "Casting": "Instant Cast"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 102561,
+      "icon": "/abilities/102561.webp",
+      "name": "Light Explosion",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Deploy a Veil of Lightforce to heal allies upon touch and grant them a <Buff>Healing Boost</>.",
+      "transformation_id": "0"
+    },
+    {
+      "id": 102562,
+      "icon": "/abilities/102562.webp",
+      "name": "Terror Cape",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Deploy a Veil of Darkforce to damage enemies upon touch, applying <Debuff>Blind</> to narrow their sight and <Debuff>Vulnerability</> to amplify damage received.",
+      "additional_fields": {
+        "Key": "E",
+        "Range": "Width: 6m, Height: 4.5m",
+        "Damage": "55",
+        "Casting": "Spell Field",
+        "Cooldown": "12s",
+        "Vulnerability": "28%",
+        "Movement Speed": "20m/s",
+        "Special Effect": "The spell field advances along the casting path",
+        "Maximum Distance": "25m",
+        "Blinding Duration": "1.5s",
+        "Vulnerability Duration": "3s"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 102571,
+      "icon": "/abilities/102571.webp",
+      "name": "Eternal Bond",
+      "type": "Ultimate",
+      "isCollab": false,
+      "description": "Perform four rapid dashes, healing allies and damaging enemies along the path.",
+      "additional_fields": {
+        "Key": "Q",
+        "Range": "A cylindrical spell field with a 4m radius and 15m in length",
+        "Damage": "30/s",
+        "Casting": "Persistent Spell Field",
+        "Duration": "11s",
+        "Energy Cost": "4500",
+        "Healing Amount": "250/s"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 102581,
+      "icon": "/abilities/102581.webp",
+      "name": "Darkforce Cloak",
+      "type": "Weapon",
+      "isCollab": false,
+      "description": "Inflict continuous damage to an enemy.",
+      "additional_fields": {
+        "Key": "Left Click",
+        "Ammo": "∞",
+        "Range": "20m",
+        "Damage": "80/s",
+        "Casting": "Cylindrical Spell Field",
+        "Critical Hit": "No",
+        "Special Effect": "Attacks will target the nearest enemy to the crosshair, dealing damage"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 102591,
+      "icon": "/abilities/102591.webp",
+      "name": "Dark Teleportation",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Enshroud nearby allies in the Darkforce Dimension and grant them <Buff>Phased</>, making them untargetable and invisible to enemies and granting them a <Buff>Movement Boost</>.",
+      "additional_fields": {
+        "Key": "Right Click",
+        "Range": "10m spherical radius",
+        "Casting": "Persistent Spell Field",
+        "Cooldown": "Veil of Lightforce & Terror Cape share charges, capped out at 2 with each taking 10s to recharge. After using either, both abilities enter a 2s cooldown",
+        "Duration": "2s",
+        "Special Effect": "Allies within the area gain Invisibility and Movement Boost"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 102594,
+      "name": "Share Light & Dark Energy",
+      "type": "Normal",
+      "isCollab": false,
+      "description": null,
+      "transformation_id": "0"
+    },
+    {
+      "id": 102597,
+      "name": "From Shadow To Light",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Cloak & Dagger inject light and dark energy into Hawkeye's katana. When Hawkeye uses <Orange>Crescent Slash</>, enemies hit are <Debuff>launched</> back, and a blade wave filled with light and energy sweeps forward. This wave passes through both allies and enemies: it heals and <Buff>boosts healing</> for allies, while damaging enemies and applying a <Debuff>healing reduction</>.",
+      "additional_fields": {
+        "Key": "Passive",
+        "Team-up Bonus": "15% Healing Boost"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 102511,
+      "icon": "/abilities/102511.webp",
+      "name": "Lightforce Dagger",
+      "type": "Weapon",
+      "isCollab": false,
+      "description": "Unleash a bouncing <Orange>Lightforce Dagger</> to damage enemies and heal nearby allies.",
+      "additional_fields": {
+        "Key": "Left Click",
+        "Ammo": "12",
+        "Range": "8m spherical radius",
+        "Damage": "18 damage per round",
+        "Casting": "Single-cast projectile that generates a spell area upon impact",
+        "Fire Rate": "2.27 hits per second",
+        "Critical Hit": "No",
+        "Special Effect": "The projectile features an attraction effect, pulling in the closest target to the crosshair and creating a spell field upon impact. This spell field provides healing effects",
+        "Healing Per Hit": "16 per hit",
+        "Area of Effect Healing": "16 per hit"
+      },
+      "transformation_id": "1"
+    },
+    {
+      "id": 102541,
+      "icon": "/abilities/102541.webp",
+      "name": "Dagger Storm",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Launch a volley of daggers, creating a <Buff>Healing-Over-Time</> field in the impact area. Allies in the area gain One-Time Healing when the field appears.",
+      "additional_fields": {
+        "Key": "Right Click",
+        "Range": "5m spherical radius",
+        "Casting": "Single-cast projectile with delayed impact that also generates a spell field",
+        "Cooldown": "Veil of Lightforce & Terror Cape share charges, capped out at 2 with each taking 10s to recharge. After using either, both abilities enter a 2s cooldown",
+        "Duration": "6s",
+        "Healing Amount": "45/s",
+        "Special Effect": "When a Spell Field is created, allies in range get a One-Time Healing of 60"
+      },
+      "transformation_id": "1"
+    },
+    {
+      "id": 102551,
+      "icon": "/abilities/102551.webp",
+      "name": "Shadow's Embrace",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Switch to Cloak.",
+      "additional_fields": {
+        "Key": "SHIFT",
+        "Casting": "Instant Cast"
+      },
+      "transformation_id": "1"
+    },
+    {
+      "id": 102552,
+      "icon": "/abilities/102552.webp",
+      "name": "Light's Embrace",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Switch to Dagger.",
+      "additional_fields": {
+        "Key": "SHIFT",
+        "Casting": "Instant Cast"
+      },
+      "transformation_id": "1"
+    },
+    {
+      "id": 102561,
+      "icon": "/abilities/102561.webp",
+      "name": "Light Explosion",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Deploy a Veil of Lightforce to heal allies upon touch and grant them a <Buff>Healing Boost</>.",
+      "transformation_id": "1"
+    },
+    {
+      "id": 102562,
+      "icon": "/abilities/102562.webp",
+      "name": "Terror Cape",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Deploy a Veil of Darkforce to damage enemies upon touch, applying <Debuff>Blind</> to narrow their sight and <Debuff>Vulnerability</> to amplify damage received.",
+      "additional_fields": {
+        "Key": "E",
+        "Range": "Width: 6m, Height: 4.5m",
+        "Damage": "55",
+        "Casting": "Spell Field",
+        "Cooldown": "12s",
+        "Vulnerability": "28%",
+        "Movement Speed": "20m/s",
+        "Special Effect": "The spell field advances along the casting path",
+        "Maximum Distance": "25m",
+        "Blinding Duration": "1.5s",
+        "Vulnerability Duration": "3s"
+      },
+      "transformation_id": "1"
+    },
+    {
+      "id": 102571,
+      "icon": "/abilities/102571.webp",
+      "name": "Eternal Bond",
+      "type": "Ultimate",
+      "isCollab": false,
+      "description": "Perform four rapid dashes, healing allies and damaging enemies along the path.",
+      "additional_fields": {
+        "Key": "Q",
+        "Range": "A cylindrical spell field with a 4m radius and 15m in length",
+        "Damage": "30/s",
+        "Casting": "Persistent Spell Field",
+        "Duration": "11s",
+        "Energy Cost": "4500",
+        "Healing Amount": "250/s"
+      },
+      "transformation_id": "1"
+    },
+    {
+      "id": 102581,
+      "icon": "/abilities/102581.webp",
+      "name": "Darkforce Cloak",
+      "type": "Weapon",
+      "isCollab": false,
+      "description": "Inflict continuous damage to an enemy.",
+      "additional_fields": {
+        "Key": "Left Click",
+        "Ammo": "∞",
+        "Range": "20m",
+        "Damage": "80/s",
+        "Casting": "Cylindrical Spell Field",
+        "Critical Hit": "No",
+        "Special Effect": "Attacks will target the nearest enemy to the crosshair, dealing damage"
+      },
+      "transformation_id": "1"
+    },
+    {
+      "id": 102591,
+      "icon": "/abilities/102591.webp",
+      "name": "Dark Teleportation",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Enshroud nearby allies in the Darkforce Dimension and grant them <Buff>Phased</>, making them untargetable and invisible to enemies and granting them a <Buff>Movement Boost</>.",
+      "additional_fields": {
+        "Key": "Right Click",
+        "Range": "10m spherical radius",
+        "Casting": "Persistent Spell Field",
+        "Cooldown": "Veil of Lightforce & Terror Cape share charges, capped out at 2 with each taking 10s to recharge. After using either, both abilities enter a 2s cooldown",
+        "Duration": "2s",
+        "Special Effect": "Allies within the area gain Invisibility and Movement Boost"
+      },
+      "transformation_id": "1"
+    },
+    {
+      "id": 102594,
+      "name": "Share Light & Dark Energy",
+      "type": "Normal",
+      "isCollab": false,
+      "description": null,
+      "transformation_id": "1"
+    },
+    {
+      "id": 102597,
+      "name": "From Shadow To Light",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Cloak & Dagger inject light and dark energy into Hawkeye's katana. When Hawkeye uses <Orange>Crescent Slash</>, enemies hit are <Debuff>launched</> back, and a blade wave filled with light and energy sweeps forward. This wave passes through both allies and enemies: it heals and <Buff>boosts healing</> for allies, while damaging enemies and applying a <Debuff>healing reduction</>.",
+      "additional_fields": {
+        "Key": "Passive",
+        "Team-up Bonus": "15% Healing Boost"
+      },
+      "transformation_id": "1"
+    },
+    {
+      "id": 102511,
+      "icon": "/abilities/102511.webp",
+      "name": "Lightforce Dagger",
+      "type": "Weapon",
+      "isCollab": false,
+      "description": "Unleash a bouncing <Orange>Lightforce Dagger</> to damage enemies and heal nearby allies.",
+      "additional_fields": {
+        "Key": "Left Click",
+        "Ammo": "12",
+        "Range": "8m spherical radius",
+        "Damage": "18 damage per round",
+        "Casting": "Single-cast projectile that generates a spell area upon impact",
+        "Fire Rate": "2.27 hits per second",
+        "Critical Hit": "No",
+        "Special Effect": "The projectile features an attraction effect, pulling in the closest target to the crosshair and creating a spell field upon impact. This spell field provides healing effects",
+        "Healing Per Hit": "16 per hit",
+        "Area of Effect Healing": "16 per hit"
+      },
+      "transformation_id": "2"
+    },
+    {
+      "id": 102541,
+      "icon": "/abilities/102541.webp",
+      "name": "Dagger Storm",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Launch a volley of daggers, creating a <Buff>Healing-Over-Time</> field in the impact area. Allies in the area gain One-Time Healing when the field appears.",
+      "additional_fields": {
+        "Key": "Right Click",
+        "Range": "5m spherical radius",
+        "Casting": "Single-cast projectile with delayed impact that also generates a spell field",
+        "Cooldown": "Veil of Lightforce & Terror Cape share charges, capped out at 2 with each taking 10s to recharge. After using either, both abilities enter a 2s cooldown",
+        "Duration": "6s",
+        "Healing Amount": "45/s",
+        "Special Effect": "When a Spell Field is created, allies in range get a One-Time Healing of 60"
+      },
+      "transformation_id": "2"
+    },
+    {
+      "id": 102551,
+      "icon": "/abilities/102551.webp",
+      "name": "Shadow's Embrace",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Switch to Cloak.",
+      "additional_fields": {
+        "Key": "SHIFT",
+        "Casting": "Instant Cast"
+      },
+      "transformation_id": "2"
+    },
+    {
+      "id": 102552,
+      "icon": "/abilities/102552.webp",
+      "name": "Light's Embrace",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Switch to Dagger.",
+      "additional_fields": {
+        "Key": "SHIFT",
+        "Casting": "Instant Cast"
+      },
+      "transformation_id": "2"
+    },
+    {
+      "id": 102561,
+      "icon": "/abilities/102561.webp",
+      "name": "Light Explosion",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Deploy a Veil of Lightforce to heal allies upon touch and grant them a <Buff>Healing Boost</>.",
+      "transformation_id": "2"
+    },
+    {
+      "id": 102562,
+      "icon": "/abilities/102562.webp",
+      "name": "Terror Cape",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Deploy a Veil of Darkforce to damage enemies upon touch, applying <Debuff>Blind</> to narrow their sight and <Debuff>Vulnerability</> to amplify damage received.",
+      "additional_fields": {
+        "Key": "E",
+        "Range": "Width: 6m, Height: 4.5m",
+        "Damage": "55",
+        "Casting": "Spell Field",
+        "Cooldown": "12s",
+        "Vulnerability": "28%",
+        "Movement Speed": "20m/s",
+        "Special Effect": "The spell field advances along the casting path",
+        "Maximum Distance": "25m",
+        "Blinding Duration": "1.5s",
+        "Vulnerability Duration": "3s"
+      },
+      "transformation_id": "2"
+    },
+    {
+      "id": 102571,
+      "icon": "/abilities/102571.webp",
+      "name": "Eternal Bond",
+      "type": "Ultimate",
+      "isCollab": false,
+      "description": "Perform four rapid dashes, healing allies and damaging enemies along the path.",
+      "additional_fields": {
+        "Key": "Q",
+        "Range": "A cylindrical spell field with a 4m radius and 15m in length",
+        "Damage": "30/s",
+        "Casting": "Persistent Spell Field",
+        "Duration": "11s",
+        "Energy Cost": "4500",
+        "Healing Amount": "250/s"
+      },
+      "transformation_id": "2"
+    },
+    {
+      "id": 102581,
+      "icon": "/abilities/102581.webp",
+      "name": "Darkforce Cloak",
+      "type": "Weapon",
+      "isCollab": false,
+      "description": "Inflict continuous damage to an enemy.",
+      "additional_fields": {
+        "Key": "Left Click",
+        "Ammo": "∞",
+        "Range": "20m",
+        "Damage": "80/s",
+        "Casting": "Cylindrical Spell Field",
+        "Critical Hit": "No",
+        "Special Effect": "Attacks will target the nearest enemy to the crosshair, dealing damage"
+      },
+      "transformation_id": "2"
+    },
+    {
+      "id": 102591,
+      "icon": "/abilities/102591.webp",
+      "name": "Dark Teleportation",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Enshroud nearby allies in the Darkforce Dimension and grant them <Buff>Phased</>, making them untargetable and invisible to enemies and granting them a <Buff>Movement Boost</>.",
+      "additional_fields": {
+        "Key": "Right Click",
+        "Range": "10m spherical radius",
+        "Casting": "Persistent Spell Field",
+        "Cooldown": "Veil of Lightforce & Terror Cape share charges, capped out at 2 with each taking 10s to recharge. After using either, both abilities enter a 2s cooldown",
+        "Duration": "2s",
+        "Special Effect": "Allies within the area gain Invisibility and Movement Boost"
+      },
+      "transformation_id": "2"
+    },
+    {
+      "id": 102594,
+      "name": "Share Light & Dark Energy",
+      "type": "Normal",
+      "isCollab": false,
+      "description": null,
+      "transformation_id": "2"
+    },
+    {
+      "id": 102597,
+      "name": "From Shadow To Light",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Cloak & Dagger inject light and dark energy into Hawkeye's katana. When Hawkeye uses <Orange>Crescent Slash</>, enemies hit are <Debuff>launched</> back, and a blade wave filled with light and energy sweeps forward. This wave passes through both allies and enemies: it heals and <Buff>boosts healing</> for allies, while damaging enemies and applying a <Debuff>healing reduction</>.",
+      "additional_fields": {
+        "Key": "Passive",
+        "Team-up Bonus": "15% Healing Boost"
+      },
+      "transformation_id": "2"
+    }
+  ]
+}

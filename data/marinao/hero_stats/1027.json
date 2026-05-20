@@ -1,0 +1,16 @@
+{
+  "hero_id": 1027,
+  "hero_name": "groot",
+  "hero_icon": "/heroes/transformations/groot-headbig-0.webp",
+  "matches": 1236,
+  "wins": 633,
+  "k": 17.381067961165048,
+  "d": 4.715210355987055,
+  "a": 3.19336569579288,
+  "play_time": "179h 26m 30s",
+  "total_hero_damage": 20453098.3268067,
+  "total_hero_heal": 617140.1173198223,
+  "total_damage_taken": 46738665.16485454,
+  "session_hit_rate": 0.4956931359626001,
+  "solo_kill": 0.43284789644012944
+}

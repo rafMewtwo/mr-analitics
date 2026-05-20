@@ -1,0 +1,16 @@
+{
+  "hero_id": 1032,
+  "hero_name": "squirrel girl",
+  "hero_icon": "/heroes/transformations/squirrel-girl-headbig-0.webp",
+  "matches": 183,
+  "wins": 68,
+  "k": 14.792349726775956,
+  "d": 5.049180327868853,
+  "a": 1.5628415300546448,
+  "play_time": "23h 48m 51s",
+  "total_hero_damage": 3303919.3377330303,
+  "total_hero_heal": 147.28770446777344,
+  "total_damage_taken": 979730.2478411645,
+  "session_hit_rate": 0.3951104263064551,
+  "solo_kill": 1.5136612021857923
+}

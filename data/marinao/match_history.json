@@ -1,0 +1,236 @@
+[
+  {
+    "match_map_id": 1267,
+    "map_thumbnail": "/maps/map_1267.png",
+    "match_play_duration": 809.3853514194489,
+    "match_season": "8",
+    "match_uid": "5513386_1779125834_1267076_11001_12",
+    "match_winner_side": 0,
+    "mvp_uid": 1394827631,
+    "svp_uid": 1691269375,
+    "score_info": {
+      "0": 3,
+      "1": 1
+    },
+    "match_time_stamp": 1779126841,
+    "play_mode_id": 0,
+    "game_mode_id": 2,
+    "match_player": {
+      "assists": 9,
+      "kills": 5,
+      "deaths": 11,
+      "is_win": {
+        "score": 0,
+        "is_win": false
+      },
+      "disconnected": false,
+      "player_uid": 21517131,
+      "camp": 1,
+      "score_info": {
+        "add_score": -18.525237063066925,
+        "level": 7,
+        "new_level": 6,
+        "new_score": 3561.833129142738
+      },
+      "player_hero": {
+        "hero_id": 1025,
+        "hero_name": "cloak & dagger",
+        "hero_type": "/heroes/transformations/cloak-dagger-headbig-0.webp",
+        "kills": 4,
+        "deaths": 7,
+        "assists": 9,
+        "play_time": 591.493780406192,
+        "total_hero_damage": 6557.039989471436,
+        "total_damage_taken": 5128.18541431427,
+        "total_hero_heal": 16081.938306808472
+      }
+    }
+  },
+  {
+    "match_map_id": 1418,
+    "match_play_duration": 924.0796575546265,
+    "match_season": "8",
+    "match_uid": "5513419_1779120797_1418573_11001_12",
+    "match_winner_side": 0,
+    "mvp_uid": 1891971422,
+    "svp_uid": 1464792097,
+    "score_info": {
+      "0": 2,
+      "1": 1
+    },
+    "match_time_stamp": 1779121911,
+    "play_mode_id": 0,
+    "game_mode_id": 2,
+    "match_player": {
+      "assists": 2,
+      "kills": 34,
+      "deaths": 11,
+      "is_win": {
+        "score": 0,
+        "is_win": false
+      },
+      "disconnected": false,
+      "player_uid": 21517131,
+      "camp": 1,
+      "score_info": {
+        "add_score": 0,
+        "level": 7,
+        "new_level": 7,
+        "new_score": 3611.218651452628
+      },
+      "player_hero": {
+        "hero_id": 1032,
+        "hero_name": "squirrel girl",
+        "hero_type": "/heroes/transformations/squirrel-girl-headbig-0.webp",
+        "kills": 32,
+        "deaths": 10,
+        "assists": 2,
+        "play_time": 849.6893606949598,
+        "total_hero_damage": 32547.00353050232,
+        "total_damage_taken": 9140.954054772854,
+        "total_hero_heal": 0
+      }
+    }
+  },
+  {
+    "match_map_id": 1230,
+    "map_thumbnail": "/maps/map_1230.png",
+    "match_play_duration": 547.5309107303619,
+    "match_season": "8",
+    "match_uid": "5513466_1779119950_1230071_11001_12",
+    "match_winner_side": 1,
+    "mvp_uid": 718020476,
+    "svp_uid": 188526072,
+    "score_info": {
+      "0": 0,
+      "1": 1
+    },
+    "match_time_stamp": 1779120695,
+    "play_mode_id": 0,
+    "game_mode_id": 2,
+    "match_player": {
+      "assists": 0,
+      "kills": 12,
+      "deaths": 5,
+      "is_win": {
+        "score": 1,
+        "is_win": true
+      },
+      "disconnected": false,
+      "player_uid": 21517131,
+      "camp": 1,
+      "score_info": {
+        "add_score": 27.98876893049828,
+        "level": 7,
+        "new_level": 7,
+        "new_score": 3611.218651452628
+      },
+      "player_hero": {
+        "hero_id": 1027,
+        "hero_name": "groot",
+        "hero_type": "/heroes/transformations/groot-headbig-0.webp",
+        "kills": 12,
+        "deaths": 5,
+        "assists": 0,
+        "play_time": 547.5290787108243,
+        "total_hero_damage": 13380.444591522217,
+        "total_damage_taken": 41074.06656527519,
+        "total_hero_heal": 0
+      }
+    }
+  },
+  {
+    "match_map_id": 1230,
+    "map_thumbnail": "/maps/map_1230.png",
+    "match_play_duration": 677.694718837738,
+    "match_season": "8",
+    "match_uid": "5513435_1779114236_1230023_11001_12",
+    "match_winner_side": 0,
+    "mvp_uid": 2107957307,
+    "svp_uid": 21517131,
+    "score_info": {
+      "0": 1,
+      "1": 0
+    },
+    "match_time_stamp": 1779115203,
+    "play_mode_id": 0,
+    "game_mode_id": 2,
+    "match_player": {
+      "assists": 17,
+      "kills": 17,
+      "deaths": 6,
+      "is_win": {
+        "score": 0,
+        "is_win": false
+      },
+      "disconnected": false,
+      "player_uid": 21517131,
+      "camp": 1,
+      "score_info": {
+        "add_score": -16.075354811136094,
+        "level": 7,
+        "new_level": 7,
+        "new_score": 3614.7497806187166
+      },
+      "player_hero": {
+        "hero_id": 1060,
+        "hero_name": "white fox",
+        "hero_type": "/heroes/transformations/white-fox-headbig-0.webp",
+        "kills": 17,
+        "deaths": 6,
+        "assists": 17,
+        "play_time": 677.6867513488978,
+        "total_hero_damage": 10318.820987701416,
+        "total_damage_taken": 15112.67061662674,
+        "total_hero_heal": 20792.564756393433
+      }
+    }
+  },
+  {
+    "match_map_id": 1309,
+    "map_thumbnail": "/maps/map_1309.png",
+    "match_play_duration": 496.96858263015747,
+    "match_season": "8",
+    "match_uid": "5667844_1778892840_1309829_11001_41",
+    "match_winner_side": 1,
+    "mvp_uid": 2056186151,
+    "svp_uid": 320417962,
+    "score_info": {
+      "0": 0,
+      "1": 2
+    },
+    "match_time_stamp": 1778893499,
+    "play_mode_id": 0,
+    "game_mode_id": 1,
+    "match_player": {
+      "assists": 19,
+      "kills": 11,
+      "deaths": 3,
+      "is_win": {
+        "score": 1,
+        "is_win": true
+      },
+      "disconnected": false,
+      "player_uid": 21517131,
+      "camp": 1,
+      "score_info": {
+        "add_score": 31.391607172832664,
+        "level": 1,
+        "new_level": 1,
+        "new_score": 3262.2530107970874
+      },
+      "player_hero": {
+        "hero_id": 1020,
+        "hero_name": "mantis",
+        "hero_type": "/heroes/transformations/mantis-headbig-0.webp",
+        "kills": 11,
+        "deaths": 3,
+        "assists": 19,
+        "play_time": 492.9296170640737,
+        "total_hero_damage": 5751.411560058594,
+        "total_damage_taken": 4201.615471124649,
+        "total_hero_heal": 12448.588629126549
+      }
+    }
+  }
+]

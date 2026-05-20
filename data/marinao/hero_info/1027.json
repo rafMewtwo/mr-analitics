@@ -1,0 +1,248 @@
+{
+  "id": "1027",
+  "name": "groot",
+  "real_name": "Groot",
+  "imageUrl": "/rivals/heroes/card/groot.png",
+  "role": "Vanguard",
+  "attack_type": "Projectile Heroes",
+  "team": [
+    "Guardiansofthegalaxy"
+  ],
+  "difficulty": "2",
+  "bio": "A flora colossus from Planet X, the alien known as Groot exhibits enhanced vitality and the ability to manipulate all forms of vegetation. As sturdy as a towering tree, Groot forges his own way, serving as the team's silent but reliable pathfinder.",
+  "lore": "He is Groot, a flora colossus from the branch world of Planet X capable of manipulating plant matter and regrowing his damaged body from a single splinter. The hero at the heart of the Guardians of the Galaxy, Groot may not have many words to say, but his actions always speak for themselves.\nGroot accompanied Star-Lord and Rocket on a scouting mission to Klyntar, where they became stranded after their ship was shot down. Klyntar's dark king, Knull, now seeks to corrupt Groot's regenerative powers in an effort to cultivate the ultimate symbiote.",
+  "transformations": [
+    {
+      "id": "0",
+      "name": "Groot",
+      "icon": "/heroes/transformations/groot-headbig-0.webp",
+      "health": "700",
+      "movement_speed": "6m/s"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "1027001",
+      "name": "Groot",
+      "icon": "/costumes/groot-1027001.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1027100",
+      "name": "Abies Algae",
+      "icon": "/costumes/abies-algae-1027100.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1027301",
+      "name": "Yggroot",
+      "icon": "/costumes/yggroot-1027301.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1027302",
+      "name": "Holiday Happiness",
+      "icon": "/costumes/holiday-happiness-1027302.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1027303",
+      "name": "Mecha Flora",
+      "icon": "/costumes/mecha-flora-1027303.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1027500",
+      "name": "Carved Traveler",
+      "icon": "/costumes/carved-traveler-1027500.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1027501",
+      "name": "Symbiote Flora",
+      "icon": "/costumes/symbiote-flora-1027501.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1027502",
+      "name": "Big Buddy",
+      "icon": "/costumes/big-buddy-1027502.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1027800",
+      "name": "Guardians Of The Galaxy Vol 3",
+      "icon": "/costumes/guardians-of-the-galaxy-vol-3-1027800.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    }
+  ],
+  "abilities": [
+    {
+      "id": 102711,
+      "icon": "/abilities/102711.webp",
+      "name": "Vine Strike",
+      "type": "Weapon",
+      "isCollab": false,
+      "description": "Launch vines to attack enemies.",
+      "additional_fields": {
+        "Key": "Left Click",
+        "Damage": "65",
+        "Casting": "Single-cast projectile with delayed impact",
+        "Critical Hit": "No",
+        "Attack Interval": "0.7s",
+        "Maximum Distance": "22m",
+        "Projectile Speed": "120m/s"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 102719,
+      "name": "Groot Reload",
+      "type": "Weapon",
+      "isCollab": false,
+      "description": null,
+      "transformation_id": "0"
+    },
+    {
+      "id": 102721,
+      "icon": "/abilities/102721.webp",
+      "name": "Furious Flora",
+      "type": "Weapon",
+      "isCollab": false,
+      "description": "Perform a combo with his arms, and the third strike will slightly <Debuff>Launch Up</> the hit enemy airborne.",
+      "additional_fields": {
+        "Key": "V",
+        "Range": "The first two strikes can reach 3m, while the third strike can reach 4m"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 102731,
+      "icon": "/abilities/102731.webp",
+      "name": "Spore Bomb",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Throw an explosive Spore Bomb that splits into multiple small explosive spores.",
+      "additional_fields": {
+        "Key": "Right Click",
+        "Range": "Spore Bomb generates a spell field with a 5m spherical radius, while small explosive spores create a spell field with a 1.5m spherical radius",
+        "Damage": "The projectile itself deals no damage, while Spore Bomb deals 55 damage and explosive spores deal 10 damage",
+        "Casting": "Single-cast projectile with a downward delay that creates a spell field upon impact",
+        "Cooldown": "6s",
+        "Special Effect": "Spore Bomb explodes into 6 explosive spores",
+        "Projectile Speed": "60m/s"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 102741,
+      "icon": "/abilities/102741.webp",
+      "name": "Thornlash Wall",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Target a location and grow a Thornlash Wall. When <Orange>Awakened</>, it strikes nearby enemies attacked by Groot and his allies.",
+      "additional_fields": {
+        "Key": "SHIFT",
+        "Casting": "Targeted",
+        "Cooldown": "2 charges, with each charge taking 6s to recharge",
+        "Special Effect": "Thornlash Wall deals 60 damage every 0.5s",
+        "Maximum Distance": "18m",
+        "Thornlash Wall Health": "250"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 102742,
+      "name": "Return To Nature",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Recall Wooden Walls.",
+      "transformation_id": "0"
+    },
+    {
+      "id": 102743,
+      "icon": "/abilities/102743.webp",
+      "name": "Flora Colossus",
+      "type": "Passive",
+      "isCollab": false,
+      "description": "Wooden walls near Groot will <Orange>Awaken</>, activating an extra effect. Press {PrimaryAttack} while building a wooden wall to continue building additional walls.",
+      "additional_fields": {
+        "Key": "Passive",
+        "Range": "A cylindrical spell field with a 24m radius and a height of 40m",
+        "Casting": "Persistent spell field that surrounds the caster"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 102751,
+      "icon": "/abilities/102751.webp",
+      "name": "Ironwood Wall",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Target a location and grow an Ironwood Wall. When the wall is <Orange>Awakened</>, damage dealt by Groot and nearby allies grants Groot <Buff>Bonus Health</>. Groot gains <Buff>Unstoppable</> while near Ironwood Walls.",
+      "additional_fields": {
+        "Key": "E",
+        "Casting": "Targeted",
+        "Cooldown": "12s",
+        "Special Effect": "Ironwood Wall heals 40 Bonus Health per second, up to 250 Bonus Health; gain Unstoppable status when within 15m of Awakened Ironwood Walls",
+        "Maximum Distance": "10m",
+        "Thornlash Wall Health": "600"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 102761,
+      "icon": "/abilities/102761.webp",
+      "name": "Strangling Prison",
+      "type": "Ultimate",
+      "isCollab": false,
+      "description": "Fire a massive vine cluster that pulls nearby enemies to its center and <Debuff>Imprisons</> them.",
+      "additional_fields": {
+        "Key": "Q",
+        "Range": "8m spherical radius",
+        "Damage": "The projectile deals 10 damage, while the spell field deals 70 damage. While imprisoning enemies, it deals 20 damage every 0.5s",
+        "Casting": "Single-cast projectile with a downward delay that creates a spell field upon impact",
+        "Energy Cost": "2800",
+        "Special Effect": "Imprison enemies for 3.5s",
+        "Projectile Speed": "60m/s"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 102781,
+      "icon": "/abilities/102781.webp",
+      "name": "Wild Wall",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Mantis enhances Groot's wooden walls and Loki's Rune Stones with life energy. Groot can additionally unleash a Wild Wall, which, when in <Orange>Flora Colossus</> state, restores health to random nearby allies. Loki's Rune Stones grant allies within <Orange>Regeneration Domain</> a <Buff>Damage Boost</>.",
+      "additional_fields": {
+        "Key": "C",
+        "Range": "10m spherical radius spell field",
+        "Casting": "Targeted",
+        "Cooldown": "10s",
+        "Healing Amount": "40/s",
+        "Flower Wall Health": "150",
+        "Maximum Unleash Distance": "7m"
+      },
+      "transformation_id": "0"
+    }
+  ]
+}

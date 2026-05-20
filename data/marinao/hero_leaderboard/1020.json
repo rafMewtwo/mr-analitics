@@ -1,0 +1,1284 @@
+{
+  "players": [
+    {
+      "info": {
+        "name": "e4w",
+        "icon": {
+          "player_icon_id": "31060201",
+          "player_icon": "/players/heads/player_head_31060201.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 20,
+          "rank_score": "4943.93",
+          "max_level": 21,
+          "max_rank_score": "5014.05",
+          "update_time": 1779056120,
+          "win_count": 48,
+          "protect_score": 0,
+          "diff_score": "-21.03"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 819898464,
+      "matches": 41,
+      "wins": 30,
+      "kills": 652,
+      "deaths": 217,
+      "assists": 1332,
+      "play_time": "508.67",
+      "total_hero_damage": "518545.68",
+      "total_damage_taken": "395794.90",
+      "total_hero_heal": "814719.00",
+      "mvps": 2,
+      "svps": 0
+    },
+    {
+      "info": {
+        "name": "DntEvenTry",
+        "icon": {
+          "player_icon_id": "31020210",
+          "player_icon": "/players/heads/player_head_31020210.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 19,
+          "rank_score": "4811.68",
+          "max_level": 19,
+          "max_rank_score": "4847.92",
+          "update_time": 1779203395,
+          "win_count": 25,
+          "protect_score": 0,
+          "diff_score": "-21.26"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 234216421,
+      "matches": 18,
+      "wins": 16,
+      "kills": 285,
+      "deaths": 78,
+      "assists": 536,
+      "play_time": "195.69",
+      "total_hero_damage": "236330.93",
+      "total_damage_taken": "157869.76",
+      "total_hero_heal": "371007.15",
+      "mvps": 3,
+      "svps": 0
+    },
+    {
+      "info": {
+        "name": "BŁXZER",
+        "icon": {
+          "player_icon_id": "30000043",
+          "player_icon": "/players/heads/player_head_30000043.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 20,
+          "rank_score": "4959.97",
+          "max_level": 20,
+          "max_rank_score": "4966.90",
+          "update_time": 1779220800,
+          "win_count": 57,
+          "protect_score": 0,
+          "diff_score": "18.98"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 1588353584,
+      "matches": 34,
+      "wins": 19,
+      "kills": 391,
+      "deaths": 158,
+      "assists": 953,
+      "play_time": "369.06",
+      "total_hero_damage": "347166.50",
+      "total_damage_taken": "277927.15",
+      "total_hero_heal": "641834.82",
+      "mvps": 0,
+      "svps": 0
+    },
+    {
+      "info": {
+        "name": "Βug",
+        "icon": {
+          "player_icon_id": "31020203",
+          "player_icon": "/players/heads/player_head_31020203.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 20,
+          "rank_score": "4904.68",
+          "max_level": 20,
+          "max_rank_score": "4904.68",
+          "update_time": 1779157609,
+          "win_count": 10,
+          "protect_score": 0,
+          "diff_score": "18.82"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 2069821333,
+      "matches": 11,
+      "wins": 8,
+      "kills": 178,
+      "deaths": 43,
+      "assists": 310,
+      "play_time": "108.60",
+      "total_hero_damage": "120453.68",
+      "total_damage_taken": "66730.59",
+      "total_hero_heal": "168077.11",
+      "mvps": 0,
+      "svps": 0
+    },
+    {
+      "info": {
+        "name": "xlGabylx",
+        "icon": {
+          "player_icon_id": "31020210",
+          "player_icon": "/players/heads/player_head_31020210.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 18,
+          "rank_score": "4724.84",
+          "max_level": 18,
+          "max_rank_score": "4771.48",
+          "update_time": 1779119662,
+          "win_count": 45,
+          "protect_score": 0,
+          "diff_score": "-21.92"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 944986805,
+      "matches": 11,
+      "wins": 10,
+      "kills": 113,
+      "deaths": 33,
+      "assists": 293,
+      "play_time": "101.32",
+      "total_hero_damage": "116478.82",
+      "total_damage_taken": "81167.00",
+      "total_hero_heal": "193581.24",
+      "mvps": 0,
+      "svps": 0
+    },
+    {
+      "info": {
+        "name": "_Warning",
+        "icon": {
+          "player_icon_id": "31020210",
+          "player_icon": "/players/heads/player_head_31020210.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 18,
+          "rank_score": "4693.67",
+          "max_level": 18,
+          "max_rank_score": "4792.23",
+          "update_time": 1779027569,
+          "win_count": 19,
+          "protect_score": 0,
+          "diff_score": "-19.04"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 781144926,
+      "matches": 27,
+      "wins": 18,
+      "kills": 439,
+      "deaths": 162,
+      "assists": 905,
+      "play_time": "316.35",
+      "total_hero_damage": "338525.38",
+      "total_damage_taken": "213219.79",
+      "total_hero_heal": "488948.94",
+      "mvps": 1,
+      "svps": 1
+    },
+    {
+      "info": {
+        "name": "I Have Mantism",
+        "icon": {
+          "player_icon_id": "31020210",
+          "player_icon": "/players/heads/player_head_31020210.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 16,
+          "rank_score": "4556.15",
+          "max_level": 16,
+          "max_rank_score": "4556.15",
+          "update_time": 1779051685,
+          "win_count": 23,
+          "protect_score": 0,
+          "diff_score": "23.90"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 627442141,
+      "matches": 30,
+      "wins": 22,
+      "kills": 505,
+      "deaths": 166,
+      "assists": 1029,
+      "play_time": "333.15",
+      "total_hero_damage": "343850.93",
+      "total_damage_taken": "233047.78",
+      "total_hero_heal": "691673.42",
+      "mvps": 6,
+      "svps": 3
+    },
+    {
+      "info": {
+        "name": "christ0villa",
+        "icon": {
+          "player_icon_id": "31020206",
+          "player_icon": "/players/heads/player_head_31020206.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 18,
+          "rank_score": "4713.76",
+          "max_level": 18,
+          "max_rank_score": "4713.76",
+          "update_time": 1779129846,
+          "win_count": 29,
+          "protect_score": 0,
+          "diff_score": "20.65"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 1484262293,
+      "matches": 14,
+      "wins": 10,
+      "kills": 243,
+      "deaths": 67,
+      "assists": 504,
+      "play_time": "163.37",
+      "total_hero_damage": "150390.88",
+      "total_damage_taken": "120530.24",
+      "total_hero_heal": "272323.30",
+      "mvps": 1,
+      "svps": 1
+    },
+    {
+      "info": {
+        "name": "DylanDubs",
+        "icon": {
+          "player_icon_id": "31024209",
+          "player_icon": "/players/heads/player_head_31024209.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 19,
+          "rank_score": "4846.96",
+          "max_level": 19,
+          "max_rank_score": "4879.68",
+          "update_time": 1779279036,
+          "win_count": 65,
+          "protect_score": 0,
+          "diff_score": "-19.45"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 1435522706,
+      "matches": 11,
+      "wins": 7,
+      "kills": 143,
+      "deaths": 49,
+      "assists": 259,
+      "play_time": "151.99",
+      "total_hero_damage": "155696.36",
+      "total_damage_taken": "89300.48",
+      "total_hero_heal": "207406.38",
+      "mvps": 0,
+      "svps": 2
+    },
+    {
+      "info": {
+        "name": "Gamma.Lord",
+        "icon": {
+          "player_icon_id": "31011205",
+          "player_icon": "/players/heads/player_head_31011205.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 18,
+          "rank_score": "4713.21",
+          "max_level": 18,
+          "max_rank_score": "4756.95",
+          "update_time": 1778962263,
+          "win_count": 12,
+          "protect_score": 0,
+          "diff_score": "-20.83"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 1946172401,
+      "matches": 10,
+      "wins": 8,
+      "kills": 123,
+      "deaths": 62,
+      "assists": 322,
+      "play_time": "129.82",
+      "total_hero_damage": "93458.29",
+      "total_damage_taken": "89690.45",
+      "total_hero_heal": "201627.09",
+      "mvps": 0,
+      "svps": 0
+    },
+    {
+      "info": {
+        "name": "Solаrson",
+        "icon": {
+          "player_icon_id": "31041211",
+          "player_icon": "/players/heads/player_head_31041211.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 20,
+          "rank_score": "4919.23",
+          "max_level": 20,
+          "max_rank_score": "4919.23",
+          "update_time": 1779126207,
+          "win_count": 21,
+          "protect_score": 0,
+          "diff_score": "20.26"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 96862793,
+      "matches": 11,
+      "wins": 6,
+      "kills": 223,
+      "deaths": 87,
+      "assists": 371,
+      "play_time": "140.95",
+      "total_hero_damage": "185911.81",
+      "total_damage_taken": "132295.04",
+      "total_hero_heal": "222309.34",
+      "mvps": 2,
+      "svps": 4
+    },
+    {
+      "info": {
+        "name": "Ṣ ṅ ọ",
+        "icon": {
+          "player_icon_id": "31020203",
+          "player_icon": "/players/heads/player_head_31020203.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 16,
+          "rank_score": "4562.03",
+          "max_level": 17,
+          "max_rank_score": "4643.67",
+          "update_time": 1779038549,
+          "win_count": 23,
+          "protect_score": 0,
+          "diff_score": "-21.37"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 546921400,
+      "matches": 36,
+      "wins": 22,
+      "kills": 629,
+      "deaths": 305,
+      "assists": 1137,
+      "play_time": "435.15",
+      "total_hero_damage": "403309.49",
+      "total_damage_taken": "316611.47",
+      "total_hero_heal": "590698.50",
+      "mvps": 3,
+      "svps": 2
+    },
+    {
+      "info": {
+        "name": "Manti",
+        "icon": {
+          "player_icon_id": "31020204",
+          "player_icon": "/players/heads/player_head_31020204.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 16,
+          "rank_score": "4525.00",
+          "max_level": 16,
+          "max_rank_score": "4525.00",
+          "update_time": 1778911228,
+          "win_count": 7,
+          "protect_score": 0,
+          "diff_score": "0.00"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 1071115240,
+      "matches": 14,
+      "wins": 10,
+      "kills": 220,
+      "deaths": 78,
+      "assists": 435,
+      "play_time": "163.97",
+      "total_hero_damage": "198618.66",
+      "total_damage_taken": "135294.38",
+      "total_hero_heal": "293492.48",
+      "mvps": 1,
+      "svps": 0
+    },
+    {
+      "info": {
+        "name": "FlankMantisOTP",
+        "icon": {
+          "player_icon_id": "31020001",
+          "player_icon": "/players/heads/player_head_31020001.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 16,
+          "rank_score": "4529.44",
+          "max_level": 16,
+          "max_rank_score": "4576.57",
+          "update_time": 1779261002,
+          "win_count": 17,
+          "protect_score": 0,
+          "diff_score": "21.99"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 1086654184,
+      "matches": 19,
+      "wins": 14,
+      "kills": 327,
+      "deaths": 142,
+      "assists": 534,
+      "play_time": "235.69",
+      "total_hero_damage": "211233.24",
+      "total_damage_taken": "183863.72",
+      "total_hero_heal": "334237.37",
+      "mvps": 4,
+      "svps": 0
+    },
+    {
+      "info": {
+        "name": "Balalson",
+        "icon": {
+          "player_icon_id": "30000060",
+          "player_icon": "/players/heads/player_head_30000060.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 17,
+          "rank_score": "4625.00",
+          "max_level": 17,
+          "max_rank_score": "4625.00",
+          "update_time": 1778955342,
+          "win_count": 6,
+          "protect_score": 0,
+          "diff_score": "0.00"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 133532478,
+      "matches": 15,
+      "wins": 9,
+      "kills": 195,
+      "deaths": 94,
+      "assists": 507,
+      "play_time": "160.12",
+      "total_hero_damage": "130896.86",
+      "total_damage_taken": "126834.51",
+      "total_hero_heal": "246142.86",
+      "mvps": 0,
+      "svps": 0
+    },
+    {
+      "info": {
+        "name": "Wa.ge",
+        "icon": {
+          "player_icon_id": "30000132",
+          "player_icon": "/players/heads/player_head_30000132.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 18,
+          "rank_score": "4703.58",
+          "max_level": 18,
+          "max_rank_score": "4703.58",
+          "update_time": 1778994077,
+          "win_count": 16,
+          "protect_score": 0,
+          "diff_score": "23.29"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 1086787182,
+      "matches": 13,
+      "wins": 6,
+      "kills": 105,
+      "deaths": 53,
+      "assists": 321,
+      "play_time": "129.05",
+      "total_hero_damage": "82571.95",
+      "total_damage_taken": "69162.67",
+      "total_hero_heal": "174939.80",
+      "mvps": 0,
+      "svps": 0
+    },
+    {
+      "info": {
+        "name": "Saggitario20",
+        "icon": {
+          "player_icon_id": "31020210",
+          "player_icon": "/players/heads/player_head_31020210.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 13,
+          "rank_score": "4246.41",
+          "max_level": 15,
+          "max_rank_score": "4427.60",
+          "update_time": 1779054657,
+          "win_count": 27,
+          "protect_score": 0,
+          "diff_score": "-19.76"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 1685307318,
+      "matches": 25,
+      "wins": 17,
+      "kills": 229,
+      "deaths": 92,
+      "assists": 696,
+      "play_time": "272.77",
+      "total_hero_damage": "161859.17",
+      "total_damage_taken": "146154.40",
+      "total_hero_heal": "361628.80",
+      "mvps": 0,
+      "svps": 0
+    },
+    {
+      "info": {
+        "name": "Shank",
+        "icon": {
+          "player_icon_id": "31054204",
+          "player_icon": "/players/heads/player_head_31054204.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 15,
+          "rank_score": "4436.87",
+          "max_level": 15,
+          "max_rank_score": "4495.18",
+          "update_time": 1779258962,
+          "win_count": 32,
+          "protect_score": 0,
+          "diff_score": "-19.45"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 1232535627,
+      "matches": 15,
+      "wins": 10,
+      "kills": 163,
+      "deaths": 62,
+      "assists": 403,
+      "play_time": "157.46",
+      "total_hero_damage": "138640.52",
+      "total_damage_taken": "91333.94",
+      "total_hero_heal": "271080.28",
+      "mvps": 1,
+      "svps": 0
+    },
+    {
+      "info": {
+        "name": "DiamentowyLipa",
+        "icon": {
+          "player_icon_id": "31024209",
+          "player_icon": "/players/heads/player_head_31024209.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 16,
+          "rank_score": "4595.56",
+          "max_level": 16,
+          "max_rank_score": "4599.20",
+          "update_time": 1779006278,
+          "win_count": 17,
+          "protect_score": 0,
+          "diff_score": "20.43"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 809274746,
+      "matches": 13,
+      "wins": 7,
+      "kills": 116,
+      "deaths": 35,
+      "assists": 258,
+      "play_time": "111.22",
+      "total_hero_damage": "107182.36",
+      "total_damage_taken": "77992.61",
+      "total_hero_heal": "167332.68",
+      "mvps": 0,
+      "svps": 0
+    },
+    {
+      "info": {
+        "name": "NikNiks",
+        "icon": {
+          "player_icon_id": "31047207",
+          "player_icon": "/players/heads/player_head_31047207.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 15,
+          "rank_score": "4463.25",
+          "max_level": 16,
+          "max_rank_score": "4569.01",
+          "update_time": 1779238517,
+          "win_count": 45,
+          "protect_score": 0,
+          "diff_score": "-18.17"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 383206646,
+      "matches": 26,
+      "wins": 17,
+      "kills": 301,
+      "deaths": 184,
+      "assists": 797,
+      "play_time": "310.78",
+      "total_hero_damage": "255012.70",
+      "total_damage_taken": "245035.90",
+      "total_hero_heal": "475460.69",
+      "mvps": 0,
+      "svps": 1
+    },
+    {
+      "info": {
+        "name": "rude prices",
+        "icon": {
+          "player_icon_id": "31020004",
+          "player_icon": "/players/heads/player_head_31020004.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 15,
+          "rank_score": "4442.93",
+          "max_level": 16,
+          "max_rank_score": "4544.05",
+          "update_time": 1779070033,
+          "win_count": 11,
+          "protect_score": 0,
+          "diff_score": "-18.09"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 1589161747,
+      "matches": 21,
+      "wins": 12,
+      "kills": 300,
+      "deaths": 101,
+      "assists": 501,
+      "play_time": "204.20",
+      "total_hero_damage": "204673.01",
+      "total_damage_taken": "132018.15",
+      "total_hero_heal": "307996.74",
+      "mvps": 1,
+      "svps": 2
+    },
+    {
+      "info": {
+        "name": "Snow_Tutel",
+        "icon": {
+          "player_icon_id": "30000132",
+          "player_icon": "/players/heads/player_head_30000132.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 16,
+          "rank_score": "4503.26",
+          "max_level": 16,
+          "max_rank_score": "4576.43",
+          "update_time": 1779162581,
+          "win_count": 18,
+          "protect_score": 0,
+          "diff_score": "20.23"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 1825809602,
+      "matches": 18,
+      "wins": 11,
+      "kills": 158,
+      "deaths": 78,
+      "assists": 341,
+      "play_time": "176.96",
+      "total_hero_damage": "153618.35",
+      "total_damage_taken": "127999.08",
+      "total_hero_heal": "342743.73",
+      "mvps": 1,
+      "svps": 0
+    },
+    {
+      "info": {
+        "name": "luzareevi",
+        "icon": {
+          "player_icon_id": "31024209",
+          "player_icon": "/players/heads/player_head_31024209.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 16,
+          "rank_score": "4520.74",
+          "max_level": 16,
+          "max_rank_score": "4557.75",
+          "update_time": 1779282091,
+          "win_count": 35,
+          "protect_score": 0,
+          "diff_score": "23.62"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 677030465,
+      "matches": 15,
+      "wins": 9,
+      "kills": 196,
+      "deaths": 81,
+      "assists": 343,
+      "play_time": "173.04",
+      "total_hero_damage": "175017.38",
+      "total_damage_taken": "127893.26",
+      "total_hero_heal": "193789.20",
+      "mvps": 0,
+      "svps": 0
+    },
+    {
+      "info": {
+        "name": "BenSilver42",
+        "icon": {
+          "player_icon_id": "30000045",
+          "player_icon": "/players/heads/player_head_30000045.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 17,
+          "rank_score": "4570.99",
+          "max_level": 17,
+          "max_rank_score": "4690.64",
+          "update_time": 1779033330,
+          "win_count": 37,
+          "protect_score": 0,
+          "diff_score": "-22.15"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 700467259,
+      "matches": 12,
+      "wins": 6,
+      "kills": 127,
+      "deaths": 66,
+      "assists": 349,
+      "play_time": "139.83",
+      "total_hero_damage": "135266.55",
+      "total_damage_taken": "110971.60",
+      "total_hero_heal": "224694.04",
+      "mvps": 0,
+      "svps": 0
+    },
+    {
+      "info": {
+        "name": "FRFRArera",
+        "icon": {
+          "player_icon_id": "31046207",
+          "player_icon": "/players/heads/player_head_31046207.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 16,
+          "rank_score": "4484.58",
+          "max_level": 16,
+          "max_rank_score": "4504.84",
+          "update_time": 1779031370,
+          "win_count": 12,
+          "protect_score": 0,
+          "diff_score": "-20.26"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 1057838963,
+      "matches": 16,
+      "wins": 9,
+      "kills": 252,
+      "deaths": 136,
+      "assists": 583,
+      "play_time": "199.14",
+      "total_hero_damage": "200500.26",
+      "total_damage_taken": "190677.97",
+      "total_hero_heal": "281035.74",
+      "mvps": 0,
+      "svps": 0
+    },
+    {
+      "info": {
+        "name": "icrackoldmen",
+        "icon": {
+          "player_icon_id": "31020210",
+          "player_icon": "/players/heads/player_head_31020210.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 11,
+          "rank_score": "4066.88",
+          "max_level": 11,
+          "max_rank_score": "4085.62",
+          "update_time": 1779155585,
+          "win_count": 25,
+          "protect_score": 0,
+          "diff_score": "-18.75"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 829389026,
+      "matches": 18,
+      "wins": 14,
+      "kills": 330,
+      "deaths": 88,
+      "assists": 482,
+      "play_time": "189.78",
+      "total_hero_damage": "191976.57",
+      "total_damage_taken": "136703.44",
+      "total_hero_heal": "241076.03",
+      "mvps": 1,
+      "svps": 0
+    },
+    {
+      "info": {
+        "name": "DBurd49",
+        "icon": {
+          "player_icon_id": "31020210",
+          "player_icon": "/players/heads/player_head_31020210.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 13,
+          "rank_score": "4284.28",
+          "max_level": 14,
+          "max_rank_score": "4321.65",
+          "update_time": 1779248711,
+          "win_count": 19,
+          "protect_score": 0,
+          "diff_score": "25.60"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 1230957759,
+      "matches": 39,
+      "wins": 18,
+      "kills": 604,
+      "deaths": 263,
+      "assists": 1073,
+      "play_time": "476.59",
+      "total_hero_damage": "453690.21",
+      "total_damage_taken": "326456.30",
+      "total_hero_heal": "706776.74",
+      "mvps": 1,
+      "svps": 4
+    },
+    {
+      "info": {
+        "name": "Niellx",
+        "icon": {
+          "player_icon_id": "31020003",
+          "player_icon": "/players/heads/player_head_31020003.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 14,
+          "rank_score": "4306.58",
+          "max_level": 14,
+          "max_rank_score": "4330.45",
+          "update_time": 1778991041,
+          "win_count": 10,
+          "protect_score": 0,
+          "diff_score": "-23.87"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 17637613,
+      "matches": 20,
+      "wins": 10,
+      "kills": 255,
+      "deaths": 103,
+      "assists": 499,
+      "play_time": "195.80",
+      "total_hero_damage": "187172.84",
+      "total_damage_taken": "156838.31",
+      "total_hero_heal": "319471.77",
+      "mvps": 2,
+      "svps": 1
+    },
+    {
+      "info": {
+        "name": "trch0",
+        "icon": {
+          "player_icon_id": "30000001",
+          "player_icon": "/players/heads/player_head_30000001.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 10,
+          "rank_score": "3926.11",
+          "max_level": 10,
+          "max_rank_score": "3926.11",
+          "update_time": 1779209258,
+          "win_count": 24,
+          "protect_score": 0,
+          "diff_score": "29.80"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 1651764463,
+      "matches": 32,
+      "wins": 23,
+      "kills": 633,
+      "deaths": 194,
+      "assists": 834,
+      "play_time": "347.73",
+      "total_hero_damage": "342588.40",
+      "total_damage_taken": "246849.22",
+      "total_hero_heal": "500174.46",
+      "mvps": 5,
+      "svps": 0
+    },
+    {
+      "info": {
+        "name": "Batucu",
+        "icon": {
+          "player_icon_id": "31018207",
+          "player_icon": "/players/heads/player_head_31018207.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 13,
+          "rank_score": "4240.18",
+          "max_level": 13,
+          "max_rank_score": "4240.18",
+          "update_time": 1779199916,
+          "win_count": 14,
+          "protect_score": 0,
+          "diff_score": "27.33"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 906678261,
+      "matches": 25,
+      "wins": 12,
+      "kills": 252,
+      "deaths": 136,
+      "assists": 628,
+      "play_time": "258.21",
+      "total_hero_damage": "222528.50",
+      "total_damage_taken": "191512.21",
+      "total_hero_heal": "404221.81",
+      "mvps": 0,
+      "svps": 1
+    },
+    {
+      "info": {
+        "name": "EyeOfAgaKoto",
+        "icon": {
+          "player_icon_id": "31036207",
+          "player_icon": "/players/heads/player_head_31036207.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 13,
+          "rank_score": "4219.48",
+          "max_level": 14,
+          "max_rank_score": "4399.86",
+          "update_time": 1779051053,
+          "win_count": 20,
+          "protect_score": 0,
+          "diff_score": "26.69"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 1304611466,
+      "matches": 13,
+      "wins": 6,
+      "kills": 205,
+      "deaths": 98,
+      "assists": 349,
+      "play_time": "157.30",
+      "total_hero_damage": "159295.00",
+      "total_damage_taken": "125413.55",
+      "total_hero_heal": "247365.62",
+      "mvps": 1,
+      "svps": 1
+    },
+    {
+      "info": {
+        "name": "Wonjun_Jjigae",
+        "icon": {
+          "player_icon_id": "31048206",
+          "player_icon": "/players/heads/player_head_31048206.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 14,
+          "rank_score": "4307.29",
+          "max_level": 14,
+          "max_rank_score": "4360.98",
+          "update_time": 1779165918,
+          "win_count": 38,
+          "protect_score": 0,
+          "diff_score": "-16.69"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 442949981,
+      "matches": 10,
+      "wins": 4,
+      "kills": 111,
+      "deaths": 54,
+      "assists": 195,
+      "play_time": "100.70",
+      "total_hero_damage": "95380.69",
+      "total_damage_taken": "85322.28",
+      "total_hero_heal": "113454.35",
+      "mvps": 0,
+      "svps": 0
+    },
+    {
+      "info": {
+        "name": "la hormiga",
+        "icon": {
+          "player_icon_id": "31020208",
+          "player_icon": "/players/heads/player_head_31020208.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 13,
+          "rank_score": "4196.78",
+          "max_level": 13,
+          "max_rank_score": "4261.65",
+          "update_time": 1779238657,
+          "win_count": 52,
+          "protect_score": 0,
+          "diff_score": "-19.81"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 1691652476,
+      "matches": 12,
+      "wins": 5,
+      "kills": 52,
+      "deaths": 76,
+      "assists": 336,
+      "play_time": "163.73",
+      "total_hero_damage": "52630.58",
+      "total_damage_taken": "110555.27",
+      "total_hero_heal": "278991.09",
+      "mvps": 0,
+      "svps": 0
+    },
+    {
+      "info": {
+        "name": "ColdxSparks",
+        "icon": {
+          "player_icon_id": "31020204",
+          "player_icon": "/players/heads/player_head_31020204.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 9,
+          "rank_score": "3850.00",
+          "max_level": 0,
+          "max_rank_score": "0.00",
+          "update_time": 1778872702,
+          "win_count": 0,
+          "protect_score": 0,
+          "diff_score": "0.00"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 229525169,
+      "matches": 15,
+      "wins": 6,
+      "kills": 166,
+      "deaths": 67,
+      "assists": 398,
+      "play_time": "168.67",
+      "total_hero_damage": "157328.58",
+      "total_damage_taken": "91279.78",
+      "total_hero_heal": "290941.55",
+      "mvps": 0,
+      "svps": 1
+    },
+    {
+      "info": {
+        "name": "harpylady",
+        "icon": {
+          "player_icon_id": "31020210",
+          "player_icon": "/players/heads/player_head_31020210.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 10,
+          "rank_score": "3983.56",
+          "max_level": 11,
+          "max_rank_score": "4003.51",
+          "update_time": 1779002489,
+          "win_count": 14,
+          "protect_score": 0,
+          "diff_score": "29.34"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 611531433,
+      "matches": 11,
+      "wins": 5,
+      "kills": 117,
+      "deaths": 53,
+      "assists": 219,
+      "play_time": "100.77",
+      "total_hero_damage": "99026.29",
+      "total_damage_taken": "70993.76",
+      "total_hero_heal": "105497.83",
+      "mvps": 0,
+      "svps": 0
+    },
+    {
+      "info": {
+        "name": "TP Fishy",
+        "icon": {
+          "player_icon_id": "31042001",
+          "player_icon": "/players/heads/player_head_31042001.png"
+        },
+        "rank_season": {},
+        "login_os": "1"
+      },
+      "player_uid": 1709678135,
+      "matches": 14,
+      "wins": 11,
+      "kills": 182,
+      "deaths": 73,
+      "assists": 494,
+      "play_time": "177.67",
+      "total_hero_damage": "158213.15",
+      "total_damage_taken": "125581.07",
+      "total_hero_heal": "331441.20",
+      "mvps": 0,
+      "svps": 0
+    },
+    {
+      "info": {
+        "name": "RicePatch",
+        "icon": {
+          "player_icon_id": "31020203",
+          "player_icon": "/players/heads/player_head_31020203.png"
+        },
+        "rank_season": {},
+        "login_os": "1"
+      },
+      "player_uid": 1205452029,
+      "matches": 12,
+      "wins": 8,
+      "kills": 167,
+      "deaths": 57,
+      "assists": 395,
+      "play_time": "145.94",
+      "total_hero_damage": "135805.35",
+      "total_damage_taken": "89672.82",
+      "total_hero_heal": "214225.63",
+      "mvps": 0,
+      "svps": 0
+    },
+    {
+      "info": {
+        "name": "Jhita",
+        "icon": {
+          "player_icon_id": "31024202",
+          "player_icon": "/players/heads/player_head_31024202.png"
+        },
+        "rank_season": {},
+        "login_os": "1"
+      },
+      "player_uid": 245950788,
+      "matches": 36,
+      "wins": 18,
+      "kills": 476,
+      "deaths": 243,
+      "assists": 1176,
+      "play_time": "427.70",
+      "total_hero_damage": "349029.22",
+      "total_damage_taken": "319743.86",
+      "total_hero_heal": "718106.68",
+      "mvps": 1,
+      "svps": 1
+    },
+    {
+      "info": {
+        "name": "_Eicosane",
+        "icon": {
+          "player_icon_id": "31020210",
+          "player_icon": "/players/heads/player_head_31020210.png"
+        },
+        "rank_season": {
+          "rank_game_id": 16,
+          "level": 3,
+          "rank_score": "3183.54",
+          "max_level": 3,
+          "max_rank_score": "3207.60",
+          "update_time": 1779238225,
+          "win_count": 7,
+          "protect_score": 2,
+          "diff_score": "-24.06"
+        },
+        "login_os": "1"
+      },
+      "player_uid": 12708105,
+      "matches": 18,
+      "wins": 7,
+      "kills": 193,
+      "deaths": 146,
+      "assists": 446,
+      "play_time": "198.49",
+      "total_hero_damage": "112339.41",
+      "total_damage_taken": "134406.36",
+      "total_hero_heal": "304707.22",
+      "mvps": 0,
+      "svps": 1
+    },
+    {
+      "info": {
+        "name": "Darling..",
+        "icon": {
+          "player_icon_id": "31036213",
+          "player_icon": "/players/heads/player_head_31036213.png"
+        },
+        "rank_season": {},
+        "login_os": "1"
+      },
+      "player_uid": 1581601553,
+      "matches": 11,
+      "wins": 4,
+      "kills": 122,
+      "deaths": 62,
+      "assists": 309,
+      "play_time": "114.86",
+      "total_hero_damage": "94012.20",
+      "total_damage_taken": "83500.13",
+      "total_hero_heal": "176130.31",
+      "mvps": 1,
+      "svps": 0
+    }
+  ]
+}

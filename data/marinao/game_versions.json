@@ -1,0 +1,55 @@
+{
+  "total_versions": 17,
+  "versions": [
+    {
+      "version": 20250530,
+      "release": "May 30th, 2025",
+      "patchNotesUrl": "/api/v1/patch-note/20250530"
+    },
+    {
+      "version": 20250522,
+      "release": "May 22th, 2025",
+      "patchNotesUrl": "/api/v1/patch-note/20250522"
+    },
+    {
+      "version": 20250515,
+      "release": "May 14th, 2025",
+      "patchNotesUrl": "/api/v1/patch-note/20250515"
+    },
+    {
+      "version": 20250508,
+      "release": "May 8th, 2025",
+      "patchNotesUrl": "/api/v1/patch-note/20250508"
+    },
+    {
+      "version": 20250430,
+      "release": "April 30th, 2025",
+      "patchNotesUrl": "/api/v1/patch-note/20250430"
+    },
+    {
+      "version": 20250425,
+      "release": "April 25th, 2025",
+      "patchNotesUrl": "/api/v1/patch-note/20250425"
+    },
+    {
+      "version": 20250415,
+      "release": "April 17th, 2025",
+      "patchNotesUrl": "/api/v1/patch-note/20250415"
+    },
+    {
+      "version": 20250411,
+      "release": "April 4th, 2025",
+      "patchNotesUrl": "/api/v1/patch-note/20250411"
+    },
+    {
+      "version": 20250327,
+      "release": "March 26th, 2025",
+      "patchNotesUrl": "/api/v1/patch-note/20250327"
+    },
+    {
+      "version": 20250314,
+      "release": "March 12th, 2025",
+      "patchNotesUrl": "/api/v1/patch-note/20250314"
+    }
+  ]
+}

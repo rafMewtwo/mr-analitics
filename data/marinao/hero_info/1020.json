@@ -1,0 +1,242 @@
+{
+  "id": "1020",
+  "name": "mantis",
+  "real_name": "Mantis",
+  "imageUrl": "/rivals/heroes/card/mantis.png",
+  "role": "Strategist",
+  "attack_type": "Projectile Heroes",
+  "team": [
+    "Guardiansofthegalaxy"
+  ],
+  "difficulty": "1",
+  "bio": "Mantis uses her impressive mental abilities and her penchant for plant control to anchor any team she fights alongside. Her powers tap into a limitless flow of life energy, gently nourishing everything she touches.",
+  "lore": "Mantis always knows exactly how you're feeling, thanks to her strong empathic powers. Her alien ability to alter the emotions of others comes in handy on the battlefield, but Mantis only finds true happiness for herself when she is with her fellow Guardians of the Galaxy.\nAfter being captured by the Collector and put on display at his theme park, Mantis managed to escape with the help of her fellow captives, Sai and Jeff. Now, Mantis travels the spaceways in hopes of reuniting with her team, while welcoming other displaced souls into the Guardians' found family.",
+  "transformations": [
+    {
+      "id": "0",
+      "name": "Mantis",
+      "icon": "/heroes/transformations/mantis-headbig-0.webp",
+      "health": "250",
+      "movement_speed": "6m/s"
+    }
+  ],
+  "costumes": [
+    {
+      "id": "1020001",
+      "name": "Mantis",
+      "icon": "/costumes/mantis-1020001.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1020100",
+      "name": "Knowhere Corp",
+      "icon": "/costumes/knowhere-corp-1020100.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1020101",
+      "name": "Will Of Galacta",
+      "icon": "/costumes/will-of-galacta-1020101.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1020102",
+      "name": "Black Gold",
+      "icon": "/costumes/black-gold-1020102.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1020300",
+      "name": "Galactic Wings",
+      "icon": "/costumes/galactic-wings-1020300.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1020301",
+      "name": "Jade Maiden",
+      "icon": "/costumes/jade-maiden-1020301.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1020302",
+      "name": "Oceanic Harmony",
+      "icon": "/costumes/oceanic-harmony-1020302.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1020305",
+      "name": "Galactic Gladiator",
+      "icon": "/costumes/galactic-gladiator-1020305.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1020500",
+      "name": "Flora Maiden",
+      "icon": "/costumes/flora-maiden-1020500.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1020501",
+      "name": "Starlit Madonna",
+      "icon": "/costumes/starlit-madonna-1020501.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    },
+    {
+      "id": "1020800",
+      "name": "Guardians Of The Galaxy Vol 3",
+      "icon": "/costumes/guardians-of-the-galaxy-vol-3-1020800.png",
+      "quality": "NO_QUALITY",
+      "description": "0",
+      "appearance": "0"
+    }
+  ],
+  "abilities": [
+    {
+      "id": 102011,
+      "icon": "/abilities/102011.webp",
+      "name": "Life Energy Blast",
+      "type": "Weapon",
+      "isCollab": false,
+      "description": "Fire an energy thorn and regain one <Orange>Life Orb</> after a critical hit.",
+      "additional_fields": {
+        "Key": "Left Click",
+        "Ammo": "15",
+        "Damage": "55 damage per round",
+        "Casting": "Single-cast projectile with delayed impact",
+        "Fire Rate": "2.5 rounds per second",
+        "Critical Hit": "Yes",
+        "Damage Falloff": "No falloff",
+        "Special Effect": "Critical hit generates 1 Life Orb",
+        "Projectile Speed": "150m/s"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 102031,
+      "icon": "/abilities/102031.webp",
+      "name": "Nature's Favor",
+      "type": "Passive",
+      "isCollab": false,
+      "description": "Receive a <Buff>Movement Boost</> when not injured and <Orange>Healing Over Time</> when consuming <Buff>Life Orbs</>.",
+      "additional_fields": {
+        "Key": "Passive",
+        "Duration": "8s",
+        "Healing Amount": "12.5 per second",
+        "Special Effect": "Consume Life Orbs to receive Healing Over Time",
+        "Out-of-Combat Movement Speed": "7.5m/s",
+        "Time Required to Leave Combat": "3s"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 102041,
+      "icon": "/abilities/102041.webp",
+      "name": "Allied Inspiration",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Consume <Orange>Life Orbs</> to grant allies a <Buff>Damage</> and <Buff>Speed</> Boost.",
+      "additional_fields": {
+        "Key": "E",
+        "Casting": "Targeted",
+        "Cooldown": "Consume 1 Life Orb",
+        "Duration": "8s (16s maximum duration)",
+        "Damage Boost": "12%"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 102051,
+      "icon": "/abilities/102051.webp",
+      "name": "Spore Slumber",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Throw a spore to <Debuff>Sedate</> the nearest enemy.",
+      "additional_fields": {
+        "Key": "SHIFT",
+        "Range": "3m spherical radius",
+        "Damage": "10",
+        "Casting": "Single-cast projectile with delayed impact that also generates a spell field",
+        "Cooldown": "15s",
+        "Special Effect": "A Mantis illusions will manifest beside the sedated heroes. Allies can attack this illusion to awaken the affected hero",
+        "Illusion Health": "100",
+        "Sedation Duration": "3.5s"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 102061,
+      "icon": "/abilities/102061.webp",
+      "name": "Healing Flower",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Consume <Orange>Life Orbs</> to grant allies <Buff>Healing Over Time</>.",
+      "additional_fields": {
+        "Key": "Right Click",
+        "Casting": "Targeted",
+        "Cooldown": "Consume 1 Life Orb",
+        "Duration": "8s (16s maximum duration)",
+        "Special Effect": "Healing Flower provides two types of healing effects: One-time Healing and Healing Over Time",
+        "One-time Healing Amount": "55",
+        "Healing Over Time Amount": "\n\t\t\t\t\t\t10 + 2.5% of the target's maximum Health per second\n\t\t\t\t\t\t"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 102071,
+      "icon": "/abilities/102071.webp",
+      "name": "Soul Resurgence",
+      "type": "Ultimate",
+      "isCollab": false,
+      "description": "Release energy around her while moving, providing <Buff>Healing Over Time</> and <Buff>Movement Boosts</> for surrounding allies. Excess healing converts to <Buff>Bonus Health</>.",
+      "additional_fields": {
+        "Key": "Q",
+        "Range": "15m spherical radius",
+        "Casting": "Persistent spell field that surrounds the caster",
+        "Duration": "8s",
+        "Energy Cost": "4300",
+        "Healing Amount": "150",
+        "Movement Boost": "3m/s",
+        "Excess Healing/Max Health Conversion": "150",
+        "Caster & Ally One-time Healing Amount": "200",
+        "Excess Healing/Bonus Health Conversion": "100%"
+      },
+      "transformation_id": "0"
+    },
+    {
+      "id": 102091,
+      "icon": "/abilities/102091.webp",
+      "name": "Natural Anger",
+      "type": "Normal",
+      "isCollab": false,
+      "description": "Consume <Orange>Life Orbs</> to grant herself a <Buff>Damage Boost</>.",
+      "additional_fields": {
+        "Key": "F",
+        "Casting": "Instant Cast",
+        "Cooldown": "Consume 1 Life Orb",
+        "Duration": "8s (the duration cannot stack; repeatedly casting will only refresh the duration)",
+        "Damage Boost": "12%"
+      },
+      "transformation_id": "0"
+    }
+  ]
+}

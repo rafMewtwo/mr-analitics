@@ -34,8 +34,8 @@ from typing import Any
 
 import pandas as pd
 
-NICK = "haechanie"
-DATA_DIR = Path(__file__).parent / NICK
+NICK = "haechanie"  # default histórico
+BASE_DIR = Path(__file__).parent
 
 
 def _read_json(path: Path, default=None):
@@ -48,7 +48,7 @@ def _read_json(path: Path, default=None):
 
 
 @dataclass
-class HaechanieData:
+class PlayerData:
     profile: dict
     matches_df: pd.DataFrame
     match_details: dict[str, dict]
@@ -61,6 +61,8 @@ class HaechanieData:
     hero_matchups_df: pd.DataFrame
     heroes_ranked_df: pd.DataFrame
     maps_agg_df: pd.DataFrame
+    display_name: str = ""
+    slug: str = ""
     rank: str = ""
     rank_image: str = ""
     level: int = 0
@@ -68,6 +70,10 @@ class HaechanieData:
     overall_ranked: dict = field(default_factory=dict)
     meta_context: dict = field(default_factory=dict)
     fetched_at: str = ""
+
+
+# Alias de compatibilidade: módulos de análise importam HaechanieData como type hint.
+HaechanieData = PlayerData
 
 
 # Fallback pra heróis recentes não listados em /heroes (seasons novas).
@@ -213,10 +219,10 @@ def _normalize_match(raw: dict, heroes_idx: dict[int, dict], maps_idx: dict[int,
         return None
 
 
-def _load_match_details() -> dict[str, dict]:
+def _load_match_details(data_dir: Path) -> dict[str, dict]:
     """Carrega todos os match_details/*.json e indexa por match_uid."""
     out: dict[str, dict] = {}
-    md_dir = DATA_DIR / "match_details"
+    md_dir = data_dir / "match_details"
     if not md_dir.exists():
         return out
     for f in md_dir.glob("*.json"):
@@ -229,10 +235,10 @@ def _load_match_details() -> dict[str, dict]:
     return out
 
 
-def _load_hero_dir(subdir: str) -> dict[int, Any]:
-    """Carrega data/haechanie/{subdir}/*.json indexado por int(filename)."""
+def _load_hero_dir(data_dir: Path, subdir: str) -> dict[int, Any]:
+    """Carrega data/{slug}/{subdir}/*.json indexado por int(filename)."""
     out: dict[int, Any] = {}
-    d = DATA_DIR / subdir
+    d = data_dir / subdir
     if not d.exists():
         return out
     for f in d.glob("*.json"):
@@ -372,14 +378,16 @@ def _build_maps_agg_df(profile: dict, maps_idx: dict[int, str]) -> pd.DataFrame:
     return df
 
 
-@lru_cache(maxsize=1)
-def load_haechanie() -> HaechanieData:
-    profile = _read_json(DATA_DIR / "profile.json", {}) or {}
-    matches_raw = _read_json(DATA_DIR / "match_history.json", []) or []
-    heroes_catalog_list = _read_json(DATA_DIR / "heroes_catalog.json", []) or []
-    maps_catalog_list = _read_json(DATA_DIR / "maps_catalog.json", []) or []
+@lru_cache(maxsize=8)
+def load_player(slug: str) -> PlayerData:
+    """Carrega todos os dados de data/{slug}/ numa PlayerData. Cacheado por slug."""
+    data_dir = BASE_DIR / slug
+    profile = _read_json(data_dir / "profile.json", {}) or {}
+    matches_raw = _read_json(data_dir / "match_history.json", []) or []
+    heroes_catalog_list = _read_json(data_dir / "heroes_catalog.json", []) or []
+    maps_catalog_list = _read_json(data_dir / "maps_catalog.json", []) or []
 
-    hero_info_loaded = _load_hero_dir("hero_info")
+    hero_info_loaded = _load_hero_dir(data_dir, "hero_info")
     heroes_idx = _build_heroes_index(heroes_catalog_list, hero_info_loaded)
     maps_idx = _build_maps_index(maps_catalog_list)
 
@@ -399,25 +407,28 @@ def load_haechanie() -> HaechanieData:
     rank_block = player_block.get("rank") or {}
 
     meta = {
-        "game_versions": _read_json(DATA_DIR / "game_versions.json"),
-        "balances": _read_json(DATA_DIR / "balances.json"),
-        "patch_notes": _read_json(DATA_DIR / "patch_notes.json"),
+        "game_versions": _read_json(data_dir / "game_versions.json"),
+        "balances": _read_json(data_dir / "balances.json"),
+        "patch_notes": _read_json(data_dir / "patch_notes.json"),
     }
-    fetch_meta = _read_json(DATA_DIR / "_meta.json", {}) or {}
+    fetch_meta = _read_json(data_dir / "_meta.json", {}) or {}
+    display_name = profile.get("name") or fetch_meta.get("nick") or slug
 
-    return HaechanieData(
+    return PlayerData(
         profile=profile,
         matches_df=matches_df,
-        match_details=_load_match_details(),
+        match_details=_load_match_details(data_dir),
         heroes_catalog=heroes_idx,
         maps_catalog=maps_idx,
-        hero_stats=_load_hero_dir("hero_stats"),
+        hero_stats=_load_hero_dir(data_dir, "hero_stats"),
         hero_info=hero_info_loaded,
-        hero_leaderboard=_load_hero_dir("hero_leaderboard"),
+        hero_leaderboard=_load_hero_dir(data_dir, "hero_leaderboard"),
         team_mates_df=_build_team_mates_df(profile),
         hero_matchups_df=_build_hero_matchups_df(profile, heroes_idx),
         heroes_ranked_df=_build_heroes_ranked_df(profile, heroes_idx),
         maps_agg_df=_build_maps_agg_df(profile, maps_idx),
+        display_name=display_name,
+        slug=slug,
         rank=rank_block.get("rank") or "",
         rank_image=rank_block.get("image") or "",
         level=int(player_block.get("level") or 0),
@@ -428,4 +439,9 @@ def load_haechanie() -> HaechanieData:
     )
 
 
-__all__ = ["load_haechanie", "HaechanieData", "NICK"]
+def load_haechanie() -> PlayerData:
+    """Compat: carrega haechanie. Prefira load_player(slug)."""
+    return load_player("haechanie")
+
+
+__all__ = ["load_player", "load_haechanie", "PlayerData", "HaechanieData", "NICK"]
